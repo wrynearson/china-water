@@ -1,0 +1,363 @@
+Rank Province City Score Level
+1 Qinghai Hainan 4.04 Excellent
+2 Sichuan Ganzi 4.11 Excellent
+3 Sichuan Aba 4.42 Excellent
+4 Qinghai Haibei 4.58 Excellent
+5 Qinghai Guoluo 4.73 Excellent
+6 Qinghai Yushu 4.91 Good
+7 Sichuan Guangyuan 4.96 Good
+8 Qinghai Huangnan 5.26 Good
+9 Xinjiang Tacheng 5.62 Good
+10 Sichuan Panzhihua 5.75 Good
+11 Hunan Zhangjiajie 5.99 Good
+12 Tibet Changdu 6.14 Good
+13 Xinjiang Bo’ertala 6.19 Good
+14 Xinjiang Yili 6.28 Good
+15 Gansu Jiayuguan 6.66 Good
+16 Sichuan Liangshan 6.72 Good
+17 Guizhou Qiandongnan 6.74 Good
+18 Xinjiang Akesu 6.85 Good
+19 Xinjiang Changji 6.93 Good
+20 Tibet Ali 7.05 Good
+21 Sichuan Bazhong 7.20 Good
+22 Hunan Chenzhou 7.20 Good
+23 Tibet Linzhi 7.21 Good
+24 Gansu Jinchang 7.21 Good
+25 Guangdong Shaoguan 7.23 Good
+26 Zhejiang Zhoushan 7.28 Good
+27 Jiangxi Shangrao 7.29 Good
+28 Gansu Jiuquan 7.29 Good
+29 Guangdong Yunfu 7.36 Good
+30 Guizhou Anshun 7.47 Good
+31 Zhejiang Jinhua 7.48 Good
+32 Yunnan Nujiang 7.51 Good
+33 Yunnan Lijiang 7.57 Good
+34 Gansu Longnan 7.59 Good
+35 Gansu Gannan 7.60 Good
+36 Shaanxi Hanzhong 7.81 Good
+37 Sichuan Mianyang 7.81 Good
+38 Sichuan Ya’an 7.82 Good
+39 Yunnan Xishuangbanna 7.87 Good
+40 Yunnan Lincang 7.96 Good
+41 Sichuan Leshan 8.00 Good
+42 Gansu Linxia 8.07 Good
+43 Hubei Shennongjia 8.12 Good
+44 Yunnan Baoshan 8.14 Good
+45 Yunnan Dehong 8.18 Good
+46 Guangdong Meizhou 8.19 Good
+47 Tibet Naqu 8.26 Good
+48 Yunnan Zhaotong 8.26 Good
+49 Jiangxi Jingdezhen 8.26 Good
+50 Guizhou Bijie 8.37 Good
+51 Hunan Xiangxi 8.44 Good
+52 Zhejiang Lishui 8.46 Good
+53 Tibet Lasa 8.54 Good
+54 Sichuan Nanchong 8.67 Good
+55 Yunnan Diqing 8.67 Good
+56 Shaanxi Shangluo 8.69 Good
+57 Guizhou Qiannan 8.74 Good
+58 Tibet Shannan 8.78 Good
+59 Sichuan Yibin 8.78 Good
+60 Tibet Rikaze 8.94 Good
+61 Guizhou Tongren 8.96 Good
+62 Liaoning Dandong 8.97 Good
+63 Yunnan Pu'er 9.07 Good
+64 Jiangxi Yingtan 9.08 Good
+65 Fujian Nanping 9.27 Good
+66 Guizhou Qianxinan 9.31 Good
+67 Hunan Huaihua 9.52 Good
+68 Sichuan Guang'an 9.53 Good
+69 Fujian Xiamen 9.55 Good
+70 Zhejiang Quzhou 9.57 Good
+71 Hunan Xiangtan 9.69 Good
+72 Hunan Loudi 9.76 Good
+73 Qinghai Xining 9.83 Good
+74 Xinjiang Wulumuqi 9.83 Good
+75 Xinjiang Tumushuke 9.87 Good
+76 Guangxi Chongzuo 9.97 Good
+77 Guizhou Zunyi 10.01 Good
+78 Hubei Xianning 10.02 Good
+79 Jiangxi Ji'an 10.02 Good
+80 Xinjiang Tulufan 10.10 Good
+81 Jiangxi Jiujiang 10.12 Good
+82 Sichuan Deyang 10.14 Good
+83 Guangxi Guilin 10.15 Good
+84 Jiangxi Yichun 10.18 Good
+85 Anhui Xuancheng 10.19 Good
+86 Hunan Yueyang 10.21 Good
+87 Hubei Shiyan 10.22 Good
+88 Guangxi Wuzhou 10.22 Good
+89 Yunnan Qujing 10.23 Good
+90 Hunan Yongzhou 10.23 Good
+91 Inner Mongolia Xing'anmeng 10.52 Moderate
+92 Hunan Zhuzhou 10.55 Moderate
+93 Gansu Dingxi 10.59 Moderate
+94 Qinghai Haidong 10.62 Moderate
+95 Jiangxi Pingxiang 10.65 Moderate
+96 Hunan Shaoyang 10.70 Moderate
+97 Guangxi Fangchenggang 10.71 Moderate
+98 Xinjiang Kelamayi 10.72 Moderate
+99 Jiangxi Fuzhou 10.74 Moderate
+100 Xinjiang Ala’er 10.74 Moderate
+101 Heilongjiang Daxing’anling 10.75 Moderate
+102 Shaanxi Baoji 10.77 Moderate
+103 Ningxia Shizuishan 10.80 Moderate
+104 Hubei Enshi 10.89 Moderate
+105 Anhui Huangshan 10.89 Moderate
+106 Gansu Wuwei 10.94 Moderate
+107 Jilin Baishan 10.95 Moderate
+108 Yunnan Chuxiong 10.95 Moderate
+109 Hunan Changde 10.95 Moderate
+110 Yunnan Wenshan 10.95 Moderate
+111 Fujian Sanming 10.96 Moderate
+112 Guangdong Zhaoqing 10.96 Moderate
+113 Shaanxi Ankang 11.08 Moderate
+114 Hunan Hengyang 11.09 Moderate
+115 Sichuan Dazhou 11.20 Moderate
+116 Hubei Xiangyang 11.23 Moderate
+117 Qinghai Haixi 11.24 Moderate
+118 Fujian Ningde 11.33 Moderate
+119 Xinjiang Wujiaqu 11.36 Moderate
+120 Guizhou Liupanshui 11.39 Moderate
+121 Sichuan Suining 11.41 Moderate
+122 Jiangsu Huai'an 11.51 Moderate
+123 Xinjiang Hetian 11.65 Moderate
+124 Xinjiang Hami 11.78 Moderate
+125 Guangdong Shanwei 11.81 Moderate
+126 Guangxi Guigang 11.83 Moderate
+127 Hubei Xiantao 11.86 Moderate
+128 Inner Mongolia Alashan 11.89 Moderate
+129 Guangxi Nanning 11.89 Moderate
+130 Anhui Chuzhou 11.93 Moderate
+131 Henan Sanmenxia 11.99 Moderate
+132 Guangdong Heyuan 12.01 Moderate
+133 Anhui Tongling 12.08 Moderate
+134 Hunan Changsha 12.11 Moderate
+135 Jiangxi Ganzhou 12.20 Moderate
+136 Guangxi Hechi 12.20 Moderate
+137 Henan Nanyang 12.22 Moderate
+138 Guangdong Zhuhai 12.26 Moderate
+139 Fujian Longyan 12.30 Moderate
+140 Guangdong Yangjiang 12.34 Moderate
+141 Hebei Chengde 12.36 Moderate
+142 Guangdong Zhanjiang 12.39 Moderate
+143 Anhui Liu'an 12.41 Moderate
+144 Shanxi Changzhi 12.57 Moderate
+145 Gansu Zhangye 12.65 Moderate
+146 Zhejiang Shaoxing 12.66 Moderate
+147 Heilongjiang Hegang 12.66 Moderate
+148 Jilin Yanbian 12.67 Moderate
+149 Sichuan Luzhou 12.71 Moderate
+150 Guangdong Qingyuan 12.71 Moderate
+151 Hubei Suizhou 12.75 Moderate
+152 Hainan Wuzhishan 12.77 Moderate
+153 Hubei Huanggang 12.81 Moderate
+154 Xinjiang Bayin’guoleng 12.83 Moderate
+155 Zhejiang Taizhou 12.89 Moderate
+156 Shandong Linyi 12.97 Moderate
+157 Inner Mongolia Wuhai 13.00 Moderate
+158 Shanxi Zhangzhou 13.01 Moderate
+159 Hunan Yiyang 13.09 Moderate
+160 Henan Pingdingshan 13.10 Moderate
+161 Guangxi Laibin 13.19 Moderate
+162 Shaanxi Xianyang 13.20 Moderate
+163 Fujian Fuzhou 13.42 Moderate
+164 Jiangsu Suqian 13.53 Moderate
+165 Jilin Tonghua 13.60 Moderate
+166 Hebei Zhangjiakou 13.64 Moderate
+167 Shandong Tai’an 13.74 Moderate
+168 Fujian Quanzhou 13.76 Moderate
+169 Anhui Wuhu 13.78 Moderate
+170 Hubei Yichang 13.80 Moderate
+171 Jiangsu Xuzhou 13.81 Moderate
+172 Chongqing Chongqing 13.84 Moderate
+173 Gansu Lanzhou 13.86 Moderate
+174 Henan Xuchang 13.89 Moderate
+175 Hubei Tianmen 13.95 Moderate
+176 Hubei Qianjiang 13.96 Moderate
+177 Guizhou Guiyang 14.02 Moderate
+178 Jilin Baicheng 14.11 Moderate
+179 Zhejiang Huzhou 14.12 Moderate
+180 Sichuan Neijiang 14.23 Moderate
+181 Heilongjiang Shuangyashan 14.29 Moderate
+182 Guangxi Liuzhou 14.36 Moderate
+183 Hainan Qiongzhong 14.45 Moderate
+184 Fujian Zhangzhou 14.51 Moderate
+185 Shandong Laiwu 14.51 Moderate
+186 Shandong Jinan 14.51 Moderate
+187 Sichuan Chengdu 14.62 Moderate
+188 Sichuan Zigong 14.66 Moderate
+189 Guangxi Yulin 14.74 Moderate
+190 Henan Luohe 14.74 Moderate
+191 Jiangsu Nanjing 14.81 Moderate
+192 Zhejiang Wenzhou 15.00 Moderate
+193 Fujian Putian 15.01 Moderate
+194 Liaoning Chaoyang 15.01 Moderate
+195 Hainan Baoting 15.02 Moderate
+196 Hubei Huangshi 15.04 Moderate
+197 Anhui Anqing 15.08 Moderate
+198 Ningxia Yinchuan 15.19 Moderate
+199 Jiangsu Zhenjiang 15.22 Moderate
+200 Shandong Jining 15.27 Moderate
+201 Hubei Ezhou 15.34 Moderate
+202 Jiangxi Xinyu 15.44 Moderate
+203 Guangxi Baise 15.45 Moderate
+204 Guangxi Hezhou 15.52 Moderate
+205 Henan Jiaozuo 15.70 Moderate
+206 Hubei Xiaogan 15.72 Moderate
+207 Heilongjiang Jixi 15.81 Moderate
+208 Inner Mongolia Bayannao’er 15.83 Moderate
+209 Liaoning Benxi 15.92 Moderate
+210 Hainan Dongfang 16.10 Moderate
+211 Anhui Huainan 16.21 Moderate
+212 Hebei Qinhuangdao 16.21 Moderate
+213 Jilin Songyuan 16.26 Moderate
+214 Gansu Pingliang 16.33 Moderate
+215 Shaanxi Yulin 16.34 Moderate
+216 Sichuan Meishan 16.38 Moderate
+217 Jiangxi Nanchang 16.45 Moderate
+218 Henan Zhengzhou 16.45 Moderate
+219 Inner Mongolia Huhehaote 16.46 Moderate
+220 Xinjiang Kezileisu 16.48 Moderate
+221 Henan Shangqiu 16.51 Moderate
+222 Ningxia Zhongwei 16.53 Moderate
+223 Shandong Weihai 16.79 Moderate
+224 Inner Mongolia Chifeng 16.79 Moderate
+225 Hainan Danzhou 16.91 Relatively Poor
+226 Henan Zhoukou 16.91 Relatively Poor
+227 Henan Xinyang 16.92 Relatively Poor
+228 Xinjiang Kashen 16.99 Relatively Poor
+229 Heilongjiang Yichun 17.07 Relatively Poor
+230 Zhejiang Ningbo 17.12 Relatively Poor
+231 Xinjiang Aleitai 17.23 Relatively Poor
+232 Anhui Bangbu 17.35 Relatively Poor
+233 Heilongjiang Qitaihe 17.37 Relatively Poor
+234 Henan Xinxiang 17.51 Relatively Poor
+235 Anhui Huaibei 17.61 Relatively Poor
+236 Jiangsu Taizhou 17.70 Relatively Poor
+237 Inner Mongolia Baotou 17.84 Relatively Poor
+238 Henan Luoyang 17.95 Relatively Poor
+239 Inner Mongolia E’erduosi 17.97 Relatively Poor
+240 Gansu Baiyin 18.07 Relatively Poor
+241 Henan Zhumadian 18.08 Relatively Poor
+242 Guangxi Beihai 18.16 Relatively Poor
+243 Ningxia Guyuan 18.23 Relatively Poor
+244 Yunnan Yuxi 18.27 Relatively Poor
+245 Anhui Fuyang 18.36 Relatively Poor
+246 Zhejiang Hangzhou 18.43 Relatively Poor
+247 Heilongjiang Heihe 18.49 Relatively Poor
+248 Beijing Beijing 18.60 Relatively Poor
+249 Henan Jiyuan 18.63 Relatively Poor
+250 Hainan Lingao 18.76 Relatively Poor
+251 Yunnan Dali 18.77 Relatively Poor
+252 Guangxi Qinzhou 18.82 Relatively Poor
+253 Guangdong Foshan 18.85 Relatively Poor
+254 Jiangsu Suzhou 18.88 Relatively Poor
+255 Henan Hebi 18.90 Relatively Poor
+256 Zhejiang Jiaxing 19.09 Relatively Poor
+257 Hainan Chengmai 19.10 Relatively Poor
+258 Guangdong Maoming 19.24 Relatively Poor
+259 Hubei Jingzhou 19.33 Relatively Poor
+260 Shaanxi Yan'an 19.38 Relatively Poor
+261 Liaoning Tieling 19.41 Relatively Poor
+262 Liaoning Liaoyang 19.42 Relatively Poor
+263 Hainan Wanning 19.43 Relatively Poor
+264 Hebei Handan 19.57 Relatively Poor
+265 Guangdong Jiangmen 19.58 Relatively Poor
+266 Hebei Baoding 19.81 Relatively Poor
+267 Anhui Chizhou 19.86 Relatively Poor
+268 Jilin Liaoyuan 19.94 Relatively Poor
+269 Heilongjiang Ha’erbin 20.06 Relatively Poor
+270 Shanxi Jincheng 20.11 Relatively Poor
+271 Shandong Yantai 20.46 Relatively Poor
+272 Yunnan Honghe 20.50 Relatively Poor
+273 Liaoning Dalian 20.53 Relatively Poor
+274 Shanxi Jinzhong 20.54 Relatively Poor
+275 Guangdong Zhongshan 20.60 Relatively Poor
+276 Henan Kaifeng 20.65 Relatively Poor
+277 Hubei Jingmen 20.67 Relatively Poor
+278 Jiangsu Yancheng 20.83 Relatively Poor
+279 Henan Anyang 20.89 Relatively Poor
+280 Jiangsu Lianyungang 20.95 Relatively Poor
+281 Jiangsu Changzhou 21.13 Relatively Poor
+282 Shanghai Shanghai 21.40 Relatively Poor
+283 Yunnan Kunming 21.43 Relatively Poor
+284 Hebei Tangshan 21.48 Relatively Poor
+285 Gansu Qingyang 21.48 Relatively Poor
+286 Heilongjiang Qiqiha’er 21.49 Relatively Poor
+287 Liaoning Fuxin 21.50 Relatively Poor
+288 Heilongjiang Mudanjiang 21.52 Relatively Poor
+289 Shandong Dongying 21.56 Relatively Poor
+290 Sichuan Ziyang 21.63 Relatively Poor
+291 Hainan Baisha 21.71 Relatively Poor
+292 Gansu Tianshui 21.76 Relatively Poor
+293 Liaoning Jinzhou 21.98 Relatively Poor
+294 Anhui Ma’anshan 22.05 Relatively Poor
+295 Shandong Zibo 22.28 Relatively Poor
+296 Jiangsu Wuxi 22.32 Relatively Poor
+297 Hebei Shijiazhuang 22.53 Relatively Poor
+298 Anhui Suzhou 22.58 Relatively Poor
+299 Hainan Sansha 22.67 Relatively Poor
+300 Liaoning Fushun 22.79 Relatively Poor
+301 Shanxi Luliang 22.81 Relatively Poor
+302 Guangdong Shantou 23.10 Relatively Poor
+303 Xinjiang Shihezi 23.10 Relatively Poor
+304 Shanxi Shuozhou 23.12 Relatively Poor
+305 Guangdong Jieyang 23.12 Relatively Poor
+306 Guangdong Chaozhou 23.19 Relatively Poor
+307 Jiangsu Nantong 23.26 Relatively Poor
+308 Shanxi Linfen 23.32 Relatively Poor
+309 Shaanxi Xi'an 23.41 Relatively Poor
+310 Liaoning Panjin 23.43 Relatively Poor
+311 Inner Mongolia Xilinguolei 23.54 Relatively Poor
+312 Shandong Zaozhuang 23.63 Relatively Poor
+313 Tianjin Tianjin 23.63 Relatively Poor
+314 Hubei Wuhan 23.97 Relatively Poor
+315 Hainan Haikou 24.26 Relatively Poor
+316 Henan Puyang 24.34 Relatively Poor
+317 Liaoning Huludao 24.48 Relatively Poor
+318 Jilin Jilin 24.74 Relatively Poor
+319 Jiangsu Yangzhou 24.85 Poor
+320 Shandong Qingdao 25.27 Poor
+321 Hainan Sanya 25.41 Poor
+322 Anhui Hefei 25.55 Poor
+323 Anhui Bozhou 25.71 Poor
+324 Heilongjiang Daqing 25.83 Poor
+325 Shanxi Yuncheng 26.10 Poor
+326 Shanxi Taiyuan 26.44 Poor
+327 Shanxi Datong 26.47 Poor
+328 Hainan Ledong 26.50 Poor
+329 Shandong Weifang 26.83 Poor
+330 Shandong Dezhou 27.03 Poor
+331 Hainan Lingshui 27.14 Poor
+332 Hainan Changjiang 27.48 Poor
+333 Hebei Xingtai 27.60 Poor
+334 Guangdong Huizhou 27.65 Poor
+335 Shandong Binzhou 27.66 Poor
+336 Shaanxi Weinan 27.90 Poor
+337 Shandong Heze 27.93 Poor
+338 Shandong Liaocheng 28.25 Poor
+339 Liaoning Shenyang 28.57 Poor
+340 Hainan Ding'an 28.64 Poor
+341 Ningxia Wuzhong 28.90 Poor
+342 Guangdong Dongguan 29.42 Poor
+343 Shaanxi Tongchuan 29.86 Poor
+344 Hebei Langfang 29.97 Poor
+345 Hainan Wenchang 30.08 Poor
+346 Hainan Qionghai 30.78 Poor
+347 Heilongjiang Jiamusi 30.99 Poor
+348 Guangdong Guangzhou 31.15 Poor
+349 Liaoning Yingkou 31.50 Poor
+350 Inner Mongolia Wulanchabu 32.39 Poor
+351 Jilin Changchun 32.42 Poor
+352 Hebei Cangzhou 32.75 Poor
+353 Shandong Rizhao 32.91 Poor
+354 Liaoning Anshan 34.43 Poor
+355 Jilin Siping 34.59 Poor
+356 Hainan Tunchang 35.01 Poor
+357 Inner Mongolia Hulunbei’er 35.93 Poor
+358 Heilongjiang Suihua 37.44 Poor
+359 Hebei Hengshui 38.54 Poor
+360 Guangdong Shenzhen 39.42 Poor
+361 Inner Mongolia Tongliao 40.81 Poor
+362 Shanxi Yangquan 41.92 Poor
