@@ -15,6 +15,7 @@ The CGSS is conducted by face-to-face interviews, which on average require 90 mi
 | ^Social Change Trends | Annual                   |            | 81        | All participants |                                                              |
 | Topic                 | Annual (5 year rotation) |            |           | All participants | *Either one or two topic modules per year.*                  |
 | Additional            |                          |            |           | 1/3 - 1/2        | *Coverage depends on quantity of other questions and demand* | 
+
 [@QuestionnairesZhongGuoZongHeSheHuiDiaoCha]
 
 The Environmental Module ("环境(ISSP)" or "L部分") is of particular interest in this analysis. [@DiaoChaWenJuanZhongGuoZongHeSheHuiDiaoCha] It asks 25 questions and subquestions, most of which are directly or indirectly related to the environment. There are several interesting questions which ask things related to environmental protection, importance, perception and knowledge.

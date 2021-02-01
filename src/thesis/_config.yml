@@ -1,0 +1,5 @@
+# in _config.yml
+title: "Will's Thesis"
+# logo: images/logo.png
+execute:
+  execute_notebooks: "off"
