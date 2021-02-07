@@ -30,6 +30,47 @@ The second dataset was compiled by the author from a report from the Institute o
 ## Analysis
 Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook [@kluyverJupyterNotebooksPublishing], a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on Github, to allow for accessability. [@WrynearsonChinawater] This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.
 
+The two main datasets were loaded into the Jupyter notebook and reviewed for initial analysis, beginning with the CGSS2010. Then, after reviewing the data, it was cleaned and processed in several ways:
+
+### Chosing Approprate Questions
+#### Demographic Questions
+The thesis proposal and hypothesis were created before the author reviewed the dataset, and before the author was aware of the environmental module of the CGSS. While many variables were deemed interesting, several variables were initially selected for broader analysis:
+
+| Code | Variable (English)             | Variable (Chinese) | Importance                        | Utilized? |
+|------|--------------------------------|--------------------|-----------------------------------|-----------|
+| s41  | Province                       |                    | Location of the individual        | X         |
+| a2   | Gender                         |                    |                                   | X         |
+| a3a  | Birth year                     |                    | Age of respondant                 | X         |
+| a7a  | Highest level of education     |                    | Link to perception and knowledge? | X         |
+| a8a  | Personal total income          |                    |                                   | X         |
+| a15  | Subjective personal health     |                    |                                   |           |
+| a62  | Family total income            |                    |                                   |           |
+| a91  | Rural / agricultural household |                    |                                   | X         |
+As evident, not all of the variables were utilized, for several reasons.
+
+#### Environmental Questions
+The CGSS includes many demographic data on each respondant. Of which, the following were deemed important for one or more reasons:
+
+*LIST QUESTIONS AND THEIR RESPONSE TYPES*
+
+As evident, these questions include questions related to the environment in general, perceptions of the local, national and global environment, water, and knowledge of water quality issues.
+
+#### Other Survey Questions
+Many more survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations. Future analysis could be done with many of these questions, but were not within the scope of this analysis.
+
+### Geographic Alignment
+The two datasets are of differing geographic precision. The CGSS2010 (and all CGSSII data sets) include data on the province of where the respondent resided. Based on the structure of the data, it is assumed that more precise geographic information is included, however the CGSS publishing team choses only to release the provincial information.
+
+This is different than the WQIR2018 data, which is published at the sub-provincial level (admin 2). Thus, for comparative analysis, the mean water quality per province was calculated (more on this below).
+
+### Procedure
+Once the data sets were loaded and reviewed for importance and quality, initial data analysis was conducted. Due to the author's limited experience with Python, multiple versions of the analysis were conducted in order to gain working knowledge of Python and of the data set.
+
+For provincial comparative analysis, the data was sorted by province `s41` and grouped into visual and numerical approaches of looking for differences between provinces. Several functions were created which allowed the author, and users, to see provincial comparative analyses on any question by inputing the question code. Either quantities of resonses or their mean value would be output, as well as a heatmap for quick comparison.
+
+
+
+
 ## Interviews
 
 ## Limitations
