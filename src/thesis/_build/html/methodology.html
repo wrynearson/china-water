@@ -192,6 +192,40 @@
   <a class="reference internal nav-link" href="#analysis">
    Analysis
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#chosing-approprate-questions">
+     Chosing Approprate Questions
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#demographic-questions">
+       Demographic Questions
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#environmental-questions">
+       Environmental Questions
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#other-survey-questions">
+       Other Survey Questions
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#geographic-alignment">
+     Geographic Alignment
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#procedure">
+     Procedure
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#interviews">
@@ -223,7 +257,8 @@
 <h3>Chinese General Social Survey (CGSS)<a class="headerlink" href="#chinese-general-social-survey-cgss" title="Permalink to this headline">¶</a></h3>
 <p>This national survey, originally launched in 2003, aims to monitor and document relationships between quality of life (in both individual and collective scope) and social structures, both in urban and rural environments. [&#64;HomeZhongGuoZongHeSheHuiDiaoCha] One of the main benefits is its longitudinal design, however this feature is not utilized in this thesis, which will be discussed later. The survey has been conducted nearly annually since 2003, with a major redesign conducted in 2010. Thus, surveys conducted prior to 2010 are referred to as “Cycle II” while surveys conducted in 2010 or later are referred to as “Cycle II.”</p>
 <p>The CGSS is conducted by face-to-face interviews, which on average require 90 minutes to complete. [&#64;ImplementationZhongGuoZongHeSheHuiDiaoCha] The survey consists of a questionnaire, which is composed of three modules (beginning in Cycle II):</p>
-<table class="colwidths-auto table">
+<table class="colwidths-auto table" id="cgss2010-components">
+<caption><span class="caption-number">Table 1 </span><span class="caption-text">CGSS2010 Components and Description</span><a class="headerlink" href="#cgss2010-components" title="Permalink to this table">¶</a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p><em>Module</em></p></th>
 <th class="head"><p>Frequency</p></th>
@@ -283,13 +318,247 @@
 </div>
 <div class="section" id="analysis">
 <h2>Analysis<a class="headerlink" href="#analysis" title="Permalink to this headline">¶</a></h2>
-<p>Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook [&#64;kluyverJupyterNotebooksPublishing], a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on Github, to allow for accessability. [&#64;WrynearsonChinawater] This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.</p>
+<p>Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook [&#64;kluyverJupyterNotebooksPublishing], a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on Github, to allow for accessability. [&#64;rynearsonWrynearsonChinawater2020] This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.</p>
+<p>The two main datasets were loaded into the Jupyter notebook and reviewed for initial analysis, beginning with the CGSS2010. Then, after reviewing the data, it was cleaned and processed in several ways:</p>
+<div class="section" id="chosing-approprate-questions">
+<h3>Chosing Approprate Questions<a class="headerlink" href="#chosing-approprate-questions" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="demographic-questions">
+<h4>Demographic Questions<a class="headerlink" href="#demographic-questions" title="Permalink to this headline">¶</a></h4>
+<p>The thesis proposal and hypothesis were created before the author reviewed the dataset, and before the author was aware of the environmental module of the CGSS. While many variables were deemed interesting, several variables were initially selected for broader analysis: <a class="footnote-reference brackets" href="#id3" id="id1">2</a></p>
+<table class="colwidths-auto table" id="cgss2010-demographic">
+<caption><span class="caption-number">Table 2 </span><span class="caption-text">Relevant CGSS2010 Demographic Components</span><a class="headerlink" href="#cgss2010-demographic" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Variable (English)</p></th>
+<th class="head"><p>Variable (Chinese)</p></th>
+<th class="head"><p>Importance</p></th>
+<th class="head"><p>Utilized?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>s41</p></td>
+<td><p>Province</p></td>
+<td><p></p></td>
+<td><p>Location of the individual</p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-odd"><td><p>a2</p></td>
+<td><p>Gender</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-even"><td><p>a3a</p></td>
+<td><p>Birth year</p></td>
+<td><p></p></td>
+<td><p>Age of respondant</p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-odd"><td><p>a7a</p></td>
+<td><p>Highest level of education</p></td>
+<td><p></p></td>
+<td><p>Link to perception and knowledge?</p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-even"><td><p>a8a</p></td>
+<td><p>Personal total income</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-odd"><td><p>a15</p></td>
+<td><p>Subjective personal health</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>a62</p></td>
+<td><p>Family total income</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>a91</p></td>
+<td><p>Rural / agricultural household</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>X</p></td>
+</tr>
+</tbody>
+</table>
+<p>As evident, not all of the variables were utilized, for several reasons.</p>
+</div>
+<div class="section" id="environmental-questions">
+<h4>Environmental Questions<a class="headerlink" href="#environmental-questions" title="Permalink to this headline">¶</a></h4>
+<p>The CGSS includes many demographic data on each respondant. Of which, the following were deemed important for one or more reasons: <a class="footnote-reference brackets" href="#id3" id="id2">2</a></p>
+<table class="colwidths-auto table" id="cgss2010-env">
+<caption><span class="caption-number">Table 3 </span><span class="caption-text">Relevant CGSS2010 Environmental Components</span><a class="headerlink" href="#cgss2010-env" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Question (English)</p></th>
+<th class="head"><p>Question (Chinese)</p></th>
+<th class="head"><p>Response Types</p></th>
+<th class="head"><p>Importance</p></th>
+<th class="head"><p>Utilized?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>l1a</p></td>
+<td><p>In your opinion, in terms of the current situation in our country, which of the following issues is the most important?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l1b</p></td>
+<td><p><em>like l1a, but 2nd most important</em></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l6a</p></td>
+<td><p>In your opinion, in terms of the current situation in our country, which of the following issues is the most important?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l6b</p></td>
+<td><p>How serious are env. problems facing China?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l7a</p></td>
+<td><p>Which is most important env. issue in China?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l7b</p></td>
+<td><p>Which has greatest impact on you/family?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l8a</p></td>
+<td><p>Knowledge of causes of environmental problems from ?l7</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l8b</p></td>
+<td><p>Knowledge of solutions of environmental problems from ?l7</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l12a</p></td>
+<td><p>In order to protect the environment, to what extent are you willing to pay a higher price?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l12b</p></td>
+<td><p>*like l12a, but with higher taxes”</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l12c</p></td>
+<td><p><em>like l12a/b, but with willingness to lower living standards</em></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l137</p></td>
+<td><p>Environmental issues directly affect my daily life</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l14d</p></td>
+<td><p>How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l15a / b</p></td>
+<td><p><em>see question, about statements of responsibility for environmental protection (individuals/companies, government, etc.)</em></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l16c</p></td>
+<td><p>In terms of solving environmental problems in your area, how do you think the local government has done in the past five years?”</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>l20e</p></td>
+<td><p>Do you often save water or reuse water specifically for environmental protection?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>l2409</p></td>
+<td><p>In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p>As evident, these questions include questions related to the environment in general, perceptions of the local, national and global environment, water, and knowledge of water quality issues.</p>
+</div>
+<div class="section" id="other-survey-questions">
+<h4>Other Survey Questions<a class="headerlink" href="#other-survey-questions" title="Permalink to this headline">¶</a></h4>
+<p>Many more survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations. Future analysis could be done with many of these questions, but were not within the scope of this analysis.</p>
+</div>
+</div>
+<div class="section" id="geographic-alignment">
+<h3>Geographic Alignment<a class="headerlink" href="#geographic-alignment" title="Permalink to this headline">¶</a></h3>
+<p>The two datasets are of differing geographic precision. The CGSS2010 (and all CGSSII data sets) include data on the province of where the respondent resided. Based on the structure of the data, it is assumed that more precise geographic information is included, however the CGSS publishing team choses only to release the provincial information.</p>
+<p>This is different than the WQIR2018 data, which is published at the sub-provincial level (admin 2). Thus, for comparative analysis, the mean water quality per province was calculated (more on this below).</p>
+</div>
+<div class="section" id="procedure">
+<h3>Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h3>
+<p>Once the data sets were loaded and reviewed for importance and quality, initial data analysis was conducted. Due to the author’s limited experience with Python, multiple versions of the analysis were conducted in order to gain working knowledge of Python and of the data set.</p>
+<p>For provincial comparative analysis, the data was sorted by province <code class="docutils literal notranslate"><span class="pre">s41</span></code> and grouped into visual and numerical approaches of looking for differences between provinces. Several functions were created which allowed the author, and users, to see provincial comparative analyses on any question by inputing the question code. Either quantities of resonses or their mean value would be output, as well as a heatmap for quick comparison. This initial analysis helped the author validate the main variables that were analyzed, which are discussed later.</p>
+<p>Then, the WQIR2018 data was loaded. An initial plot was created to see the distribution of water quality per sub-province, sorted by province. Histograms were added to visualize the distribution of water quality measurements and values.</p>
+<div class="figure align-default" id="id4">
+<img alt="_images/wqir2018.svg" src="_images/wqir2018.svg" /><p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">:name: wqir2018-vis
+WQIR2018 distribution per province.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div>
 </div>
 <div class="section" id="interviews">
 <h2>Interviews<a class="headerlink" href="#interviews" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="limitations">
 <h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h2>
+<p>—</p>
+<hr class="docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="id3"><span class="brackets">2</span><span class="fn-backref">(<a href="#id1">1</a>,<a href="#id2">2</a>)</span></dt>
+<dd><p>Translated from Chinese into English.</p>
+</dd>
+</dl>
 </div>
 </div>
 
