@@ -10,7 +10,7 @@ The CGSS is conducted by face-to-face interviews, which on average require 90 mi
 
 ```{table} CGSS2010 Components and Description 
 :name: cgss2010-components
-~ put table here
+<!-- ~ put table here -->
 ```
 
 | *Module*               | Frequency                | Dimensions | Variables | Coverage         | Comments                                                     |
@@ -20,14 +20,13 @@ The CGSS is conducted by face-to-face interviews, which on average require 90 mi
 | *Social Change Trends* | Annual                   |            | 81        | All participants |                                                              |
 | Topic                  | Annual (5 year rotation) |            |           | All participants | *Either one or two topic modules per year.*                  |
 | Additional             |                          |            |           | 1/3 - 1/2        | *Coverage depends on quantity of other questions and demand* |
-
 [@QuestionnairesZhongGuoZongHeSheHuiDiaoCha]
 
 The Environmental Module ("环境(ISSP)" or "L部分") is of particular interest in this analysis. [@DiaoChaWenJuanZhongGuoZongHeSheHuiDiaoCha] It asks 25 questions and sub-questions, most of which are directly or indirectly related to the environment. There are several interesting questions which ask things related to environmental protection, importance, perception and knowledge.
 
 **Talk about specific questions, etc.**
 
-The published data is in the form of a Stata file, which consists of 11783 rows (respondents) and 871 columns (variables). 
+The published data is in the form of a Stata file, which consists of 11783 rows (respondents) and 871 columns (variables).
 
 ### Blue City Water Quality Index Ranking (WQIR)
 The second data set was compiled by the author from a report from the Institute of Public & Environmental Affairs, a non-profit environmental research organization based in Beijing. [@IPE] The report, the *Blue City Water Quality Index 2019*, compiles various surface, drinking. and ground water quality data published by various government agencies and assigns a score (their proprietary *Blue City Water Quality Index Score (BCWQI)*) and publishes the results at a sub-provincial level (second administrative level, or "admin 2"). [@jun2018BlueCity] The methodology and conversion to the government's [[water quality score]] is provided. This report was chosen as the basis for this data set since it was the most comprehensive data the author could find with the closest publication date to the CGSS. The difference in time of the two data sets is discussed in the #limitations section. In the appendix of this report, the BCWQI for each second administrative level, including the city name, province, and ranking, is included. This data, in a table in the PDF report, was exported into a comma separated value (.csv) file for later analysis.
@@ -43,8 +42,9 @@ The thesis proposal and hypothesis were created before the author reviewed the d
 
 ```{table} Relevant CGSS2010 Demographic Components 
 :name: cgss2010-demographic
-~put table here
-``` 
+<!-- ~put table here -->
+
+```
 
 | Code | Variable (English)             | Variable (Chinese) | Importance                        | Utilized? |
 |------|--------------------------------|--------------------|-----------------------------------|-----------|
@@ -63,8 +63,9 @@ The CGSS includes many demographic data on each respondent. Of which, the follow
 
 ```{table} Relevant CGSS2010 Environmental Components 
 :name: cgss2010-env
-~put table here
-``` 
+<!-- ~put table here -->
+ 
+```
 
 | Code     | Question (English)                                                                                                               | Question (Chinese) | Response Types | Importance | Utilized? |
 |----------|----------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|-----------|
@@ -85,7 +86,6 @@ The CGSS includes many demographic data on each respondent. Of which, the follow
 | l16c     | In terms of solving environmental problems in your area, how do you think the local government has done in the past five years?" |                    |                |            |           |
 | l20e     | Do you often save water or reuse water specifically for environmental protection?                                                |                    |                |            |           |
 | l2409    | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)                |                    |                |            |           |
-
 As evident, these questions include questions related to the environment in general, perceptions of the local, national and global environment, water, and knowledge of water quality issues.
 
 #### Other Survey Questions

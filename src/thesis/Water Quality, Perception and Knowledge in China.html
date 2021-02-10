@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Zettlr" />
+  <meta name="date" content="" />
+  <title>Water Quality, Perception and Knowledge in China</title>
+  <style type="text/css">
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #FF7C3B;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 80%;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: white;
+    color: #333;
+    font-family: 'DejaVu', 'Georgia', 'Times New Roman', 'Times', serif;
+  }
+
+  article {
+    width: 50%;
+    font-size: 1.5em;
+    margin: 0 auto;
+    line-height: 150%;
+  }
+
+  /* Better display on printing */
+  @media print {
+    article {
+      width: 90%;
+      font-size: 12pt;
+      margin: 0 auto;
+      line-height: 150%;
+    }
+  }
+
+  article p {
+    hyphens: auto;
+    text-align: justify;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', 'Lato', 'Liberation sans', 'Helvetica', sans-serif;
+    color: #FF7C3B;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  blockquote {
+    font-size: 80%;
+    color: rgba(120, 120, 120, 1);
+    margin: 2% 5%;
+    line-height: 120%;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 70%;
+    font-family: 'Raleway', 'Lato', 'Liberation sans', 'Helvetica', sans-serif;
+  }
+
+  th, td {
+    padding: 4px 20px;
+    border-bottom: 1px solid #333;
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  figure figcaption {
+    text-align: center;
+  }
+
+  /* List of classes taken from the skylighting lib */
+  /* See: https://github.com/jgm/skylighting/blob/master/skylighting-core/src/Skylighting/Format/HTML.hs */
+
+  /* Colors: Solarized theme (light) */
+  /* See: https://ethanschoonover.com/solarized/ */
+
+  /* Specific implementation: Taken from the GEdit theme (light) */
+  /* See: https://github.com/altercation/solarized/blob/master/gedit/solarized-light.xml */
+
+  /* Generic styles */
+  pre.sourceCode {
+    color: #657b83;
+    background-color: #fdf6e3;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .05);
+    padding: 2px;
+    overflow: auto;
+  }
+
+  /* All classes, taken from skylighting lib */
+  .sourceCode .kw { color: #859900; font-weight: bold; } /* Keyword */
+  .sourceCode .dt { color: #b58900; } /* Datatype */
+  .sourceCode .df { color: #d33682; } /* Decimal values*/
+  .sourceCode .bn { color: #d33682; } /* base-n-integers */
+  .sourceCode .fl { color: #d33682; } /* Floats */
+  .sourceCode .ch { color: #2aa198; } /* Character */
+  .sourceCode .st { color: #2aa198; } /* String */
+  .sourceCode .vs { color: #2aa198; } /* Verbatim String */
+  .sourceCode .ss { color: #2aa198; } /* Special String */
+  .sourceCode .co { color: #586e75; font-style: italic; } /* Comment */
+  .sourceCode .ot { font-weight: bold; } /* Other token */
+  .sourceCode .al { color: #d33682; background-color: #073642; } /* Alert */
+  .sourceCode .fu { color: #268bd2; } /* Function name */
+  .sourceCode .re {} /* Region marker */
+  .sourceCode .er { color: #dc322f; font-weight: bold; } /* Error */
+  .sourceCode .cn { color: #2aa198; } /* Constant */
+  .sourceCode .sc { color: #dc322f; } /* Special character */
+  .sourceCode .im { color: #6c71c4; font-weight: bold; } /* Import statement */
+  .sourceCode .do { color: #dc322f; } /* Documentation string */
+  .sourceCode .an { color: #2aa198; } /* Annotation */
+  .sourceCode .cv { color: #6c71c4; } /* Comment var */
+  .sourceCode .va { color: #268bd2; } /* Variable */
+  .sourceCode .cf { color: #859900; } /* Control Flow (if, else, return) */
+  .sourceCode .op {} /* Operator */
+  .sourceCode .bu { color: #b58900; } /* Builtin function/class/identifier */
+  .sourceCode .ex { color: #268bd2; } /* Extension */
+  .sourceCode .pp { color: #cb4b16; } /* Preprocessor, like #import in C++ */
+  .sourceCode .at { color: #dc322f; } /* Attribute */
+  .sourceCode .in { color: #586e75; } /* Information */
+  .sourceCode .wa { color: #cb4b16; } /* Warning */
+  </style>
+
+<!-- Pandoc variables -->
+<meta name="author" content="Will Rynearson" />
+<meta name="keywords" content="water quality, pollution" />
+
+<!-- Additional CSS in case the user has passed it -->
+
+<!-- Include MathJax CDN, if applicable -->
+</head>
+<body>
+  <!-- Render in article for reader view enabling -->
+    <article>
+    <!-- Indentation must be zero for, e.g., PREs to work correctly -->
+<h1 id="introduction">Introduction</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Copied from the thesis proposal</span></code></pre></div>
+<p>Access to freshwater is something many people take for granted. Simply turning on the tap or buying a bottle of water makes it easy to underappreciated the immense value of clean freshwater. Water is essential for almost all aspects of modern civilization and is connected to all three pillars of sustainable development – environment, society, and the economy.</p>
+<p>While water is a permanent resource, water that is usable and consumable by humans is not. Globally, only 2.5 percent of the Earth’s water is non-saline, with most of the remaining freshwater being inaccessibly located in glaciers, ice caps or permafrost. <span class="citation" data-cites="shiklomanovWorldFreshwaterResources1993">(Shiklomanov 1993)</span></p>
+<p>Water scarcity, being the scarcity of availability or access to usable freshwater resources, is a significant and increasing global issue. <span class="citation" data-cites="un-waterWaterScarcity">(UN-Water n.d.)</span> Globally, water usage has increased at a rate of 1.7 times the rate of population increase over the past century. <span class="citation" data-cites="f.a.o.AQUASTAT2014">(F.A.O. 2014)</span> Water stress and scarcity can be caused by increased water withdrawal, population increase, and climate, amongst others. <span class="citation" data-cites="f.a.o.AQUASTAT2014">(F.A.O. 2014)</span> Water scarcity is three dimensional, including physical, infrastructural and institutional factors. <span class="citation" data-cites="f.a.o.FoodAgricultureOrganization2011">(F.A.O. 2011b)</span> While some regions are affected more than others, every continent is affected. Four billion people experience extreme water scarcity at least one month out of the year. <span class="citation" data-cites="mekonnenFourBillionPeople2016">(Mekonnen and Hoekstra 2016)</span></p>
+<p>The implications of water scarcity cannot be understated. Global water crises stemming from water scarcity are predicted to be the largest risk globally within the next decade. <span class="citation" data-cites="worldeconomicforumGlobalRisksReport2016">(World Economic Forum 2016)</span> Since water is vital for human existence, a lack of water can be directly or indirectly related to almost any societal indicator.</p>
+<p>One direct impact of water scarcity can come in the form of food production. Globally, 70 percent of global renewable water resources withdrawn for human use is used for agriculture. <span class="citation" data-cites="f.a.o.FoodAgricultureOrganization2011">(F.A.O. 2011b)</span> Affected by population growth and the increased consumption of more water-intensive food due partially to economic development, it is estimated that food production must increase by 70 percent to meet demand. <span class="citation" data-cites="f.a.o.FoodAgricultureOrganization2011">(F.A.O. 2011b)</span> Another impact is health. Health can be affected by the quantity and quality of water. The impacts of dehydration, water-borne diseases, and consumption of polluted water are well documented. A third impact is economic. By 2050, some regions could see a GDP growth rate decline of up to six percent due to “losses in agriculture, health, income, and property” caused by water scarcity. <span class="citation" data-cites="theworldbankHighDryClimate2016">(The World Bank 2016)</span></p>
+<h2 id="chinese-shortage">Chinese Shortage</h2>
+<p>Water issues in China are especially prevalent. On average, China’s renewable freshwater resources were 2,062 cubic meters per capita in 2014, a decrease from 4,200 cubic meters in 1962 and far less than the half of the world average in those respective years. <span class="citation" data-cites="f.a.o.AQUASTATMainDatabase2016">(F.A.O. 2016)</span> China’s renewable freshwater resources are also highly location dependent. For example, only 19.7 percent of total internal renewable surface water and 30 percent of groundwater resources reside in northern China. <span class="citation" data-cites="f.a.o.AQUASTATCountryProfile2011">(F.A.O. 2011a)</span> Northern China’s renewable freshwater access is only 757 square meters per capita per year, far below the water scarcity limit of 1,000 square meters per capita per year. <span class="citation" data-cites="zhangEnvironmentalHealthChina2010">(Zhang et al. 2010)</span></p>
+<h2 id="chinese-pollution">Chinese Pollution</h2>
+<p>In addition to the already strained water resource problem, poor water quality caused by pollution is amplifying the problem and is causing further economic, societal and environmental problems. Roughly 80 percent of groundwater resources were found to be unsafe for human contact. <span class="citation" data-cites="jing80CentGroundwater2016">(Jing 2016)</span> Economic costs attributed to poor water quality in 2003 were over 1.16% of GDP. <span class="citation" data-cites="wuWaterPollutionHuman1999">(Wu et al. 1999)</span></p>
+<p>Historically, and especially since the Opening Up and Reform era post-1978, the Chinese government has prioritized economic growth over environmental protection. In terms of water resource management, the government’s investment strategies have prioritized large scale water infrastructure projects over environmentally-friendly pollution-control policies, due to a variety of political and non-political reasons. <span class="citation" data-cites="rogersPoliticsWaterReview2017">(Rogers and Crow-Miller 2017)</span> Mao Zedong famously embraced the idea of the now-partially-completed South-North Water Transfer Project, one of the largest infrastructure endeavors in history, by saying “The south has plenty of water and the north lacks it, so if possible why not borrow some?” <span class="citation" data-cites="reutersFACTBOXFactsChina2009">(Reuters 2009)</span></p>
+<p>In addition to having the political will and prowess to pursue economic development, Chinese leadership has also at times shown a campaign-style action to mitigate environmental pollution. One such example was the substantial air quality improvements in Beijing during the 2008 summer Olympics. <span class="citation" data-cites="zhangEnvironmentalHealthChina2010">(Zhang et al. 2010)</span> However, similar outcomes regarding improved water quality have not been as positive. Analysis of water quality trends has been hampered partially due to data limitations, including public accessibility, the scope of measurement, and technological limitations including long latency periods. <span class="citation" data-cites="zhangEnvironmentalHealthChina2010">(Zhang et al. 2010)</span></p>
+<p>Recently, further policy has been implemented to address water scarcity and pollution issues. In 2015, the State Council released an ambitious attempt to do this, colloquially known as the “Water Ten Plan,” which sets water quality-related goals to be met by 2020. <span class="citation" data-cites="guowuyuan.GuoWuYuanGuanYuYinFaShuiWuRanFangZhiXingDongJiHuaDeTongZhi2015">(国务院. 2015)</span> However, results so far have been mixed, with nearly half of all provinces missing their water quality targets in 2017. <span class="citation" data-cites="greenpeaceShiErWu2017">(Greenpeace 2017)</span> One factor which may help this progress, and one of the goals outlined in the Water Ten plan, is the improvement of water quality sensing technology and data management.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Below is new content</span></code></pre></div>
+<h2 id="environmental-policy-education-and-perception">Environmental Policy, Education and Perception</h2>
+<p>Water quality and quantity issues in China and abroad sit within the context of environmental policy, environmental education, and societies’ perception of the two. <span class="citation" data-cites="caldwell1990international">(Caldwell and others 1990)</span></p>
+<h3 id="environmental-policy">Environmental Policy</h3>
+<p>Environmental Policy has a long and global history, at times being documented since the 12th century.</p>
+<h3 id="environmental-education">Environmental Education</h3>
+<p>Environmental Education (EE) has been inexorably tied to environmental protection and policy - one of its main goals is “Awareness - to help social groups and individuals acquire an awareness and sensitivity to the total environment and its allied problems.” <span class="citation" data-cites="IntergovernmentalConferenceEnvironmental">(<span>“Intergovernmental Conference on Environmental Education, Tbilisi, USSR, 14-26 October 1977: Final Report - UNESCO Digital Library”</span> n.d.)</span> An earlier definition was presented in 1969 from the United States, and has proved reliable and accurate since:</p>
+<blockquote>
+<p><strong>Environmental education</strong> is aimed at producing a citizenry that is <strong>knowledgeable</strong> concerning the biophysical environment and its associated problems, aware of <strong>how</strong> to help solve these problems, and <strong>motivated</strong> to work towards their solution. <span class="citation" data-cites="stapp1969concept">(Stapp et al. 1969)</span></p>
+</blockquote>
+<p>Progress continued with development and deployment of EE the international level, with many landmark events in environmentalism and sustainability putting EE at their core, including The International Environmental Education Program (IEEP 1975), the World Conservation Strategy (IUCN 1980), ‘Tbilisi Plus Ten’ (1987), Our Common Future (WCED 1987), and The Earth Summit (UNCED). <span class="citation" data-cites="nealHandbookEnvironmentalEducation2003">(Neal and Palmer 2003, p13–15)</span></p>
+<p>EE also has the potential for direct and indirect positive environmental impacts. One study reviewed 105 EE studies which emphasized conservation outcomes, and found that EE programs which included and focused on ecological indicators (such as improved water quality) had outcomes with the most directness (as opposed to indirect impact categories such as community capacity building), and concluded that local aspects of regional and global problems are important for the directness of the link. <span class="citation" data-cites="ardoinEnvironmentalEducationOutcomes2020">(Ardoin, Bowers, and Gaillard 2020)</span></p>
+<p>While there is a longer document environmental protection movement in the United States than in China, it is important to note that Dr. Stapp wrote this definition with the perspective that only 50 years had passed since much of the nation was rural and underdeveloped. It can be argued that China shares this temporal perspective today.</p>
+<h3 id="environmental-society-perception">Environmental Society (Perception)</h3>
+<h3 id="in-china">In China</h3>
+<p>Despite its international perception (often correct) of poor environmental protection, China does have a long history of environmental policy, with “great leaps” of progress and reform every decade or so since the political reform in the early 1970s. <span class="citation" data-cites="xieChinaHistoricalEvolution2020">(Xie 2020)</span> There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university student were more concerned about environmental risk, and deemed “environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.” <span class="citation" data-cites="duanCrossCulturalStudyEnvironmental2012">(Duan and Fortner 2012)</span></p>
+<p>—</p>
+<p>China’s political situation does not negate the impact that society can have on environmental policy. One study found that Chinese civil society organizations (CSOs) work in similar ways to those in more liberal and democratic countries. <span class="citation" data-cites="teetsPowerPolicyNetworks2018">(Teets 2018)</span></p>
+<h1 id="literature-review">Literature Review</h1>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Taken from the thesis proposal</span></code></pre></div>
+<p>This research proposal looked at many publications covering a broad range of related topics, some of which are outlined below:</p>
+<ul>
+<li><span class="citation" data-cites="mekonnenFourBillionPeople2016">(Mekonnen and Hoekstra 2016)</span> analyzed the current situation of water scarcity worldwide and found “two-thirds of the global population (4.0 billion people) live under conditions of severe water scarcity at least 1 month of the year,” with nearly half living in China and India alone.</li>
+<li><span class="citation" data-cites="liuWaterSustainabilityChina2012">(Liu and Yang 2012)</span> look at water sustainability in China. They conclude that while China’s recent policy efforts to alleviate water scarcity have been laudable, they are insufficient.</li>
+<li><span class="citation" data-cites="araralWaterGovernanceReview2013">(Araral and Wang 2013)</span> look at water governance, water insecurity, and its related research. They find that a second-generation research agenda on water governance, including a focus on incentive structures and other multi-disciplinary approaches, is required.</li>
+<li><span class="citation" data-cites="kahnWaterManagementCrop2009">(Kahn, Hanjra, and Mu 2009)</span> looks at the effects that water management has on crop production and food security in China. They conclude that water management affects many aspects of China’s development, it also affects food pricing and security globally.</li>
+<li><span class="citation" data-cites="araralWaterGovernanceReview2013">(Araral and Wang 2013)</span> looks at the relationship between water resource management and droughts in China and find that demand-side management can be more effective in meeting the challenges imposed by increasingly-severe droughts.</li>
+<li><span class="citation" data-cites="piaoImpactsClimateChange2010">(Piao et al. 2010)</span> looks at the impacts of climate change on water resources and agriculture in China. They recommend that further research should be conducted to further understand the impacts of climate change.</li>
+<li><span class="citation" data-cites="baiSustainableUrbanWater2001">(Bai and Imura 2001)</span> look at sustainable urban water resource management with a case study analysis of Tianjin, China. They suggest that a holistic, systems approach to water management is key for sustainability.</li>
+<li><span class="citation" data-cites="luWaterInfrastructureChina2014">(Lu 2014)</span> looks at the importance of full project life-cycle cost analysis in addressing water challenges, particularly with wastewater treatment facilities, concluding that there are serious inefficiencies currently.</li>
+<li><span class="citation" data-cites="rogersPoliticsWaterReview2017">(Rogers and Crow-Miller 2017)</span> take more of an overview approach in synthesizing literature regarding the politics of water in China. They find that there are serious gaps in the literature regarding hydropolitics in China.</li>
+<li><span class="citation" data-cites="webberSouthNorthWater2017">(Webber, Crow-Miller, and Rogers 2017)</span> look at the infrastructure side of water resource management in China with a review of the South-North Water Transfer Project. They find that this project is emblematic of the engineering-heavy approach often taken in China and will pose serious risks to regional governance and have serious environmental impacts.</li>
+<li><span class="citation" data-cites="jinAirPollutionControl2016">(Jin, Andersson, and Zhang 2016)</span> looks at air pollution control policies in China with a retrospective perspective. They break down the history of air pollution policies into three phases, and conclude, amongst other takeaways, that there’s a continuously increasing demand for quantification of all aspects regarding air pollution, including air quality, source identification, atmospheric modeling, and health risk assessments. These conclusions have the potential to be analogous to future water policy.</li>
+<li><span class="citation" data-cites="hofstedtChinaWaterScarcity2010">(Hofstedt 2010)</span> looks at the implications of domestic and international stability stemming from China’s water scarcity and the government’s current plans to address it. They argue that many of the options to alleviate water scarcity (increase water pricing, remove the requirement to be self-sufficient in grain production, increased efficiency of water usage in agriculture) all have serious downsides, and can have serious negative effects on political stability domestically and internationally.</li>
+<li><span class="citation" data-cites="wardDatarichInformationpoorSyndrome1986">(Ward and Loftis 1986)</span> looks at water quality monitoring and improvements (at the time) in data collection. They argue that increased data collection itself is not enough to affect the management of water resources; data analysis and reporting are also very important, and that understanding why monitoring water quality is important in the design process of water quality monitoring itself.</li>
+<li><span class="citation" data-cites="glasgowRealtimeRemoteMonitoring2004">(Glasgow et al. 2004)</span> looks at the emerging technology surrounding real-time remote monitoring (RTRM) and concludes that this technology will have a progressively-larger impact and importance for monitoring water quality.</li>
+<li><span class="citation" data-cites="shirodeIOTBasedWater2018">(Shirode et al. 2018)</span> and <span class="citation" data-cites="abubakerStudyIOTApproach2018">(Abubaker et al. 2018)</span> look at the emerging technology of an Internet of Things (IoT) based water quality monitoring system. They show that this kind of system can address some of the limitations of manual, lab-based water quality testing (time-consuming, costly, etc.), and their real-time monitoring capabilities offer a large potential for improved water quality monitoring.</li>
+</ul>
+<h1 id="methodology">Methodology</h1>
+<h2 id="data-sources">Data Sources</h2>
+<p>The main analysis of this thesis center around two data sets, described below.</p>
+<h3 id="chinese-general-social-survey-cgss">Chinese General Social Survey (CGSS)</h3>
+<p>This national survey, originally launched in 2003, aims to monitor and document relationships between quality of life (in both individual and collective scope) and social structures, both in urban and rural environments. <span class="citation" data-cites="HomeZhongGuoZongHeSheHuiDiaoCha">(<span>“Home-中国综合社会调查”</span> n.d.)</span> One of the main benefits is its longitudinal design, however this feature is not utilized in this thesis, which will be discussed later. The survey has been conducted nearly annually since 2003, with a major redesign conducted in 2010. Thus, surveys conducted prior to 2010 are referred to as “Cycle II” while surveys conducted in 2010 or later are referred to as “Cycle II.”</p>
+<p>The CGSS is conducted by face-to-face interviews, which on average require 90 minutes to complete. <span class="citation" data-cites="ImplementationZhongGuoZongHeSheHuiDiaoCha">(<span>“Implementation-中国综合社会调查”</span> n.d.)</span> The survey consists of a questionnaire, which is composed of three modules (beginning in Cycle II):</p>
+<p><code>{table} CGSS2010 Components and Description  :name: cgss2010-components &lt;!-- ~ put table here --&gt;</code></p>
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 16%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 11%" />
+<col style="width: 40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Module</em></th>
+<th>Frequency</th>
+<th>Dimensions</th>
+<th>Variables</th>
+<th>Coverage</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Core</td>
+<td>Annual</td>
+<td>11</td>
+<td>152</td>
+<td>All participants</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>Background Variables</em></td>
+<td>Annual</td>
+<td></td>
+<td>71</td>
+<td>All participants</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><em>Social Change Trends</em></td>
+<td>Annual</td>
+<td></td>
+<td>81</td>
+<td>All participants</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Topic</td>
+<td>Annual (5 year rotation)</td>
+<td></td>
+<td></td>
+<td>All participants</td>
+<td><em>Either one or two topic modules per year.</em></td>
+</tr>
+<tr class="odd">
+<td>Additional</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1/3 - 1/2</td>
+<td><em>Coverage depends on quantity of other questions and demand</em></td>
+</tr>
+</tbody>
+</table>
+<p><span class="citation" data-cites="QuestionnairesZhongGuoZongHeSheHuiDiaoCha">(<span>“Questionnaires-中国综合社会调查”</span> n.d.)</span></p>
+<p>The Environmental Module (“环境(ISSP)” or “L部分”) is of particular interest in this analysis. <span class="citation" data-cites="DiaoChaWenJuanZhongGuoZongHeSheHuiDiaoCha">(<span>“调查问卷-中国综合社会调查”</span> n.d.)</span> It asks 25 questions and sub-questions, most of which are directly or indirectly related to the environment. There are several interesting questions which ask things related to environmental protection, importance, perception and knowledge.</p>
+<p><strong>Talk about specific questions, etc.</strong></p>
+<p>The published data is in the form of a Stata file, which consists of 11783 rows (respondents) and 871 columns (variables).</p>
+<h3 id="blue-city-water-quality-index-ranking-wqir">Blue City Water Quality Index Ranking (WQIR)</h3>
+<p>The second data set was compiled by the author from a report from the Institute of Public &amp; Environmental Affairs, a non-profit environmental research organization based in Beijing. <span class="citation" data-cites="IPE">(<span>“About IPE”</span> n.d.)</span> The report, the <em>Blue City Water Quality Index 2019</em>, compiles various surface, drinking. and ground water quality data published by various government agencies and assigns a score (their proprietary <em>Blue City Water Quality Index Score (BCWQI)</em>) and publishes the results at a sub-provincial level (second administrative level, or “admin 2”). <span class="citation" data-cites="jun2018BlueCity">(Jun, Sunan, and Haijin, n.d.)</span> The methodology and conversion to the government’s is provided. This report was chosen as the basis for this data set since it was the most comprehensive data the author could find with the closest publication date to the CGSS. The difference in time of the two data sets is discussed in the section. In the appendix of this report, the BCWQI for each second administrative level, including the city name, province, and ranking, is included. This data, in a table in the PDF report, was exported into a comma separated value (.csv) file for later analysis.</p>
+<h2 id="analysis">Analysis</h2>
+<p>Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook <span class="citation" data-cites="kluyverJupyterNotebooksPublishing">(Kluyver et al., n.d.)</span>, a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on GitHub, to allow for accessibility. <span class="citation" data-cites="rynearsonWrynearsonChinawater2020">(Rynearson 2020)</span> This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.</p>
+<p>The two main data sets were loaded into the Jupyter notebook and reviewed for initial analysis, beginning with the CGSS2010. Then, after reviewing the data, it was cleaned and processed in several ways:</p>
+<h3 id="choosing-appropriate-questions">Choosing Appropriate Questions</h3>
+<h4 id="demographic-questions">Demographic Questions</h4>
+<p>The thesis proposal and hypothesis were created before the author reviewed the data set, and before the author was aware of the environmental module of the CGSS. While many variables were deemed interesting, several variables were initially selected for broader analysis:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>```{table} Relevant CGSS2010 Demographic Components :name: cgss2010-demographic <!-- ~put table here --></p>
+<pre><code>
+| Code | Variable (English)             | Variable (Chinese) | Importance                        | Utilized? |
+|------|--------------------------------|--------------------|-----------------------------------|-----------|
+| s41  | Province                       |                    | Location of the individual        | X         |
+| a2   | Gender                         |                    |                                   | X         |
+| a3a  | Birth year                     |                    | Age of respondant                 | X         |
+| a7a  | Highest level of education     |                    | Link to perception and knowledge? | X         |
+| a8a  | Personal total income          |                    |                                   | X         |
+| a15  | Subjective personal health     |                    |                                   |           |
+| a62  | Family total income            |                    |                                   |           |
+| a91  | Rural / agricultural household |                    |                                   | X         |
+As evident, not all of the variables were utilized, for several reasons.
+
+#### Environmental Questions
+The CGSS includes many demographic data on each respondent. Of which, the following were deemed important for one or more reasons: [^-8196423171]
+
+```{table} Relevant CGSS2010 Environmental Components 
+:name: cgss2010-env
+&lt;!-- ~put table here --&gt;
+ </code></pre>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 65%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 6%" />
+<col style="width: 5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Code</th>
+<th>Question (English)</th>
+<th>Question (Chinese)</th>
+<th>Response Types</th>
+<th>Importance</th>
+<th>Utilized?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>l1a</td>
+<td>In your opinion, in terms of the current situation in our country, which of the following issues is the most important?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l1b</td>
+<td><em>like l1a, but 2nd most important</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l6a</td>
+<td>In your opinion, in terms of the current situation in our country, which of the following issues is the most important?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l6b</td>
+<td>How serious are env. problems facing China?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l7a</td>
+<td>Which is most important env. issue in China?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l7b</td>
+<td>Which has greatest impact on you/family?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l8a</td>
+<td>Knowledge of causes of environmental problems from ?l7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l8b</td>
+<td>Knowledge of solutions of environmental problems from ?l7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l12a</td>
+<td>In order to protect the environment, to what extent are you willing to pay a higher price?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l12b</td>
+<td><em>like l12a, but with higher taxes</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l12c</td>
+<td><em>like l12a/b, but with willingness to lower living standards</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l137</td>
+<td>Environmental issues directly affect my daily life</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l14d</td>
+<td>How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l15a / b</td>
+<td><em>see question, about statements of responsibility for environmental protection (individuals/companies, government, etc.)</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l16c</td>
+<td>In terms of solving environmental problems in your area, how do you think the local government has done in the past five years?"</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>l20e</td>
+<td>Do you often save water or reuse water specifically for environmental protection?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>l2409</td>
+<td>In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>As evident, these questions include questions related to the environment in general, perceptions of the local, national and global environment, water, and knowledge of water quality issues.</p>
+<h4 id="other-survey-questions">Other Survey Questions</h4>
+<p>Many more survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations. Future analysis could be done with many of these questions, but were not within the scope of this analysis.</p>
+<h3 id="geographic-alignment">Geographic Alignment</h3>
+<p>The two data sets are of differing geographic precision. The CGSS2010 (and all CGSSII data sets) include data on the province of where the respondent resided. Based on the structure of the data, it is assumed that more precise geographic information is included, however the CGSS publishing team chooses only to release the provincial information.</p>
+<p>This is different than the WQIR2018 data, which is published at the sub-provincial level (admin 2). Thus, for comparative analysis, the mean water quality per province was calculated (more on this below).</p>
+<h3 id="procedure">Procedure</h3>
+<p>Once the data sets were loaded and reviewed for importance and quality, initial data analysis was conducted. Due to the author’s limited experience with Python, multiple versions of the analysis were conducted in order to gain working knowledge of Python and of the data set.</p>
+<p>For provincial comparative analysis, the data was sorted by province <code>s41</code> and grouped into visual and numerical approaches of looking for differences between provinces. Several functions were created which allowed the author, and users, to see provincial comparative analyses on any question by inputting the question code. Either quantities of responses or their mean value would be output, as well as a heatmap for quick comparison. This initial analysis helped the author validate the main variables that were analyzed, which are discussed later.</p>
+<p>Then, the WQIR2018 data was loaded. An initial plot was created to see the distribution of water quality per sub-province, sorted by province. Histograms were added to visualize the distribution of water quality measurements and values.</p>
+<p><code>{figure} ../wqir2018.svg :name: wqir2018-vis WQIR2018 distribution per province.</code></p>
+<p>From the previous steps, a subset of questions were created. The subset <code>cgss_strict</code>, which include only variables s41, l14d and l2409 were used for further initial analysis for simplicity.</p>
+<p>Within these subsets, some values were revealed to be outside of the acceptable range (negative numbers). Since the origin or reason behind these values could not be determined, they were discarded. This lead to further discrepancies in the number of values depending on the province.</p>
+<p>Once invalid values were removed, the two data sets were merged on their shared province values. This was done in two separate ways, which allowed for different analysis.</p>
+<ol type="1">
+<li><strong>On Provinces</strong>: The mean water quality per province was added to the mean value per province of each analyzed variable. This allows for simpler data analysis, but loses some individual demographic data (gender, income, age, education, etc.).</li>
+<li><strong>On Individuals</strong>: The mean water quality per province was added to the individual response values. This makes the analysis slightly more complicated, but allows for comparison across the demographic data mentioned above. However, it should be noted that it runs the risk of providing a false sense of improved precision, and the mean water quality of the province may not accurately reflect the local situation of the individual.</li>
+</ol>
+<h2 id="interviews">Interviews</h2>
+<h2 id="limitations">Limitations</h2>
+<p>—</p>
+<h1 id="water-quality-perception-and-knowledge-in-china">Water Quality, Perception and Knowledge in China</h1>
+<h2 id="draft-outline">Draft Outline</h2>
+<ul>
+<li>Abstract</li>
+<li>Introduction
+<ul>
+<li>Global Shortage</li>
+<li>Chinese Shortage</li>
+<li>Chinese Pollution</li>
+</ul></li>
+<li>Literature Review
+<ul>
+<li><em>Sub-sections</em></li>
+</ul></li>
+<li>Scope and Significance</li>
+<li>Methodology
+<ul>
+<li>Data Sources</li>
+<li>Analysis</li>
+<li>Interviews</li>
+<li>Limitations</li>
+</ul></li>
+<li>Analytical Framework</li>
+<li>Analysis
+<ul>
+<li>Main Analysis</li>
+<li>Comparison</li>
+<li>New Developments</li>
+</ul></li>
+<li>Discussion and Recommendations
+<ul>
+<li>Discussion</li>
+<li>Recommendations</li>
+</ul></li>
+<li>Conclusion</li>
+<li>References</li>
+</ul>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-IPE" class="csl-entry" role="doc-biblioentry">
+<span>“About IPE.”</span> n.d. Accessed February 1, 2021. <a href="http://wwwen.ipe.org.cn/about/about.html">http://wwwen.ipe.org.cn/about/about.html</a>.
+</div>
+<div id="ref-abubakerStudyIOTApproach2018" class="csl-entry" role="doc-biblioentry">
+Abubaker, Alfiya, Kavya C. R, Tilju Thomas, Nikhil Joseph, and Shifana Begum. 2018. <span>“A Study on IOT Approach for Monitoring Water Quality Using MQTT.”</span> <em>International Research Journal of Engineering and Technology (IRJET</em> 5 (3): 3329–31. <a href="https://s3.amazonaws.com/academia.edu.documents/56787557/IRJET-V5I3785.pdf?response-content-disposition=inline%3B%20filename%3DA_Study_on_IOT_Approach_for_Monitoring_W.pdf&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190613">https://s3.amazonaws.com/academia.edu.documents/56787557/IRJET-V5I3785.pdf?response-content-disposition=inline%3B%20filename%3DA_Study_on_IOT_Approach_for_Monitoring_W.pdf&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190613</a>.
+</div>
+<div id="ref-araralWaterGovernanceReview2013" class="csl-entry" role="doc-biblioentry">
+Araral, Eduardo, and Yahua Wang. 2013. <span>“Water Governance 2.0: A Review and Second Generation Research Agenda.”</span> <em>Water Resources Management</em> 27 (11): 3945–57. https://doi.org/<a href="https://link.springer.com/article/10.1007%2Fs11269-013-0389-x.">https://link.springer.com/article/10.1007%2Fs11269-013-0389-x.</a>
+</div>
+<div id="ref-ardoinEnvironmentalEducationOutcomes2020" class="csl-entry" role="doc-biblioentry">
+Ardoin, Nicole M., Alison W. Bowers, and Estelle Gaillard. 2020. <span>“Environmental Education Outcomes for Conservation: A Systematic Review.”</span> <em>Biological Conservation</em> 241 (January): 108224. <a href="https://doi.org/10.1016/j.biocon.2019.108224">https://doi.org/10.1016/j.biocon.2019.108224</a>.
+</div>
+<div id="ref-baiSustainableUrbanWater2001" class="csl-entry" role="doc-biblioentry">
+Bai, Xuemei, and Hidefumi Imura. 2001. <span>“Towards Sustainable Urban Water Resource Management: A Case Study in Tianjin, China.”</span> <em>Sustainable Development</em> 9: 24–35.
+</div>
+<div id="ref-caldwell1990international" class="csl-entry" role="doc-biblioentry">
+Caldwell, Lynton Keith, and others. 1990. <span>“International Environmental Policy: Emergence and Dimensions.”</span> <em>International Environmental Policy: Emergence and Dimensions.</em>, no. Rev. Ed. 2.
+</div>
+<div id="ref-duanCrossCulturalStudyEnvironmental2012" class="csl-entry" role="doc-biblioentry">
+Duan, Hongxia, and Rosanne Fortner. 2012. <span>“A Cross-Cultural Study on Environmental Risk Perception and Educational Strategies: Implications for Environmental Education in China.”</span> <em>International Electronic Journal of Environmental Education</em> 1 (1): 0. <a href="https://dergipark.org.tr/en/pub/iejeegreen/104013">https://dergipark.org.tr/en/pub/iejeegreen/104013</a>.
+</div>
+<div id="ref-f.a.o.AQUASTATCountryProfile2011" class="csl-entry" role="doc-biblioentry">
+F.A.O. 2011a. <em>AQUASTAT Country Profile - China. AQUASTAT, Rome: The Food and Agriculture Organization of the United Nations</em>. <a href="http://www.fao.org/3/CA0221EN/ca0221en.pdf.">http://www.fao.org/3/CA0221EN/ca0221en.pdf.</a>
+</div>
+<div id="ref-f.a.o.FoodAgricultureOrganization2011" class="csl-entry" role="doc-biblioentry">
+———. 2011b. <em>The Food and Agriculture Organization of the United Nations, and Earthscan</em>. Rome; London: FAO; Earthscan. <a href="http://www.fao.org/3/i1688e/i1688e.pdf.">http://www.fao.org/3/i1688e/i1688e.pdf.</a>
+</div>
+<div id="ref-f.a.o.AQUASTAT2014" class="csl-entry" role="doc-biblioentry">
+———. 2014. <em>AQUASTAT</em>. <a href="http://www.fao.org/nr/water/aquastat/didyouknow/index2.stm.">http://www.fao.org/nr/water/aquastat/didyouknow/index2.stm.</a>
+</div>
+<div id="ref-f.a.o.AQUASTATMainDatabase2016" class="csl-entry" role="doc-biblioentry">
+———. 2016. <em>AQUASTAT Main Database. Rome: Food and Agriculture Organization of the United Nations (FAO</em>. <a href="http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en.">http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en.</a>
+</div>
+<div id="ref-glasgowRealtimeRemoteMonitoring2004" class="csl-entry" role="doc-biblioentry">
+Glasgow, Howard B., JoAnn M. Burkholder, Robert E. Reed, Alan J. Lewitus, and Joseph E. Kleinman. 2004. <span>“Real-Time Remote Monitoring of Water Quality: A Review of Current Applications, and Advancements in Sensor, Telemetry, and Computing Technologies.”</span> <em>Journal of Experimental Marine Biology and Ecology</em> 300 (1-2): 409–48. https://doi.org/<a href="https://www.sciencedirect.com/science/article/pii/S0022098104001066.">https://www.sciencedirect.com/science/article/pii/S0022098104001066.</a>
+</div>
+<div id="ref-greenpeaceShiErWu2017" class="csl-entry" role="doc-biblioentry">
+Greenpeace, 绿色和平. 2017. <em>十二五</em>. <a href="https://energydesk.greenpeace.org/2017/06/01/china-water-quality-data-shanghai-beijing/.">https://energydesk.greenpeace.org/2017/06/01/china-water-quality-data-shanghai-beijing/.</a>
+</div>
+<div id="ref-hofstedtChinaWaterScarcity2010" class="csl-entry" role="doc-biblioentry">
+Hofstedt, Todd. 2010. <span>“China’s Water Scarcity and Its Implications for Domestic and International Stability.”</span> <em>Asian Affairs: An American Review</em> 37: 71–83.
+</div>
+<div id="ref-HomeZhongGuoZongHeSheHuiDiaoCha" class="csl-entry" role="doc-biblioentry">
+<span>“Home-中国综合社会调查.”</span> n.d. Accessed February 1, 2021. <a href="http://cgss.ruc.edu.cn/English/Home.htm">http://cgss.ruc.edu.cn/English/Home.htm</a>.
+</div>
+<div id="ref-ImplementationZhongGuoZongHeSheHuiDiaoCha" class="csl-entry" role="doc-biblioentry">
+<span>“Implementation-中国综合社会调查.”</span> n.d. Accessed February 1, 2021. <a href="http://cgss.ruc.edu.cn/English/About_CGSS/Implementation.htm">http://cgss.ruc.edu.cn/English/About_CGSS/Implementation.htm</a>.
+</div>
+<div id="ref-IntergovernmentalConferenceEnvironmental" class="csl-entry" role="doc-biblioentry">
+<span>“Intergovernmental Conference on Environmental Education, Tbilisi, USSR, 14-26 October 1977: Final Report - UNESCO Digital Library.”</span> n.d. Accessed February 10, 2021. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000032763">https://unesdoc.unesco.org/ark:/48223/pf0000032763</a>.
+</div>
+<div id="ref-jinAirPollutionControl2016" class="csl-entry" role="doc-biblioentry">
+Jin, Yana, Henrik Andersson, and Shiqiu Zhang. 2016. <span>“Air Pollution Control Policies in China: A Retrospective and Prospects.”</span> <em>International Journal of Environmental Research and Public Health</em> 12.
+</div>
+<div id="ref-jing80CentGroundwater2016" class="csl-entry" role="doc-biblioentry">
+Jing, Li. 2016. <em>80 Per Cent of Groundwater in China’s Major River Basins Is Unsafe for Humans, Study Reveals</em>. <a href="https://www.scmp.com/news/china/policies-politics/article/1935314/80-cent-groundwater-chinas-major-river-basins-unsafe.">https://www.scmp.com/news/china/policies-politics/article/1935314/80-cent-groundwater-chinas-major-river-basins-unsafe.</a>
+</div>
+<div id="ref-jun2018BlueCity" class="csl-entry" role="doc-biblioentry">
+Jun, MA, SHEN Sunan, and ZHUGE Haijin. n.d. <span>“2018 Blue City Water Quality Index,”</span> 25.
+</div>
+<div id="ref-kahnWaterManagementCrop2009" class="csl-entry" role="doc-biblioentry">
+Kahn, Shahbaz, Munir A. Hanjra, and Jiaxin Mu. 2009. <span>“Water Management and Crop Production for Food Security in China: A Review.”</span> <em>Agricultural Water Management</em> 96: 349–60.
+</div>
+<div id="ref-kluyverJupyterNotebooksPublishing" class="csl-entry" role="doc-biblioentry">
+Kluyver, Thomas, Benjamin Ragan-Kelley, Fernando Pérez, Matthias Bussonnier, Jonathan Frederic, Jessica Hamrick, Jason Grout, et al. n.d. <span>“Jupyter Notebooks—a Publishing Format for Reproducible Computational Workflows,”</span> 4.
+</div>
+<div id="ref-liuWaterSustainabilityChina2012" class="csl-entry" role="doc-biblioentry">
+Liu, Jianguo, and Wu Yang. 2012. <span>“Water Sustainability for China and Beyond.”</span> <em>Science</em> 337: 649–50.
+</div>
+<div id="ref-luWaterInfrastructureChina2014" class="csl-entry" role="doc-biblioentry">
+Lu, Shuping. 2014. <span>“Water Infrastructure in China: The Importance of Full Project Life-Cycle Cost Analysis in Addressing Water Challenges.”</span> <em>International Journal of Water Resources Development</em> 30 (1): 47–59.
+</div>
+<div id="ref-mekonnenFourBillionPeople2016" class="csl-entry" role="doc-biblioentry">
+Mekonnen, Mesfin M., and Arjen Y. Hoekstra. 2016. <span>“Four Billion People Facing Severe Water Scarcity.”</span> <em>Science Advances</em> 2 (2).
+</div>
+<div id="ref-nealHandbookEnvironmentalEducation2003" class="csl-entry" role="doc-biblioentry">
+Neal, Philip, and Joy Palmer. 2003. <em>The Handbook of Environmental Education</em>. 0th ed. Routledge. <a href="https://doi.org/10.4324/9780203422021">https://doi.org/10.4324/9780203422021</a>.
+</div>
+<div id="ref-piaoImpactsClimateChange2010" class="csl-entry" role="doc-biblioentry">
+Piao, Shilong, Philippe Cias, Yao Huang, Zehao Shen, Shushi Peng, Junsheng Li, and Liping Zhou. 2010. <span>“The Impacts of Climate Change on Water Resources and Agriculture in China.”</span> <em>Nature</em> 467: 43–51. https://doi.org/<a href="https://www.nature.com/articles/nature09364.">https://www.nature.com/articles/nature09364.</a>
+</div>
+<div id="ref-QuestionnairesZhongGuoZongHeSheHuiDiaoCha" class="csl-entry" role="doc-biblioentry">
+<span>“Questionnaires-中国综合社会调查.”</span> n.d. Accessed February 1, 2021. <a href="http://cgss.ruc.edu.cn/English/Documentation/Questionnaires.htm">http://cgss.ruc.edu.cn/English/Documentation/Questionnaires.htm</a>.
+</div>
+<div id="ref-reutersFACTBOXFactsChina2009" class="csl-entry" role="doc-biblioentry">
+Reuters. 2009. <em>FACTBOX: Facts on China’s South-to-North Water Transfer Project</em>. <a href="https://www.reuters.com/article/us-china-dams-sb-idUSTRE51Q02L20090227.">https://www.reuters.com/article/us-china-dams-sb-idUSTRE51Q02L20090227.</a>
+</div>
+<div id="ref-rogersPoliticsWaterReview2017" class="csl-entry" role="doc-biblioentry">
+Rogers, Sarah, and Britt Crow-Miller. 2017. <span>“The Politics of Water: A Review of Hydropolitical Frameworks and Their Application in China.”</span> <em>Wiley Interdisciplinary Reviews: Water</em>.
+</div>
+<div id="ref-rynearsonWrynearsonChinawater2020" class="csl-entry" role="doc-biblioentry">
+Rynearson, William. 2020. <span>“Wrynearson/China-Water.”</span> GitHub. 2020. <a href="https://github.com/wrynearson/china-water">https://github.com/wrynearson/china-water</a>.
+</div>
+<div id="ref-shiklomanovWorldFreshwaterResources1993" class="csl-entry" role="doc-biblioentry">
+Shiklomanov, L.A. 1993. <span>“World Freshwater Resources.”</span> In <em>Water in Crisis: A Guide to the World’s Fresh Water Resources</em>, edited by Peter H. Gleick, 13–24. New York: Oxford University Press.
+</div>
+<div id="ref-shirodeIOTBasedWater2018" class="csl-entry" role="doc-biblioentry">
+Shirode, Mourvika, Monika Adaling, Jyoti Biradar, and Trupti Mate. 2018. <span>“IOT Based Water Quality Monitoring System.”</span> <em>International Journal of Scientific Research in Computer Science, Engineering and Information Technology</em> 3 (1): 1423–28.
+</div>
+<div id="ref-stapp1969concept" class="csl-entry" role="doc-biblioentry">
+Stapp, William B, Dean Bennett, William Bryan, Jerome Fulton, Jean MacGregor, Paul Nowak, James Swan, and Robert Wall. 1969. <span>“The Concept of Environmental Education.”</span> <em>Journal of Environmental Education</em> 1 (1): 30–31. <a href="http://www.hiddencorner.us/html/PDFs/The_Concept_of_EE.pdf">http://www.hiddencorner.us/html/PDFs/The_Concept_of_EE.pdf</a>.
+</div>
+<div id="ref-teetsPowerPolicyNetworks2018" class="csl-entry" role="doc-biblioentry">
+Teets, Jessica. 2018. <span>“The Power of Policy Networks in Authoritarian Regimes: Changing Environmental Policy in China.”</span> <em>Governance</em> 31 (1): 125–41. https://doi.org/<a href="https://doi.org/10.1111/gove.12280">https://doi.org/10.1111/gove.12280</a>.
+</div>
+<div id="ref-theworldbankHighDryClimate2016" class="csl-entry" role="doc-biblioentry">
+The World Bank. 2016. <em>High and Dry: Climate Change, Water and the Economy</em>. Washington, D.C: World Bank Group.
+</div>
+<div id="ref-un-waterWaterScarcity" class="csl-entry" role="doc-biblioentry">
+UN-Water. n.d. <span>“Water Scarcity.”</span> <em>UN-Water</em> (blog). Accessed February 9, 2021. <a href="https://www.unwater.org/water-facts/scarcity/">https://www.unwater.org/water-facts/scarcity/</a>.
+</div>
+<div id="ref-wardDatarichInformationpoorSyndrome1986" class="csl-entry" role="doc-biblioentry">
+Ward, Robert C., and Jim C. Loftis. 1986. <span>“The <span>‘Data-Rich but Information-Poor’</span> Syndrome in Water Quality Monitoring.”</span> <em>Environmental Management</em> 10 (3): 291–97.
+</div>
+<div id="ref-webberSouthNorthWater2017" class="csl-entry" role="doc-biblioentry">
+Webber, Michael, Britt Crow-Miller, and Sarah Rogers. 2017. <span>“The South–North Water Transfer Project: Remaking the Geography of China.”</span> <em>Regional Studies</em> 51 (3): 370–82.
+</div>
+<div id="ref-worldeconomicforumGlobalRisksReport2016" class="csl-entry" role="doc-biblioentry">
+World Economic Forum. 2016. <em>The Global Risks Report 2016</em>. 11th ed. Geneva: World Economic Forum.
+</div>
+<div id="ref-wuWaterPollutionHuman1999" class="csl-entry" role="doc-biblioentry">
+Wu, C., C. Maurer, Y. Wang, S. Xue, and D.L. Davis. 1999. <span>“Water Pollution and Human Health in China.”</span> <em>Environmental Health Perspectives</em> 107 (4): 251–56.
+</div>
+<div id="ref-xieChinaHistoricalEvolution2020" class="csl-entry" role="doc-biblioentry">
+Xie, Zhenhua. 2020. <span>“China’s Historical Evolution of Environmental Protection Along with the Forty Years’ Reform and Opening-up.”</span> <em>Environmental Science and Ecotechnology</em> 1 (January): 100001. <a href="https://doi.org/10.1016/j.ese.2019.100001">https://doi.org/10.1016/j.ese.2019.100001</a>.
+</div>
+<div id="ref-zhangEnvironmentalHealthChina2010" class="csl-entry" role="doc-biblioentry">
+Zhang, Junfeng, Dennis L. Mauzerall, Tong Zhu, Song Liang, Majid Ezzati, and Justin Remais. 2010. <span>“Environmental Health in China: Challenges to Achieving Clean Air and Safe Water.”</span> <em>Lancet</em> 357 (9720): 1110–10. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4210128/.">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4210128/.</a>
+</div>
+<div id="ref-guowuyuan.GuoWuYuanGuanYuYinFaShuiWuRanFangZhiXingDongJiHuaDeTongZhi2015" class="csl-entry" role="doc-biblioentry">
+国务院. 2015. <em>国务院关于印发水污染防治行动计划的通知</em>. <a href="http://www.gov.cn/zhengce/content/2015-04/16/content_9613.htm.">http://www.gov.cn/zhengce/content/2015-04/16/content_9613.htm.</a>
+</div>
+<div id="ref-DiaoChaWenJuanZhongGuoZongHeSheHuiDiaoCha" class="csl-entry" role="doc-biblioentry">
+<span>“调查问卷-中国综合社会调查.”</span> n.d. Accessed February 1, 2021. <a href="http://cgss.ruc.edu.cn/xmwd/dcwj.htm">http://cgss.ruc.edu.cn/xmwd/dcwj.htm</a>.
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Translated from Chinese into English.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+  </article>
+</body>
+</html>
