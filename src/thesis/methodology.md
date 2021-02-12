@@ -1,4 +1,9 @@
+---
+CJKmainfont: Noto Sans CJK HK, Light
+---
+
 #  Methodology
+
 ## Data Sources
 The main analysis of this thesis center around two data sets, described below.
 
