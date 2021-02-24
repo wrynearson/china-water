@@ -1,40 +1,66 @@
 # Background
 
-## Environmental Policy, Education and Perception
+## Environmental Policy, Knowledge and Perception
 
-Water quality and quantity issues in China and abroad sit within the context of environmental policy, environmental education, and societies' perception of the two. [@caldwell1990international]
+Water quality and quantity issues in China and abroad sit within the context of environmental policy, environmental education, and societies' perception of the two. [@caldwell1990international] Analysis linking environmental knowledge and attitudes (perception) have existed for decades. The assumption, and common model, is that:
+
+> "increased knowledge leads to favorable attitudes towards pollution abatement which in turn lead to an action promoting environmental quality." [@ramseyEnvironmentalKnowledgeAttitudes1976]
+
+At the time, in the 1970s, most scholars agreed with this model, concluding that "a broad public literacy of biological and ecological concepts is at the heart of defining, reclaiming, and maintaining environmental quality," but also concedes that the results of education are variable. [@ramseyEnvironmentalKnowledgeAttitudes1976] 
+
+Understanding the background of environmental policy, knowledge, education and perception is important in understanding how they interact in the concept of water quality in China and abroad.
 
 ### Environmental Policy
 
 Environmental conservation has a long and global history, at times being documented as early as the seventh century, with examples afterwards often being local or anecdotal. [@StCuthbertFather2013] In the broader context of environmental appreciation or dependency, the history likely goes back to the dawn of humanity. This is evident in written and modern-day history as some indigenous cultures do not separate the environment and the society. [@armieroHistoryEnvironmentalismLocal2014, p. 2-3]
 
-Much of the documented history of modern environmentalism and environmental policy comes from the United States. Water pollution was one of the first environmental issues which received federal legislation with the The Federal Water Pollution Control Act of 1948 [@ModernEnvironmentalMovement], which later became known as the Clean Water Act. [@usepaHistoryCleanWater2013]
+Much of the documented history of modern environmentalism and environmental policy comes from the United States. Preservation was one of the first policy instruments, most notably with the Yellowstone National Park Act of 1972 [@RulesRegulationsYellowstone1881] Water pollution was one of the first environmental issues which received federal legislation with the The Federal Water Pollution Control Act of 1948 [@ModernEnvironmentalMovement], which later became known as the Clean Water Act. [@usepaHistoryCleanWater2013]
 
 Despite much of the literature covering history in the United States, environmental protection can be seen as a global phenomenon in many parts of the world and throughout the 20th and 21st centuries, albeit with differing impact, scope and timeliness. The link to its global nature is highlighted in a study which finds that international organizations and communities have central importance in the diffusion of one particular type of environmental policy, the Environmental Impact Assessment, and its particular importance for less-developed countries. [@hironakaGlobalizationEnvironmentalProtection2002]
 
-### Environmental Education
+### Environmental Knowledge and Education
 
-Environmental Education (EE) has been inexorably tied to environmental protection and policy - one of its main goals is "Awareness - to help social groups and individuals acquire an awareness and sensitivity to the total environment and its allied problems." [@IntergovernmentalConferenceEnvironmental] An earlier definition was presented in 1969 from the United States, and has proved reliable and accurate since:
+Knowledge about most topics is learned through theory (education) and practice (experience). #cite This is no different with the environment. #cite The term 'Environmental Knowledge' accounts for multiple ways of learning and acquisition. In the 1970s, authors stressed the complicated pathways from information to knowledge:
+
+> "...the acquisition of environmental knowledge involves a complicated series of processes – sensation, perception, imagery, retention, recall, reasoning, problem solving, judgment, and evaluation. It is an individual process, each person having a unique cognition of the world, but the overlap in images among individuals permits environmental communication." [@holcombReviewEnvironmentalKnowing1977]
+
+Environmental Education (EE) is a subset of Environmental Knowledge and is inexorably tied to environmental protection and policy One of its main goals is "Awareness - to help social groups and individuals acquire an awareness and sensitivity to the total environment and its allied problems." [@IntergovernmentalConferenceEnvironmental] An earlier definition was presented in 1969 from the United States, and has proved reliable and accurate since:
 
 > **Environmental education** is aimed at producing a citizenry that is **knowledgeable** concerning the biophysical environment and its associated problems, aware of **how** to help solve these problems, and **motivated** to work towards their solution. [@stapp1969concept]
+
+While there is a longer document environmental protection movement in the United States than in China, it is important to note that Dr. Stapp wrote this definition with the perspective that only 50 years had passed since much of the United States was rural and underdeveloped. It can be argued that China shares this temporal perspective today.
 
 Progress continued with development and deployment of EE the international level, with many landmark events in environmentalism and sustainability putting EE at their core, including The International Environmental Education Program (IEEP 1975), the World Conservation Strategy (IUCN 1980), 'Tbilisi Plus Ten' (1987), Our Common Future (WCED 1987), and The Earth Summit (UNCED). [@nealHandbookEnvironmentalEducation2003, p13-15]
 
 EE also has the potential for direct and indirect positive environmental impacts. One study reviewed 105 EE studies which emphasized conservation outcomes, and found that EE programs which included and focused on ecological indicators (such as improved water quality) had outcomes with the most directness (as opposed to indirect impact categories such as community capacity building), and concluded that local aspects of regional and global problems are important for the directness of the link. [@ardoinEnvironmentalEducationOutcomes2020]
 
-While there is a longer document environmental protection movement in the United States than in China, it is important to note that Dr. Stapp wrote this definition with the perspective that only 50 years had passed since much of the nation was rural and underdeveloped. It can be argued that China shares this temporal perspective today.
+Several other studies have mixed results. One study examined the relationship between environmental knowledge and attitudes of fourth-graders in Germany but found no correlation between the two. [@lieflanderEducationalImpactRelationship2018] However, the authors noted that the lack of correlation was probably caused by measurement constraints. Another study examined high school students' environmental knowledge and attitudes and found "significant difference in both knowledge gain and attitudes of students after exposure" where "environmental knowledge scores increased by 22%" after the completion of a 10-day environmental course, and "environmental attitudes became more environmentally favorable." [@bradleyRelationshipEnvironmentalKnowledge1999]
 
 ### Environmental Society (Perception)
 
+There is an intuitive link between the state of the environment and one's perception of the environment. Environmental perception has been defined as "awareness of, or feelings about, the environment, and as the act of apprehending the environment by the senses." [@zubeEnvironmentalPerception1999] A more detailed definition takes into account its multi-dimensional aspects, as a "transactional process between the person and the environment." [@ittelsonEnvironmentCognition1973] He offered three general conclusions: 
+
+> 1. It is not directly controlled by the stimulus.
+    2. It is linked to and indistinguishable from other aspects of psychological functioning.
+    3. It is relevant and appropriate to specific environmental contexts.
+
+Ittelson continues in his theoretical framework and suggest that environments "surround the person, provide opportunities for exploration, and provide information that is received through all senses – feeling, hearing, seeing, smelling, and tasting." [@zubeEnvironmentalPerception1999, section. Definition] Environments provide more information than the person can apprehend, thus leaving the potential for the environment to influence in unperceivable ways. Additionally, according to Ittleson, environments have ambiance - a "quality, mood or atmosphere" which can relate to the social context of environmental experience, and is viewed through the lens of past experience and current perceptions. Simply put, environments affect both individuals and societal groups in ways which are not always easy to understand, and can change or be affected in the present and the past. This has an affect on policy, as information regarding how the general population feels about the environment can inform policy makers.
+
+While studies into societies' perception of the environment often focuses on positive aspects when investigating wilderness and landscape aesthetics, studies regarding air, water and sound usually focus on negative factors. [@zubeEnvironmentalPerception1999, section. Air, water, and sound] These studies often focus on maximum levels of pollutants (quantitatively or qualitatively) or annoyance thresholds. Interestingly, different cultures have been found to have different threshold qualitative pollution or annoyance levels, which could be seen as a limitation of this study.
+
+One other factor in environmental perception was the "magnitude, diversity and rapidity of environmental change." [@zubeEnvironmentalPerception1999, section. Major environmental changes] Studies in this domain indicate that "physical proximity to the change, magnitude and kind of change, length of time in current residence, and personal value orientations are all related to the perception of and response to the phenomenon." [@zubeEnvironmentalPerception1999, section. Major environmental changes] 
+
 ### In China
 
-Despite its international perception (often correct) of poor environmental protection, China does have a long history of environmental policy, with "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university student were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
+Despite its international perception (often correct) of poor environmental protection, China does have a long history of environmental policy, with "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university students were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
 
 ## Water Quality and Perception
 
 ### Factors in Water Quality 
 
 **Talk about components of water quality, aesthetics, harmful vs. non-harmful components, local and global rankings, drinking vs using, etc.**
+
+### Water Quality in China
 
 China often cites its developing country status as a reason that it under-performs on environmental indicators. #cite However, China ranks lower than other countries with similar or even lower GDP. [@wendlingz.a.2020EnvironmentalPerformance2020, p. X, fig. ES-1] Overall, China ranked 120th with a score of 37.3 in 2020, which was the same ranking as in 2018 but with a decreased score from 50.74.[^1] [@wendlingz.a.2020EnvironmentalPerformance2020 p. XII; @wendling2018EnvironmentalPerformance2018 p.15] 
 
@@ -46,55 +72,49 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 
 ```{table} Minimum water access in China in 2000 and 2017 
 :name: jmp-2019-china-water-access
-<!-- ~ put table here -->
+```
 
 | Year | Population | % Urban | At least basic - National | At least basic - Rural | At least basic - Urban |
 |:----:|:----------:|:-------:|:-------------------------:|:----------------------:|:----------------------:|
 | 2000 | 1 283      | 36      | 80                        | 70                     | 98                     |
 | 2017 | 1 489      | 58      | 93                        | 86                     | 98                     |
-```
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 ```{table} Minimum national improved water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-national
-<!-- ~ put table here -->
+```
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
 | 2000 | -              | 65                     | 77                    | -                       | 51    | 30        |
 | 2017 | -              | 92                     | 90                    | -                       | 76    | 18        |
-
-```
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 ```{table} Minimum rural water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-rural
-<!-- ~ put table here -->
+```
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
 | 2000 | -              | 46                     | 65                    | -                       | 31    | 40        |
 | 2017 | -              | 86                     | 81                    | -                       | 54    | 34        |
-
-```
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 ```{table} Minimum urban water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-urban
-<!-- ~ put table here -->
+```
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |------|----------------|------------------------|-----------------------|-------------------------|-------|-----------|
 | 2000 | 93             | 98                     | 97                    | 93                      | 87    | 12        |
 | 2017 | 92             | 96                     | 96                    | 92                      | 92    | 6         |
-```
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 China's improvement in water infrastructure has gone on for decades, with particular improvement since 1990 with an increases in municipal water supply utilities coverage from 50% in 1990 to 88% in 2005. [@browderSteppingImprovingPerformance2007, xvii] In the same report on infrastructural improvements, the authors repeatedly cite concerns for water quality and quantity issues, citing the problem originating from "outdated water treatment technology and high levels of pollution in the raw water." [@browderSteppingImprovingPerformance2007, p. 17] The report also states that "Water quality monitoring is generally poor and the data is consequently unreliable," however this is outdated. [@browderSteppingImprovingPerformance2007, 17] The report continues that national policies, including drinking water quality, are only implemented in higher-tier cities and are often loosely enforced. [@browderSteppingImprovingPerformance2007, p. 30] The problem was especially evident in second tier, third tier and non-urban towns, as evident below:
 
 ```{table} Urban Water Market Segments 
 :name: wb-2005-urban-water
-<!-- ~ put table here -->
+```
 
 | Market Segment                         | Number of Cities | Total Population (million) | Per Capita GDP (RMB) | Average Wastewater Treatment Coverage (%) | Average Water Supply Coverage (%) |
 |----------------------------------------|------------------|----------------------------|----------------------|-------------------------------------------|-----------------------------------|
@@ -102,11 +122,11 @@ China's improvement in water infrastructure has gone on for decades, with partic
 | 0.5m < Pop < 2m, $1.5k < GDP/cap < $3k | 331              | 201                        | 19,100               | 38                                        | 91                                |
 | Pop <0.5m, GDP/cap < $1.5k             | 310              | 58                         | 7,300                | 21                                        | 86                                |
 | Country Towns                          | 1,636            | 96                         | N/A                  | 11                                        | 82                                |
-```
 [@browderSteppingImprovingPerformance2007, p. 31, tab. 3.1]
 
 The report continues, noting a slight increase in average category V or V+ in Chinese rivers from 1991 - 2002. [@browderSteppingImprovingPerformance2007, p. 33, fig. 3.3] It also notes discrepancies between water supply, water quality and public information for residents to judge the quality themselves (i.e. perception), noting that most urban residents do not drink water directly and is first boiled, which is both a cultural tradition and response to "the uncertain quality of the water from the tap." [@browderSteppingImprovingPerformance2007, p. 61]
 
+China's water quality faces continued scrutiny in the 2010s. In 2011, as a part of the 12th Five Year Plan (2011-2015), China's central government earmarked almost RMB 700b (roughly US$108b) for water improvement, including water treatment and piping systems. [@hongqiaoliuChinaLongMarch2015, section. Intro] Within this timeline, China's 'National Drinking Water Quality Standard’ (GB 5749-2006)' was aimed to be implemented.[^3] [@zhonghuarenmingongheguoguojiaShengHuoYinYongShuiWeiShengBiaoZhun2006] While improvements have been made in access to water, the quality of the water is questionable. China has historically been reluctant to release such data - the mid-2013 water quality assessment report was "classified" as of 2015 [@hongqiaoliuChinaLongMarch2015, p. 4], and the state of china's soil pollution was classified as a "state secret" until 2014. [@hornbyChinaAdmitsWidespread2014] Greenpeace East Asia determined that "Fourteen provinces failed to meet their water quality improvement targets during the 12th Five-Year Plan period (2011-2015)." [@NearlyHalfChinese2017] The analysis noted that national progress was made during the first half of the 12th Five-Year Plan period, but 'flattened off' beginning in 2013.
 
 
 ### Water Quality Perception
@@ -117,8 +137,10 @@ Research into water quality perception has existed since the 1960s, but is very 
 
 One study represented research in an under-studied theme and demographic. Stakeholders' perceptions of important measures of river water quality in one region of Ghana suggest that in developing countries (or regions with lower objective water quality), faecal matter in and around rivers, and presence of plastic waste in rivers was deemed to be the most important measure, followed by the smell, clarity, color, and taste ("organoleptic properties") of the water. [@okumahWhatMattersMost2020, fig. 3]
 
+Multiple factors drive perception of environmental issues. In a related issue, water scarcity, one study examined farmers' ($n = 446$) awareness and perception of water shortages in irrigation. [@tangEstimationAwarenessPerception2013] They found that "age, percentage of time spent on farming and social network are the main determinants of awareness," and that "water price and drought experience are the most important explanatory variables of perception" in the Guanzhong Plain, Shaanxi Province, China. Furthermore, they found that awareness and perception strongly interact, citing literature which found that households who used less water show a higher level of awareness of water conservation. [@gregoryRepeatedBehaviorEnvironmental2003] However, these study water quantity, not water quality, so they are not necessarily analogous.
 
 ### Linking the Two
+
 While many studies have examined the issues discussed earlier, few have looked at the alignment of water quality perceptions and actual water quality. One such study was conducted in Newfoundland, Canada, which "investigated public perceptions of water quality and the perceived health risks and associated with the actual quality of public water supplies in the same communities." [@ochooAssociationPerceptionsPublic2017] While they found "no association with public satisfaction level and actual water quality of the respective communities," they did show demographic disparities in water quality perception.[^2] Furthermore, the authors found that differences in opinion existed between respondents who were supplied by the same water system. However, this is expected due to the problematic nature of public opinion. [@shepardPublicOpinion1909] The authors also mentioned that water quality data is publicly available, but is most likely not communicated in a way which facilitated knowledge transfer.
 
 ###### Notes
@@ -127,10 +149,8 @@ China's political situation does not negate the impact that society can have on 
 
 —
 
-Multiple factors drive environmental perception. One study found that "age, percentage of time spent on farming and social network are the main determinants of awareness" and perception of water scarcity in the Guanzhong Plain, Shaanxi Province, China. [@tangEstimationAwarenessPerception2013]
-
-—
-
 [^1]: The framework of the overall EPI score is comprehensive and weighs 32 indicators. However, the weighting of some indicators changed between 2018 and 2020, making comparison difficult. The visualization of each years breakdown can be seen in 2018 [@wendling2018EnvironmentalPerformance2018, p. 6, fig. 2.1] and 2020 [@wendlingz.a.2020EnvironmentalPerformance2020, p. XI, fig. ES-2].
 
 [^2]:  The authors concluded that "Older, higher educated and high-income group respondents were more satisfied with water quality than the younger, less educated and low-income group respondents." However, they also stated that "We had little scope to explore the possible explanations, and hence further studies are required to verify the age, gender educational status and income differential about the satisfaction of public service like water supply."
+
+[^3]: This standard was first introduced in 2007 in accordance to international water quality standards. However, since the water quality across China then was far below the new standard, it only went into full effect in July 2012.

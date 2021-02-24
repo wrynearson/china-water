@@ -1,5 +1,6 @@
 # in _config.yml
-title: "Will's Thesis"
+title: "Water Quality, Perception and Knowledge in China"
+author: "Will Rynearson"
 # logo: images/logo.png
 execute:
   execute_notebooks: "off"
