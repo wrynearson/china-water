@@ -36,10 +36,10 @@ The primary question regarding water quality perception was question `l14d` ask 
 
 The primary question regarding water quality knowledge was question `l2409` tests respondents' knowledge of the water quality scale used by China. The question requires respondents to state if a statement about water quality is correct, incorrect, or if they don't know. [^4] This question is important since it tests respondents' knowledge of the water quality scoring system used in China. However, this question does not directly test users knowledge of the underlying environmental and pollutant issues which are the basis of this water quality scale, nor does it test their knowledge or education about environmental issues or protection directly.
 
-Many other interesting questions are present in the data set. For this thesis, several others were selected, and the values were analyzed. This discussion is present later in this thesis.
+Many other interesting questions are present in the data set. For this thesis, several others were selected, and the values were analyzed. This discussion is presented later in this thesis.
 
 ### Blue City Water Quality Index Ranking (WQIR)
-The second data set was compiled by the author from a report from the Institute of Public & Environmental Affairs, a non-profit environmental research organization based in Beijing. [@IPE] The report, the *Blue City Water Quality Index 2019*, compiles various surface, drinking, and ground water quality data published by various government agencies and assigns a score (their proprietary *Blue City Water Quality Index Score (BCWQI)*) and publishes the results at a sub-provincial level (second administrative level, or "admin 2"). [@jun2018BlueCity] The methodology and conversion to the government's [[water quality score]] is provided. This report was chosen as the basis for this data set since it was the most comprehensive data the author could find with the closest publication date to the CGSS. The difference in time of the two data sets is discussed in the #limitations section. In the appendix of this report, the BCWQI for each second administrative level, including the city name, province, and ranking, is included. This data, in a table in the PDF report, was exported into a comma separated value (.csv) file for later analysis.
+The second data set was compiled by the author from a report from the Institute of Public & Environmental Affairs, a non-profit environmental research organization based in Beijing. [@IPE] The report, the *Blue City Water Quality Index 2019*, compiles various surface, drinking, and ground water quality data published by various government agencies and assigns a score (their proprietary *Blue City Water Quality Index Score (BCWQI)*) and publishes the results at a sub-provincial level (second administrative level, or "admin 2"). [@jun2018BlueCity] The methodology and conversion to the government's water quality score is provided. This report was chosen as the basis for this data set since it was the most comprehensive data the author could find with the closest publication date to the CGSS. The difference in time of the two data sets is discussed in the #limitations section. In the appendix of this report, the BCWQI for each second administrative level, including the city name, province, and ranking, is included. This data, in a table in the PDF report, was exported into a comma separated value (.csv) file for later analysis.
 
 ## Analysis
 Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook [@kluyverJupyterNotebooksPublishing], a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on GitHub, to allow for accessibility. [@rynearsonWrynearsonChinawater2020] This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.
@@ -66,6 +66,7 @@ The thesis proposal and hypothesis were created before the author reviewed the d
 | a15  | Subjective personal health     |                    | Health could be linked to perception and knowledge?    |           |
 | a62  | Family total income            |                    |                                                        |           |
 | a91  | Rural / agricultural household |                    |                                                        | X         |
+
 As evident, not all of the variables were utilized, for several reasons. **Reasons**
 
 #### Environmental Questions
@@ -96,6 +97,7 @@ The CGSS includes many demographic data on each respondent. Of which, the follow
 | l16c     | In terms of solving environmental problems in your area, how do you think the local government has done in the past five years?" |                    |                |            |                                                                             |           |
 | l20e     | Do you often save water or reuse water specifically for environmental protection?                                                |                    |                |            |                                                                             |           |
 | l2409    | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)                |                    |                |            |                                                                             | X         |
+
 As evident, these questions include questions related to the environment in general, perceptions of the local, national and global environment, water, and knowledge of water quality issues.
 
 Many more survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations. Future analysis could be done with many of these questions, but were not within the scope of this analysis.
@@ -129,10 +131,22 @@ Once invalid values were removed, the two data sets were merged on their shared 
 2. **On Individuals**: The mean water quality per province was added to the individual response values. This makes the analysis slightly more complicated, but allows for comparison across the demographic data mentioned above. However, it should be noted that it runs the risk of providing a false sense of improved precision, and the mean water quality of the province may not accurately reflect the local situation of the individual.
 
 
-
-## Interviews
-
 ## Limitations
+
+Several limitations exist based on the scope of both data sets, as well as limitation with some of the assumptions made by the author.
+
+First, as discussed previously, there is misalignment between the CGSS and the WQIR data sets on two dimensions. The first is geographic. Since water quality data offered more geographic precision than the social survey responses (i.e. smaller regions), the effectiveness of comparison is reduced. This is in addition to the fact that water quality scores were originally presented as mean values per prefectural regions. This is different than the CGSS responses – while they were recorded at a more local level, geographic alignment information is only available at the provincial level. Further, the comparison between individuals and mean values per prefectural region results in the possibility that an two individuals in the same prefectural region experience different water quality, which is not possible to account for in the current methodology.
+
+The second misaligned dimension is temporal, as the CGSS responses and water quality data differ by seven years. This is not ideal, since multiple indicators could have changed between that time. One is water quality, which has changed due to factors including the national government's initiatives, but this change has not been uniform across the country. Another indicator which could have changed is knowledge about water quality issues. Third, perception of water quality could have changed as well.
+
+Further limitations come from the perceived findings based upon the CGSS question set. The two main questions which were analyzed, `l14d` and `l2409`, are not perfectly analogous to the conclusions the author made. `l14d` refers more to rivers and lakes in China, which are not necessarily the drinking water sources which are used by the respondent. Further, the severity of pollution being harmful to the environment is not necessarily the same as the respondents' perception. `l2409` directly tests respondents' knowledge of water quality scales used by China, but this question, and `l14d`, do not necessarily test for knowledge, and perception, of the local water quality - the question refers to China in general.
+
+—
+# Notes
+- Those who are more aware about environmental issues may be more knowledgeable about water issues (`l7a`).
+- Mention that water pollution is the 3rd highest category counted for `l7a` and 2nd for `l7b`
+    - To ask perception in a different way, I could use respondents who say water is \#1\ from `l7a` `l7b` instead of `l14d`and if the trends matching education, perception and quality are the same.
+        - Those who think `l14d` is harmful probably think that water pollution is \#1\ for `l7a` and `l7b`
 
 —
 

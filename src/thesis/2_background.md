@@ -10,11 +10,15 @@ At the time, in the 1970s, most scholars agreed with this model, concluding that
 
 Understanding the background of environmental policy, knowledge, education and perception is important in understanding how they interact in the concept of water quality in China and abroad.
 
+Several definitions are adapted for this thesis, and for the following sections. These are all defined by [@sudarmadiSurveyPerceptionKnowledge2001], in a study which is discussed later. **Environmental awareness** is "the attention and concern (mindful and heedful) of individuals to environment problems." **Environmental perception** is "the recognition of \[an environmental issue]\ as a problem, based on memory and prior experience." These two interact, as perception is "a basic determinant of awareness in that it triggers attention and concern." [@endsleyTheorySituationAwareness1995] However, "perception only leads to awareness when it exceeds frequency and intensity thresholds. [@meriklePerceptionAwarenessPerspectives2001] In the context of environmental issues, perception refers to the state of the environment (or a specific environmental feature) as being problematic, while awareness refers to attention to the issue because of the impacts of a change in usability of the environment. [@tangEstimationAwarenessPerception2013, sec. 2.1.2]
+
 ### Environmental Policy
 
 Environmental conservation has a long and global history, at times being documented as early as the seventh century, with examples afterwards often being local or anecdotal. [@StCuthbertFather2013] In the broader context of environmental appreciation or dependency, the history likely goes back to the dawn of humanity. This is evident in written and modern-day history as some indigenous cultures do not separate the environment and the society. [@armieroHistoryEnvironmentalismLocal2014, p. 2-3]
 
 Much of the documented history of modern environmentalism and environmental policy comes from the United States. Preservation was one of the first policy instruments, most notably with the Yellowstone National Park Act of 1972 [@RulesRegulationsYellowstone1881] Water pollution was one of the first environmental issues which received federal legislation with the The Federal Water Pollution Control Act of 1948 [@ModernEnvironmentalMovement], which later became known as the Clean Water Act. [@usepaHistoryCleanWater2013]
+
+Another related field of study is Environmental history, which "studies the mutual relationships of humans and nature through time." [@hughesWhatEnvironmentalHistory2016, p. 1] This field of study, a subset of the field of history, aims to link and remind historical significance of the link between humans and nature. Environmental historians aim to "see human events within the context where they happen, and that is the entire natural environment." [@hughesWhatEnvironmentalHistory2016, p. 2] This has relevance to policy makers worldwide and in China.
 
 Despite much of the literature covering history in the United States, environmental protection can be seen as a global phenomenon in many parts of the world and throughout the 20th and 21st centuries, albeit with differing impact, scope and timeliness. The link to its global nature is highlighted in a study which finds that international organizations and communities have central importance in the diffusion of one particular type of environmental policy, the Environmental Impact Assessment, and its particular importance for less-developed countries. [@hironakaGlobalizationEnvironmentalProtection2002]
 
@@ -50,9 +54,17 @@ While studies into societies' perception of the environment often focuses on pos
 
 One other factor in environmental perception was the "magnitude, diversity and rapidity of environmental change." [@zubeEnvironmentalPerception1999, section. Major environmental changes] Studies in this domain indicate that "physical proximity to the change, magnitude and kind of change, length of time in current residence, and personal value orientations are all related to the perception of and response to the phenomenon." [@zubeEnvironmentalPerception1999, section. Major environmental changes] 
 
+### Linking
+
+Studies have looked at some of the variables mentioned previously in relation to other demographic data. One study in 1998 "investigated differences in perception, knowledge, awareness and attitude with regard to environmental problems between educated and \[non-educated]\ groups." [@sudarmadiSurveyPerceptionKnowledge2001] They found that "subjects in the educated group had better perception, more detailed knowledge, were more aware, and had better attitudes in regard to regional and global environmental problems."
+
 ### In China
 
-Despite its international perception (often correct) of poor environmental protection, China does have a long history of environmental policy, with "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university students were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
+Despite its international perception (often correct) of poor environmental protection, China does have history of concern with environmental degradation. In terms of history, the consensus in China amongst researchers is that while the field of environmental history originated in the United States in the early 1970s, the field came to China in the 1990s, and is now studied by researchers of historical geography, social, economic and world history. [@hanHistoricalGeographyEnvironmental2016] While a new and evolving field, the trajectory of study in this area comes from pollution issues in China, which follows trends from the emergence of this study in other countries. [@hanHistoricalGeographyEnvironmental2016, p. 7]
+
+In terms of policy, China makes "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source 
+
+There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university students were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
 
 ## Water Quality and Perception
 
@@ -78,6 +90,7 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 |:----:|:----------:|:-------:|:-------------------------:|:----------------------:|:----------------------:|
 | 2000 | 1 283      | 36      | 80                        | 70                     | 98                     |
 | 2017 | 1 489      | 58      | 93                        | 86                     | 98                     |
+
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 ```{table} Minimum national improved water details in China in 2000 and 2017 
@@ -88,6 +101,7 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
 | 2000 | -              | 65                     | 77                    | -                       | 51    | 30        |
 | 2017 | -              | 92                     | 90                    | -                       | 76    | 18        |
+
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 ```{table} Minimum rural water details in China in 2000 and 2017 
@@ -98,6 +112,7 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
 | 2000 | -              | 46                     | 65                    | -                       | 31    | 40        |
 | 2017 | -              | 86                     | 81                    | -                       | 54    | 34        |
+
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 ```{table} Minimum urban water details in China in 2000 and 2017 
@@ -108,6 +123,7 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 |------|----------------|------------------------|-----------------------|-------------------------|-------|-----------|
 | 2000 | 93             | 98                     | 97                    | 93                      | 87    | 12        |
 | 2017 | 92             | 96                     | 96                    | 92                      | 92    | 6         |
+
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
 China's improvement in water infrastructure has gone on for decades, with particular improvement since 1990 with an increases in municipal water supply utilities coverage from 50% in 1990 to 88% in 2005. [@browderSteppingImprovingPerformance2007, xvii] In the same report on infrastructural improvements, the authors repeatedly cite concerns for water quality and quantity issues, citing the problem originating from "outdated water treatment technology and high levels of pollution in the raw water." [@browderSteppingImprovingPerformance2007, p. 17] The report also states that "Water quality monitoring is generally poor and the data is consequently unreliable," however this is outdated. [@browderSteppingImprovingPerformance2007, 17] The report continues that national policies, including drinking water quality, are only implemented in higher-tier cities and are often loosely enforced. [@browderSteppingImprovingPerformance2007, p. 30] The problem was especially evident in second tier, third tier and non-urban towns, as evident below:
@@ -122,6 +138,7 @@ China's improvement in water infrastructure has gone on for decades, with partic
 | 0.5m < Pop < 2m, $1.5k < GDP/cap < $3k | 331              | 201                        | 19,100               | 38                                        | 91                                |
 | Pop <0.5m, GDP/cap < $1.5k             | 310              | 58                         | 7,300                | 21                                        | 86                                |
 | Country Towns                          | 1,636            | 96                         | N/A                  | 11                                        | 82                                |
+
 [@browderSteppingImprovingPerformance2007, p. 31, tab. 3.1]
 
 The report continues, noting a slight increase in average category V or V+ in Chinese rivers from 1991 - 2002. [@browderSteppingImprovingPerformance2007, p. 33, fig. 3.3] It also notes discrepancies between water supply, water quality and public information for residents to judge the quality themselves (i.e. perception), noting that most urban residents do not drink water directly and is first boiled, which is both a cultural tradition and response to "the uncertain quality of the water from the tap." [@browderSteppingImprovingPerformance2007, p. 61]
