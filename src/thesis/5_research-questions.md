@@ -1,7 +1,5 @@
 # Research Questions 
 
-From [thesis_analysis.ipynb](https://github.com/wrynearson/china-water/blob/master/src/thesis/thesis_analysis.ipynb)
-
 Several questions are examined:
 
 - R1. How do peoples perception of water quality (importance, status, severity, their knowledge, etc) align with actual water quality?

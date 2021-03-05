@@ -4,6 +4,9 @@ CJKmainfont: Noto Sans CJK HK, Light
 
 #  Methodology
 
+## Scope
+The scope of this thesis is to provide a multi-variable descriptive analysis of the relations between water quality, education, perception, knowledge. Rural status is also examined in one research question, and is used as a control variable in others. Other demographic data and question responses are used to aid the analysis and discussion, but are assumed to be outside of the scope unless specifically mentioned. 
+
 ## Data Sources
 The main analysis of this thesis center around two data sets, described below.
 
@@ -47,6 +50,7 @@ Analysis for this thesis was conducted using the general-purpose computer progra
 The two main data sets were loaded into the Jupyter notebook and reviewed for initial analysis, beginning with the CGSS2010. Then, after reviewing the data, it was cleaned and processed in several ways:
 
 ### Choosing Appropriate Questions
+
 #### Demographic Questions
 The thesis proposal and hypothesis were created before the author reviewed the data set, and before the author was aware of the environmental module of the CGSS. While many variables were deemed interesting, several variables were initially selected for broader analysis: [^1]
 
@@ -62,11 +66,7 @@ The thesis proposal and hypothesis were created before the author reviewed the d
 | a2   | Gender                         |                    |                                                        | X         |
 | a3a  | Birth year                     |                    | Age of respondant                                      | X         |
 | a7a  | Highest level of education     |                    | Education could be linked to perception and knowledge? | X         |
-| a8a  | Personal total income          |                    | Income could be linked to perception and knowledge?    | X         |
-| a15  | Subjective personal health     |                    | Health could be linked to perception and knowledge?    |           |
-| a62  | Family total income            |                    |                                                        |           |
 | a91  | Rural / agricultural household |                    |                                                        | X         |
-
 As evident, not all of the variables were utilized, for several reasons. **Reasons**
 
 #### Environmental Questions
@@ -102,6 +102,20 @@ As evident, these questions include questions related to the environment in gene
 
 Many more survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations. Future analysis could be done with many of these questions, but were not within the scope of this analysis.
 
+### Important Questions
+
+Within the previously-identified relevant variables, the following have been identified as the most relevant for the scope of this study.
+
+| Code  | English                                                                                                                                           | Chinese                                                          | Value Range (used)                           |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------|
+| s41   | Province                                                                                                                                          | 省                                                                | Range, *see data analysis*                   |
+| a2    | Gender                                                                                                                                            | 性别                                                               | 1 = male, 2 = female                         |
+| a3a   | Birth year                                                                                                                                        | 您的出生日期是什么                                                        | Birth year                                   |
+| a7a   | Highest level of obtained education                                                                                                               | 您目前的最高教育程度是                                                      | 1 = none, 13 = master's and above            |
+| a91   | Rural / agricultural household                                                                                                                    | 请问目前您或者您配偶是否为农业户口(或者户口所在地为农村),且在农村(包括家乡和其它地方)有承包的旱地、水田、山林、水面等土地? | 1 = yes, 2 = no                              |
+| l14d  | "How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?" (*Used to measure perception*)               | 您认为中国的江、河、湖泊的污染对环境的危害程度是?                                        | 1 = very important, 5 = not important at all |
+| l2409 | "In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)" (*Used to measure knowledge*) | 国内水体污染报告中,V(5)类水质要比I(1)类水质好                                      | 1 = correct, **2 = incorrect**               |
+
 ### Geographic Alignment
 The two data sets are of differing geographic precision. The CGSS2010 (and all CGSSII data sets) include data on the province of where the respondent resided. Based on the structure of the data, it is assumed that more precise geographic information is included, however the CGSS publishing team chooses only to release the provincial information.
 
@@ -120,16 +134,20 @@ Then, the WQIR2018 data was loaded. An initial plot was created to see the distr
 :name: wqir2018-vis
 WQIR2018 distribution per province.
 ```
+![wqir2018.svg](../wqir2018.svg)
 
-From the previous steps, a subset of questions were created. The subset `cgss_strict`, which include only variables s41, l14d and l2409 were used for further initial analysis for simplicity.
+From the previous steps, a subset of questions were created. Two main questions and one demographic variable were identified for further analysis: question `l14d` was used as the the main question to quantify perception[^2]; `l2409` was used as the main question to quantify water quality knowledge[^4]; and `a7a` was used to quantify education.[^5] These questions are discussed more in depth in the following limitations section. Other demographic data was used to control for results of the analysis. Many other relevant and interesting questions could be investigated from the data, but they are outside of the scope of this thesis.
 
-Within these subsets, some values were revealed to be outside of the acceptable range (negative numbers). Since the origin or reason behind these values could not be determined, they were discarded. This lead to further discrepancies in the number of values depending on the province.
+Next, the values of these were examined. The author spent significant effort on this stage to better understand the state of the data set, and to understand the implications of choices in cleaning this data. Several revealed to be outside of the acceptable range, such as being recorded as negative numbers not present in the valid response list. Since the origin or reason behind these values could not be determined, they were discarded. This lead to further discrepancies in the number of values per category, including per province, education, perception and knowledge. This is discussed further in the analysis section.
 
 Once invalid values were removed, the two data sets were merged on their shared province values. This was done in two separate ways, which allowed for different analysis.
 
 1. **On Provinces**:  The mean water quality per province was added to the mean value per province of each analyzed variable. This allows for simpler data analysis, but loses some individual demographic data (gender, income, age, education, etc.).
 2. **On Individuals**: The mean water quality per province was added to the individual response values. This makes the analysis slightly more complicated, but allows for comparison across the demographic data mentioned above. However, it should be noted that it runs the risk of providing a false sense of improved precision, and the mean water quality of the province may not accurately reflect the local situation of the individual.
 
+While the author spent substantial time on analysis using the first method, the results of this study are mostly presented using the second method as they are more robust. The author conducted a large correlation test examining the correlation between every combination of questions and demographic data. While this test provided interesting results and provided inspiration for further investigation, most of the findings were outside of the scope of this thesis.
+
+Once the data was analyzed, the author aligned the research questions and hypothesis with the data set variables. Each research question, and each tested hypothesis, was examined for correlations between two relevant variables, and were compared against one or more variables as a control. The analysis and findings are mentioned in the following section.
 
 ## Limitations
 
@@ -154,3 +172,4 @@ Further limitations come from the perceived findings based upon the CGSS questio
 [^2]: "How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?" which has been translated from the original Chinese question "您认为中国的江、河、湖泊的污染对环境的危害程度是?"
 [^3]: Extremely harmful to the environment – 1; Very harmful – 2; Some hazards – 3; Not very harmful – 4; There is no harm at all – 5; Cannot select – 8. This was translated from 对环境极其有害 – 1; 非常有害 – 2; 有些危害 – 3; 不是很有害 – 4; 完全没有危害 – 5; 无法选择 – 8
 [^4]: The question is in a superset of knowledge about environmental knowledge, which states: "We also want to know your mastery of environmental protection knowledge. Please listen carefully to each of the following statements, and according to your solution to determine whether they are correct." The question is: "In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)," which is false. This question was translated from: "国内水体污染报告中,V(5)类水质要比I(1)类水质好."
+[^5]: "What is your current highest education level (including those currently studying)." The values range from 1 - no education to 13 - postgraduate and above, in progressive order. This question was translated from "您目前的最高教育程度是(包括目前在读的)"
