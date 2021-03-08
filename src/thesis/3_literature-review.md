@@ -1,7 +1,4 @@
 # Literature Review
-```markdown
-Taken from the thesis proposal
-```
 
 This research proposal looked at many publications covering a broad range of related topics, some
 of which are outlined below:

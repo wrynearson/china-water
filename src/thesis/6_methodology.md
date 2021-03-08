@@ -4,9 +4,6 @@ CJKmainfont: Noto Sans CJK HK, Light
 
 #  Methodology
 
-## Scope
-The scope of this thesis is to provide a multi-variable descriptive analysis of the relations between water quality, education, perception, knowledge. Rural status is also examined in one research question, and is used as a control variable in others. Other demographic data and question responses are used to aid the analysis and discussion, but are assumed to be outside of the scope unless specifically mentioned. 
-
 ## Data Sources
 The main analysis of this thesis center around two data sets, described below.
 
@@ -44,6 +41,16 @@ Many other interesting questions are present in the data set. For this thesis, s
 ### Blue City Water Quality Index Ranking (WQIR)
 The second data set was compiled by the author from a report from the Institute of Public & Environmental Affairs, a non-profit environmental research organization based in Beijing. [@IPE] The report, the *Blue City Water Quality Index 2019*, compiles various surface, drinking, and ground water quality data published by various government agencies and assigns a score (their proprietary *Blue City Water Quality Index Score (BCWQI)*) and publishes the results at a sub-provincial level (second administrative level, or "admin 2"). [@jun2018BlueCity] The methodology and conversion to the government's water quality score is provided. This report was chosen as the basis for this data set since it was the most comprehensive data the author could find with the closest publication date to the CGSS. The difference in time of the two data sets is discussed in the #limitations section. In the appendix of this report, the BCWQI for each second administrative level, including the city name, province, and ranking, is included. This data, in a table in the PDF report, was exported into a comma separated value (.csv) file for later analysis.
 
+It should also be noted that the water quality score used in the WQIR data set is derived from the official Chinese water quality scoring system. The following table translates between the two scoring systems: [@jun2018BlueCity, p.5]
+
+| IPE Score     | IPE Level (EN)          | IPE Level (ZH) | EQ  Water |
+|:-------------:|:-----------------------:|:--------------:|:---------:|
+| 0.00 - 4.79   | Excellent               | 优             | II     |
+| 4.79 - 10.28  | Good                    | 良             |III    |
+| 10.28 - 16.85 | Moderate                | 一般           | IV     |
+| 16.85 - 24.74 | Relatively Poor         | 较差           | V       |
+| 24.70 - 50.00 | Poor                    | 差             | V      |
+
 ## Analysis
 Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook [@kluyverJupyterNotebooksPublishing], a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on GitHub, to allow for accessibility. [@rynearsonWrynearsonChinawater2020] This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.
 
@@ -60,14 +67,16 @@ The thesis proposal and hypothesis were created before the author reviewed the d
 
 ```
 
+
 | Code | Variable (English)             | Variable (Chinese) | Importance                                             | Analyzed? |
 |------|--------------------------------|--------------------|--------------------------------------------------------|-----------|
 | s41  | Province                       |                    | Location of the individual                             | X         |
-| a2   | Gender                         |                    |                                                        | X         |
+| a2   | Gender                         |                    | Possible control                                       | X         |
 | a3a  | Birth year                     |                    | Age of respondant                                      | X         |
 | a7a  | Highest level of education     |                    | Education could be linked to perception and knowledge? | X         |
-| a91  | Rural / agricultural household |                    |                                                        | X         |
-As evident, not all of the variables were utilized, for several reasons. **Reasons**
+| a91  | Rural / agricultural household |                    | Possible control                                       | X         |
+
+Not all of the variables were utilized, such as income and subjective personal health, since they were outside of the scope of this thesis. 
 
 #### Environmental Questions
 The CGSS includes many demographic data on each respondent. Of which, the following were deemed important for one or more reasons: [^1]
@@ -80,10 +89,10 @@ The CGSS includes many demographic data on each respondent. Of which, the follow
 
 | Code     | Question (English)                                                                                                               | Question (Chinese) | Response Types | Importance | Drawback                                                                    | Analyzed? |
 |----------|----------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|-----------------------------------------------------------------------------|-----------|
-| l1a      | In your opinion, in terms of the current situation in our country, which of the following issues is the most important?          |                    |                |            |                                                                             |           |
-| l1b      | *like l1a, but 2nd most important*                                                                                               |                    |                |            |                                                                             |           |
-| l6a      | In your opinion, in terms of the current situation in our country, which of the following issues is the most important?          |                    |                |            |                                                                             |           |
-| l6b      | How serious are env. problems facing China?                                                                                      |                    |                |            |                                                                             |           |
+| l1a      | In your opinion, in terms of the current situation in our country, which of the following issues is the most important?          |                    |                |            |                                                                             | Yes       |
+| l1b      | *like l1a, but 2nd most important*                                                                                               |                    |                |            |                                                                             | Yes       |
+| l6a      | In your opinion, in terms of the current situation in our country, which of the following issues is the most important?          |                    |                |            |                                                                             | No        |
+| l6b      | How serious are env. problems facing China?                                                                                      |                    |                |            |                                                                             | No        |
 | l7a      | Which is most important env. issue in China?                                                                                     |                    |                |            | Response types are categorical, so differences in severity is not captured. |           |
 | l7b      | Which has greatest impact on you/family?                                                                                         |                    |                |            |                                                                             |           |
 | l8a      | Knowledge of causes of environmental problems from ?l7                                                                           |                    |                |            |                                                                             |           |
@@ -147,7 +156,7 @@ Once invalid values were removed, the two data sets were merged on their shared 
 
 While the author spent substantial time on analysis using the first method, the results of this study are mostly presented using the second method as they are more robust. The author conducted a large correlation test examining the correlation between every combination of questions and demographic data. While this test provided interesting results and provided inspiration for further investigation, most of the findings were outside of the scope of this thesis.
 
-Once the data was analyzed, the author aligned the research questions and hypothesis with the data set variables. Each research question, and each tested hypothesis, was examined for correlations between two relevant variables, and were compared against one or more variables as a control. The analysis and findings are mentioned in the following section.
+Once the data was analyzed, the author aligned the research questions and hypothesis with the data set variables. Each research question, and each tested hypothesis, was examined for correlations between two relevant variables, and were compared against one or more variables as a control. The analysis and findings are mentioned in the analysis section.
 
 ## Limitations
 
@@ -162,7 +171,7 @@ Further limitations come from the perceived findings based upon the CGSS questio
 —
 # Notes
 - Those who are more aware about environmental issues may be more knowledgeable about water issues (`l7a`).
-- Mention that water pollution is the 3rd highest category counted for `l7a` and 2nd for `l7b`
+- Mention that water pollution is the 2nd highest category counted for `l7a` and 3rd for `l7b`
     - To ask perception in a different way, I could use respondents who say water is \#1\ from `l7a` `l7b` instead of `l14d`and if the trends matching education, perception and quality are the same.
         - Those who think `l14d` is harmful probably think that water pollution is \#1\ for `l7a` and `l7b`
 

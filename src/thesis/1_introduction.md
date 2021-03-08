@@ -1,10 +1,6 @@
 # Introduction
 
-```markdown
-Copied from the thesis proposal
-```
-
-Access to freshwater is something many people take for granted. Simply turning on the tap or buying a bottle of water makes it easy to  underappreciated the immense value of clean freshwater. Water is essential for almost all aspects of modern civilization and is connected to all three pillars of sustainable development – environment, society, and the economy.
+Access to freshwater is something many people take for granted. Simply turning on the tap or buying a bottle of water makes it easy to underappreciated the immense value of clean freshwater. Water is essential for almost all aspects of modern civilization and is connected to all three pillars of sustainable development – environment, society, and the economy.
 
 While water is a permanent resource, water that is usable and consumable by humans is not. Globally, only 2.5 percent of the Earth's  water is non-saline, with most of the remaining freshwater being inaccessibly located in glaciers, ice caps or permafrost. [@shiklomanovWorldFreshwaterResources1993] 
 
@@ -14,11 +10,9 @@ The implications of water scarcity cannot be understated. Global water crises st
 
 One direct impact of water scarcity can come in the form of food production. Globally, 70 percent of global renewable water resources withdrawn for human use is used for agriculture. [@f.a.o.FoodAgricultureOrganization2011] Affected by population growth and the increased consumption of more water-intensive food due partially to economic development, it is estimated that food  production must increase by 70 percent to meet demand. [@f.a.o.FoodAgricultureOrganization2011] Another impact is health. Health can be affected by the quantity and quality of water. The impacts of dehydration, water-borne diseases, and consumption of polluted water are well documented. A third impact is economic. By 2050, some regions could see a GDP growth rate decline of up to six percent due to “losses in agriculture, health, income, and property” caused by water scarcity. [@theworldbankHighDryClimate2016]
 
-## Chinese Shortage
+## In China
 
 Water issues in China are especially prevalent. On average, China’s renewable freshwater resources were 2,062 cubic meters per capita in 2014, a decrease from 4,200 cubic meters in 1962 and far less than the half of the world average in those respective years. [@f.a.o.AQUASTATMainDatabase2016] China’s renewable freshwater resources are also highly location dependent. For example, only 19.7 percent of total internal renewable surface water and 30 percent of groundwater resources reside in northern China. [@f.a.o.AQUASTATCountryProfile2011] Northern China’s renewable freshwater access is only 757 square meters per capita per year, far below the water scarcity limit of 1,000 square  meters per capita per year. [@zhangEnvironmentalHealthChina2010]
-
-## Chinese Pollution
 
 In addition to the already strained water resource problem, poor water quality caused by pollution is amplifying the problem and is causing further economic, societal and environmental problems. Roughly 80 percent of groundwater resources were found to be unsafe for human contact. [@jing80CentGroundwater2016] Economic costs attributed to poor water quality in 2003 were over 1.16% of GDP. [@wuWaterPollutionHuman1999]
 
@@ -27,3 +21,7 @@ Historically, and especially since the Opening Up and Reform era post-1978, the 
 In addition to having the political will and prowess to pursue economic development, Chinese leadership has also at times shown a campaign-style action to mitigate environmental pollution. One such example was the substantial air quality improvements in Beijing during the 2008 summer Olympics. [@zhangEnvironmentalHealthChina2010] However, similar outcomes regarding improved water quality have not been as positive. Analysis of water quality trends has been hampered partially due to data limitations, including public accessibility, the scope of measurement, and technological limitations including long latency periods. [@zhangEnvironmentalHealthChina2010]
 
 Recently, further policy has been implemented to address water scarcity and pollution issues. In 2015, the State Council released an ambitious attempt to do this, colloquially known as the “Water Ten Plan,” which sets water quality-related goals to be met by 2020. [@guowuyuan.GuoWuYuanGuanYuYinFaShuiWuRanFangZhiXingDongJiHuaDeTongZhi2015] However, results so far have been mixed, with nearly half of all provinces missing their water quality targets in 2017. [@greenpeaceShiErWu2017] One factor which may help this progress, and one of the goals outlined in the Water Ten plan, is the improvement of water quality sensing technology and data management.
+
+—
+
+Water pollution is a well-document issue both in China and abroad. Improvements in both water quality and availability of water quality data in recent years. However, less attention has been paid to Chinese citizens' knowledge about and perception of water quality. It is easily assumed that perception of water quality would be based on the real water quality – i.e., if water quality is good, then people perceive it to be good, while if water quality is bad, then people perceive it to be bad. However, this may not be the case. Divergence between perception and reality, or delays in reality driving perception could be important for policy makers in whether their resource-intensive campaign-style water quality reforms are the most effective policy tool, in regards to finance, behavior change or political support. From a political and social science perspective, perception of water quality could be more important in decision making than actual water quality. [@coughlinPerceptionValuationWater1976, p. 206] These policy implication could easily be multifaceted, and could reveal further discrepancies between social groups and geographic regions, which could lead to decreased political effectiveness. [@larsonDivergentPerspectivesWater2009]
