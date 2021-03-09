@@ -145,6 +145,7 @@ WQIR2018 distribution per province.
 ```
 ![wqir2018.svg](../wqir2018.svg)
 
+
 From the previous steps, a subset of questions were created. Two main questions and one demographic variable were identified for further analysis: question `l14d` was used as the the main question to quantify perception[^2]; `l2409` was used as the main question to quantify water quality knowledge[^4]; and `a7a` was used to quantify education.[^5] These questions are discussed more in depth in the following limitations section. Other demographic data was used to control for results of the analysis. Many other relevant and interesting questions could be investigated from the data, but they are outside of the scope of this thesis.
 
 Next, the values of these were examined. The author spent significant effort on this stage to better understand the state of the data set, and to understand the implications of choices in cleaning this data. Several revealed to be outside of the acceptable range, such as being recorded as negative numbers not present in the valid response list. Since the origin or reason behind these values could not be determined, they were discarded. This lead to further discrepancies in the number of values per category, including per province, education, perception and knowledge. This is discussed further in the analysis section.

@@ -1,3 +1,11 @@
+---
+title: Water Quality, Perception and Knowledge in China
+author: William Rynearson
+abstract: write this abstract later...
+keywords: "water quality, water pollution, environmental knowledge, environmental perception "
+date: \today
+---
+
 # Introduction
 
 Access to freshwater is something many people take for granted. Simply turning on the tap or buying a bottle of water makes it easy to underappreciated the immense value of clean freshwater. Water is essential for almost all aspects of modern civilization and is connected to all three pillars of sustainable development – environment, society, and the economy.
