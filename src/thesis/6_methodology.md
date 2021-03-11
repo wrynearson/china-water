@@ -132,6 +132,19 @@ This is different than the WQIR2018 data, which is published at the sub-provinci
 
 **Insert Admin1 and Admin 2 maps here.**
 
+## Application
+
+### Structure of the Analysis
+
+As previously discussed, the relationships between water quality, water quality perception, and water quality are investigated. The following table summarizes how the theory and data are linked:
+
+| Term                     | Definition                                                                    | Data                | Range      | Measurement and Direction                                                                                                                                                |
+|:------------------------:|:-----------------------------------------------------------------------------:|:-------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Water quality            | The measure of the condition of water relative to standards and requirements. | `score` (from WQIR) | 6.9 - 23.6 | A *decrease* in water quality is measured by an *increase* in the value of `score`.                                                                                      |
+| Water quality perception | The recognition of water quality as a problem.                                | `l14d` (from CGSS)  | 1 - 5      | An *increase* in water quality perception is measured by a *decrease* in the value of `l14d`                                                                             |
+| Water quality knowledge  | The acquisition of a baseline amount of knowledge about water quality.        | `l2409` (from CGSS) | 1, 2, 8    | If `l2409` is 1, the respondent *is not* knowledgeable. If `l2409` is 2, the respondent *is* knowledgeable. If `l2409` is 8, the respondent *is somewhat* knowledgeable. |
+
+
 ### Procedure
 Once the data sets were loaded and reviewed for importance and quality, initial data analysis was conducted. Due to the author's limited experience with Python, multiple versions of the analysis were conducted in order to gain working knowledge of Python and of the data set.
 

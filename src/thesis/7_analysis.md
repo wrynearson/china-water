@@ -62,7 +62,9 @@ There is a statistically significant ($p=4.98 \text{e-}9$) correlation with a la
 
 ![h1_fig2.svg](../outputs/h1_fig2.svg)
 
-### Hypothesis 2 - An increase knowledge of water quality issues (`l2409`) relates to an increased perception of severity (`l14d`)
+### Hypothesis 2 - There is a relationship between water quality and water quality knowledge.
+
+### Hypothesis 3 - An increase knowledge of water quality issues (`l2409`) relates to an increased perception of severity (`l14d`)
 
 There appears to be a relationship between water quality knowledge and perception from the smaller sample size ($n=861$). Respondents who replied incorrectly (when $\text{l2409}=1$) ($n=282$) have a mean perception response $\text{l14d}=2.383$, while respondents who replied correctly (when $\text{l2409}=2$) ($n=579$) have a mean perception response $\text{l14d}=2.197$.
 
@@ -72,7 +74,7 @@ With increased water quality knowledge ($\text{l2409}=2$), environmental percept
 
 ![h2_fig.svg](../outputs/h2_fig1.svg)
 
-### Hypothesis 3 - Increased education (`a7a`) relates to more knowledge about water quality (`l2409`)
+### Hypothesis 4 - Increased education (`a7a`) relates to more knowledge about water quality (`l2409`)
 
 There seems to be a relation between these two variables. Since `l2409` is analyzed as a binary variable (only two responses), values from each education level are averaged to find the mean.
 
@@ -83,7 +85,7 @@ There is a statistically significant ($p= 1 \text{e-}6$) correlation, however th
 
 ![h3_fig2.svg](../outputs/h3_fig2.svg)
 
-### Hypothesis 4 - Increased education (`a7a`) relates to an increased perception of severity (`l14d`):
+### Hypothesis 5 - Increased education (`a7a`) relates to an increased perception of severity (`l14d`):
 
 There is a clear trend between education and perception, with a larger sample size ($n=3252$). There is a statistically significant correlation ($p \approx 0$). There is a fairly low regression fit ($r=-0.2109$).
 
@@ -94,7 +96,7 @@ When differentiated by rural classification, an interesting trend becomes eviden
 
 ![h4_fig2.svg](../outputs/h4_fig2.svg)
 
-### Hypothesis 5 - There is a significant difference in perception of severity of water quality issues (`l14d`) between urban and rural households (`a91`).
+### Hypothesis 6 - There is a significant difference in perception of severity of water quality issues (`l14d`) between urban and rural households (`a91`).
 
 With a larger sample size ($n=3252$), a statistically-significant difference was found ($p \approx 0$). There is a fairly low regression fit ($r=-0.2018$) The mean `l14d` value per rural classification was calculated. However, education levels vary significantly between rural and non-rural respondents.
 

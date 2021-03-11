@@ -1,8 +1,11 @@
 # In _toc.yml
-- file: 0_outline
 - file: 1_introduction
 - file: 2_background
 - file: 3_literature-review
 - file: 4_research-questions
-- file: 5_methodology
+- file: 5_significance
+- file: 6_methodology
+- file: 7_analysis
+- file: 8_discussions
+- file: thesis_analysis_pure
 - file: thesis_analysis
