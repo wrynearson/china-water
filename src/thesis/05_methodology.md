@@ -1,7 +1,3 @@
----
-CJKmainfont: Noto Sans CJK HK, Light
----
-
 #  Methodology
 
 ## Data Sources
@@ -13,10 +9,6 @@ This national survey, originally launched in 2003, aims to monitor and document 
 
 The CGSS is conducted by face-to-face interviews, which on average require 90 minutes to complete. [@ImplementationZhongGuoZongHeSheHuiDiaoCha] The survey consists of a questionnaire, which is composed of three modules (beginning in Cycle II):
 
-```{table} CGSS2010 Components and Description 
-:name: cgss2010-components
-<!-- ~ put table here -->
-```
 
 | *Module*               | Frequency                | Dimensions | Variables | Coverage         | Comments                                                     |
 |------------------------|--------------------------|------------|-----------|------------------|--------------------------------------------------------------|
@@ -25,7 +17,6 @@ The CGSS is conducted by face-to-face interviews, which on average require 90 mi
 | *Social Change Trends* | Annual                   | -          | 81        | All participants | -                                                            |
 | Topic                  | Annual (5 year rotation) | -          | -         | All participants | *Either one or two topic modules per year.*                  |
 | Additional             | -                        | -          | -         | 1/3 - 1/2        | *Coverage depends on quantity of other questions and demand* |
-
 [@QuestionnairesZhongGuoZongHeSheHuiDiaoCha]
 
 The published data is in the form of a Stata file, which consists of 11783 rows (respondents) and 871 columns (variables).
@@ -61,12 +52,6 @@ The two main data sets were loaded into the Jupyter notebook and reviewed for in
 #### Demographic Questions
 The thesis proposal and hypothesis were created before the author reviewed the data set, and before the author was aware of the environmental module of the CGSS. While many variables were deemed interesting, several variables were initially selected for broader analysis: [^1]
 
-```{table} Relevant CGSS2010 Demographic Components 
-:name: cgss2010-demographic
-<!-- ~put table here -->
-
-```
-
 
 | Code | Variable (English)             | Variable (Chinese) | Importance                                             | Analyzed? |
 |------|--------------------------------|--------------------|--------------------------------------------------------|-----------|
@@ -81,11 +66,6 @@ Not all of the variables were utilized, such as income and subjective personal h
 #### Environmental Questions
 The CGSS includes many demographic data on each respondent. Of which, the following were deemed important for one or more reasons: [^1]
 
-```{table} Relevant CGSS2010 Environmental Components 
-:name: cgss2010-env
-<!-- ~put table here -->
- 
-```
 
 | Code     | Question (English)                                                                                                               | Question (Chinese) | Response Types | Importance | Drawback                                                                    | Analyzed? |
 |----------|----------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|-----------------------------------------------------------------------------|-----------|
@@ -144,7 +124,6 @@ As previously discussed, the relationships between water quality, water quality 
 | Water quality perception | The recognition of water quality as a problem.                                | `l14d` (from CGSS)  | 1 - 5      | An *increase* in water quality perception is measured by a *decrease* in the value of `l14d`                                                                             |
 | Water quality knowledge  | The acquisition of a baseline amount of knowledge about water quality.        | `l2409` (from CGSS) | 1, 2, 8    | If `l2409` is 1, the respondent *is not* knowledgeable. If `l2409` is 2, the respondent *is* knowledgeable. If `l2409` is 8, the respondent *is somewhat* knowledgeable. |
 
-
 ### Procedure
 Once the data sets were loaded and reviewed for importance and quality, initial data analysis was conducted. Due to the author's limited experience with Python, multiple versions of the analysis were conducted in order to gain working knowledge of Python and of the data set.
 
@@ -152,10 +131,6 @@ For provincial comparative analysis, the data was sorted by province `s41` and g
 
 Then, the WQIR2018 data was loaded. An initial plot was created to see the distribution of water quality per sub-province, sorted by province. Histograms were added to visualize the distribution of water quality measurements and values.
 
-```{figure} ../wqir2018.svg
-:name: wqir2018-vis
-WQIR2018 distribution per province.
-```
 ![wqir2018.svg](../wqir2018.svg)
 
 

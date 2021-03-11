@@ -92,9 +92,9 @@ Access to water is another factor in the population's perception of water.
 
 China has increased its use of basic sanitation services by 28% from 2000-2017 [@jmpworld2019progress, p. 31, fig. 33] and achieved 100% safely managed drinking water access. [@jmpworld2019progress, p. 48, fig. 51] #check-source
 
-```{table} Minimum water access in China in 2000 and 2017 
+{table} Minimum water access in China in 2000 and 2017 
 :name: jmp-2019-china-water-access
-```
+
 
 | Year | Population | % Urban | At least basic - National | At least basic - Rural | At least basic - Urban |
 |:----:|:----------:|:-------:|:-------------------------:|:----------------------:|:----------------------:|
@@ -103,9 +103,9 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
-```{table} Minimum national improved water details in China in 2000 and 2017 
+{table} Minimum national improved water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-national
-```
+
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
@@ -114,9 +114,9 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
-```{table} Minimum rural water details in China in 2000 and 2017 
+{table} Minimum rural water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-rural
-```
+
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
@@ -125,9 +125,9 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 
 [@jmpworld2019progress, p. 89, annex. 3.1]
 
-```{table} Minimum urban water details in China in 2000 and 2017 
+{table} Minimum urban water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-urban
-```
+
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |------|----------------|------------------------|-----------------------|-------------------------|-------|-----------|
@@ -138,9 +138,9 @@ China has increased its use of basic sanitation services by 28% from 2000-2017 [
 
 China's improvement in water infrastructure has gone on for decades, with particular improvement since 1990 with an increases in municipal water supply utilities coverage from 50% in 1990 to 88% in 2005. [@browderSteppingImprovingPerformance2007, xvii] In the same report on infrastructural improvements, the authors repeatedly cite concerns for water quality and quantity issues, citing the problem originating from "outdated water treatment technology and high levels of pollution in the raw water." [@browderSteppingImprovingPerformance2007, p. 17] The report also states that "Water quality monitoring is generally poor and the data is consequently unreliable," however this is outdated. [@browderSteppingImprovingPerformance2007, 17] The report continues that national policies, including drinking water quality, are only implemented in higher-tier cities and are often loosely enforced. [@browderSteppingImprovingPerformance2007, p. 30] The problem was especially evident in second tier, third tier and non-urban towns, as evident below:
 
-```{table} Urban Water Market Segments 
+{table} Urban Water Market Segments 
 :name: wb-2005-urban-water
-```
+
 
 | Market Segment                         | Number of Cities | Total Population (million) | Per Capita GDP (RMB) | Average Wastewater Treatment Coverage (%) | Average Water Supply Coverage (%) |
 |----------------------------------------|------------------|----------------------------|----------------------|-------------------------------------------|-----------------------------------|
