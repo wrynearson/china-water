@@ -1,16 +1,15 @@
 ---
 title: Water Quality, Perception and Knowledge in China
 subtitle: Alignment, Divergence and Policy Implications
-author: 
-    - name: William Rynearson
-    - affiliation: Tsinghua University
+author: William Rynearson
 abstract: write this abstract later...
-keywords: "water quality, water pollution, environmental knowledge, environmental perception "
+keywords: water quality, water pollution, environmental knowledge, environmental perception
 date: \today
 CJKMainfot: Tahoma
 lang: zh, en-us
 #CJKmainfont: Noto Sans CJK HK, Light
 ---
+
 
 # Introduction
 
