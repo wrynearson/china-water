@@ -1,3 +1,14 @@
+---
+title: Water Quality, Perception and Knowledge in China
+subtitle: Alignment and Policy Implications
+author: William Bennett Rynearson
+abstract: write this abstract later...
+keywords: water quality, water pollution, environmental knowledge, environmental perception
+date: \today
+lang: zh-CN, en-US
+#CJKmainfont: Noto Sans CJK HK, Light
+---
+
 # Discussion
 
 The discourse on water quality should have a more holistic focus which values local knowledge, subjective perspectives and increased awareness to complement the primary focus on direct water quality. China has made a range of commitments, and notable action, on improving the country's water quality. This is in line with Sustainable Development Goals 6 – Clean Water and Sanitation. However, China still has substantial improvements to make: for example, water stress is high and expected to increase (SDG 6.4.2), and household wastewater treatment is low (SDG 6.3.1 - 38%). [@CountryAreaSDG] SDG 6.3 focuses on water quality:
@@ -9,3 +20,4 @@ State-lead infrastructure programs are not enough to meet many of the SDG 6 targ
 > Support and strengthen the participation of local communities in improving water and sanitation management. [@martinWaterSanitation] #check-source
 
 While data is limited, China had low participation from users and communities for drinking water, sanitation and hygiene promotion in both rural and urban areas, and only had moderate participation for national water resources planning and management in 2017. [@CountryAreaSDG] This seems to have improved with urban and rural drinking water, with high and moderate levels of participation in 2019, respectively.
+
