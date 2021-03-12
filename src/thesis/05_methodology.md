@@ -17,6 +17,7 @@ The CGSS is conducted by face-to-face interviews, which on average require 90 mi
 | *Social Change Trends* | Annual                   | -          | 81        | All participants | -                                                            |
 | Topic                  | Annual (5 year rotation) | -          | -         | All participants | *Either one or two topic modules per year.*                  |
 | Additional             | -                        | -          | -         | 1/3 - 1/2        | *Coverage depends on quantity of other questions and demand* |
+
 [@QuestionnairesZhongGuoZongHeSheHuiDiaoCha]
 
 The published data is in the form of a Stata file, which consists of 11783 rows (respondents) and 871 columns (variables).
@@ -32,7 +33,7 @@ Many other interesting questions are present in the data set. For this thesis, s
 ### Blue City Water Quality Index Ranking (WQIR)
 The second data set was compiled by the author from a report from the Institute of Public & Environmental Affairs, a non-profit environmental research organization based in Beijing. [@IPE] The report, the *Blue City Water Quality Index 2019*, compiles various surface, drinking, and ground water quality data published by various government agencies and assigns a score (their proprietary *Blue City Water Quality Index Score (BCWQI)*) and publishes the results at a sub-provincial level (second administrative level, or "admin 2"). [@jun2018BlueCity] The methodology and conversion to the government's water quality score is provided. This report was chosen as the basis for this data set since it was the most comprehensive data the author could find with the closest publication date to the CGSS. The difference in time of the two data sets is discussed in the #limitations section. In the appendix of this report, the BCWQI for each second administrative level, including the city name, province, and ranking, is included. This data, in a table in the PDF report, was exported into a comma separated value (.csv) file for later analysis.
 
-It should also be noted that the water quality score used in the WQIR data set is derived from the official Chinese water quality scoring system. The following table translates between the two scoring systems: [@jun2018BlueCity, p.5]
+It should also be noted that the water quality score used in the WQIR data set is derived from the official Chinese water quality index system. The following table translates between the two scoring systems: [@jun2018BlueCity, p.5]
 
 | IPE Score     | IPE Level (EN)          | IPE Level (ZH) | EQ  Water |
 |:-------------:|:-----------------------:|:--------------:|:---------:|

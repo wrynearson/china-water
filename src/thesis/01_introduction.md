@@ -1,4 +1,3 @@
-
 # Introduction
 
 ## Water Scarcity
@@ -15,11 +14,11 @@ One direct impact of water scarcity can come in the form of food production. Glo
 
 ## In China
 
-Water issues in China are especially prevalent. On average, China’s renewable freshwater resources were 2,062 cubic meters per capita in 2014, a decrease from 4,200 cubic meters in 1962 and far less than the half of the world average in those respective years. [@f.a.o.AQUASTATMainDatabase2016] China’s renewable freshwater resources are also highly location dependent. For example, only 19.7 percent of total internal renewable surface water and 30 percent of groundwater resources reside in northern China. [@f.a.o.AQUASTATCountryProfile2011] Northern China’s renewable freshwater access is only 757 square meters per capita per year, far below the water scarcity limit of 1,000 square  meters per capita per year. [@zhangEnvironmentalHealthChina2010]
+Water issues in China are especially prevalent. Despite being home to 21% of the global population, China only has six percent of worldwide freshwater resources. [@theworldbankWatershedNewEra2019, p.. vii] On average, China’s renewable freshwater resources were 2,062 cubic meters per capita in 2014, a decrease from 4,200 cubic meters in 1962 and far less than the half of the world average in those respective years. [@f.a.o.AQUASTATMainDatabase2016] China’s renewable freshwater resources are also highly location dependent. For example, only 19.7 percent of total internal renewable surface water and 30 percent of groundwater resources reside in northern China. [@f.a.o.AQUASTATCountryProfile2011] Northern China’s renewable freshwater access is only 757 square meters per capita per year, far below the water scarcity limit of 1,000 square  meters per capita per year. [@zhangEnvironmentalHealthChina2010]
 
 ## Water Pollution
 
-In addition to the already strained water resource problem, poor water quality caused by pollution is amplifying the problem and is causing further economic, societal and environmental problems. Roughly 80 percent of groundwater resources were found to be unsafe for human contact. [@jing80CentGroundwater2016] Economic costs attributed to poor water quality in 2003 were over 1.16% of GDP. [@wuWaterPollutionHuman1999]
+In addition to the already strained water resource problem, poor water quality caused by pollution is amplifying the problem and is causing further economic, societal and environmental problems. Roughly 80 percent of groundwater resources were found to be unsafe for human contact. [@jing80CentGroundwater2016] Economic costs attributed to poor water quality in 2003 were over 1.16% of GDP [@wuWaterPollutionHuman1999], and were estimated to be 2.3% in 2007. [@theworldbankWatershedNewEra2019, p. 2]
 
 Historically, and especially since the Opening Up and Reform era post-1978, the Chinese government has prioritized economic growth over environmental protection. #cite In terms of water resource management, the government’s investment strategies have prioritized large scale water infrastructure projects over environmentally-friendly pollution-control policies, due to a variety of political and non-political reasons. [@rogersPoliticsWaterReview2017] Mao Zedong famously embraced the idea of the now-partially-completed South-North Water Transfer Project, one of the largest infrastructure endeavors in history, by saying “The south has plenty of water and the north lacks it, so if possible why not borrow some?” [@reutersFACTBOXFactsChina2009]
 

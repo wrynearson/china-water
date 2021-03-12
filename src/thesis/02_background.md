@@ -88,6 +88,15 @@ China often cites its developing country status as a reason that it under-perfor
 
 In 2020, China ranked 54th (6th regionally) in sanitation and drinking water, with a score of 59.4/100. [@wendlingz.a.2020EnvironmentalPerformance2020, p. 57] Specific rankings for sanitation and drinking water were not available for 2018. For the broader category of Environmental Health (HLT), China scored 31.72/100. [@huangEnvironmentalPerformanceAsia2019]
 
+China uses a tiered categorical composite indicator, referred to as China's Water Quality Index (CWQI). [@NationalStandardsPeople]
+
+| Class | Utilization                                                                                                                                                                        |
+|------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     I | Mainly applicable to the water from sources, and the national nature reserves.                                                                                                     |
+|    II | Mainly applicable to first class of protected areas for centralized sources of drinking water, the protected areas for rare fishes, and the spawning fields of fishes and shrimps. |
+|   III | Mainly applicable to second class of protected areas for centralized sources of drinking water, protected areas for the common fishes and swimming areas.                          |
+|    IV | Mainly applicable to the water areas for industrial use and entertainment which is not directly touched by human bodies.                                                           |
+|     V | Mainly applicable to the water bodies for agricultural use and landscape requirement.                                                                                              |
 Access to water is another factor in the population's perception of water.
 
 China has increased its use of basic sanitation services by 28% from 2000-2017 [@jmpworld2019progress, p. 31, fig. 33] and achieved 100% safely managed drinking water access. [@jmpworld2019progress, p. 48, fig. 51] #check-source

@@ -54,7 +54,9 @@ Concern of water pollution ranked high on respondents' overall environmental con
 |       3 | Some hazards                                                                                       | -                                                                                                                 |
 |       4 | Not very harmful                                                                                   | -                                                                                                                 |
 |       5 | There is no harm at all                                                                            | -                                                                                                                 |
+It should be noted that there are discrepancies in both the number of responses per province, per type of value (demographic variable or question response), and for the number of water quality measurements per province. Thus, conclusions from individual provinces should be taken with caution – for example, data from Tibet (`s41`= 25) is especially scarce.
 
+**Insert countplot of these differences**
 
 ### Hypothesis 1: Worse local (provincial) water quality (`score` increases) relates to an increased perception of severity of water quality issues (`l14d` decreases)
 
