@@ -97,9 +97,12 @@ China uses a tiered categorical composite indicator, referred to as China's Wate
 |   III | Mainly applicable to second class of protected areas for centralized sources of drinking water, protected areas for the common fishes and swimming areas.                          |
 |    IV | Mainly applicable to the water areas for industrial use and entertainment which is not directly touched by human bodies.                                                           |
 |     V | Mainly applicable to the water bodies for agricultural use and landscape requirement.                                                                                              |
-Access to water is another factor in the population's perception of water.
 
-China has increased its use of basic sanitation services by 28% from 2000-2017 [@jmpworld2019progress, p. 31, fig. 33] and achieved 100% safely managed drinking water access. [@jmpworld2019progress, p. 48, fig. 51] #check-source
+While the state is improving, there is still progress to be made: #todo **turn into my own graphic.** [@theworldbankWatershedNewEra2019, fig. 1.3; p. 19]
+
+![wbg_wq_river.png](../inputs/wbg_wq_river.png)
+
+Access to water is another factor in the population's perception of water. China has increased its use of basic sanitation services by 28% from 2000-2017 [@jmpworld2019progress, p. 31, fig. 33] and achieved 100% safely managed drinking water access. [@jmpworld2019progress, p. 48, fig. 51] #check-source
 
 {table} Minimum water access in China in 2000 and 2017 
 :name: jmp-2019-china-water-access
