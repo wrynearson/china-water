@@ -2,11 +2,11 @@
 title: Water Quality, Perception and Knowledge in China
 subtitle: Alignment and Policy Implications
 author: William Bennett Rynearson
-abstract: write this abstract later...
-keywords: water quality, water pollution, environmental knowledge, environmental perception
 date: \today
 lang: zh-CN, en-US
 #CJKmainfont: Noto Sans CJK HK, Light
+keywords: water quality, water pollution, environmental knowledge, environmental perception
+abstract: Poor water quality and its grave implications for human, economic and political security, are are especially acute in China. This thesis adds the human experience component by examining how water quality, water quality knowledge and water quality perception are related. Water quality data from 337 municipal cities and 25 counties are compared with $n=11782$ survey respondents. Perceived severity of water pollution increases as water quality worsens, as does knowledge about water quality, and education. Water quality knowledge also improves with increased education and with worse water quality. China should complement infrastructure-based water resource management solutions with diverse, local, and inclusive policy and education in order to meet its ambitious water resource management targets.
 ---
 
 # Discussion
@@ -98,14 +98,21 @@ First, water and environmental education should be expanded in scope and scale i
 
 Similar conclusions could be made with regard to water quality, as it plays a role in water conservation strategies. While another study failed to link higher education levels with water resource efficiency, the authors noted that the lack of this correlation was due to the current weak state of water resource education in the Chinese education system, especially in early phases of education. [@songWaterResourcesUtilization2018, sec. 5.2] This is in contrast with the authors' findings of technological innovation's effect on water resource efficiency — this effect was significant in some but not all parts of the country, further indicating that heterogeneous strategies could prove more effective than homogeneous ones.
 
-- Increased classroom and school-based education
-    - Water quality index, components
-    - Water quantity issues, trends
-    - Local water sources (field trips), water treatment techniques
-    - Local action
-- Increased communication and accessibility of water quality scores
+In regards to expanding general environmental and water resource education, specific components of water scarcity, water quality, measurement, sources and implications should all be taught. The national government has a very clear, easy-to-understand water quality index, but the thesis analysis reveals that this is not well comprehended by the general public. This should be explicitly taught with a focus on its importance — summarizing many complex indicators into one composite value which is easy to understand, compare and evaluate. Further, education water quality and its implications to many facets of life (as discussed in this thesis) should be expanded. So to should non-lecture-based education. The knowledge and implications should be localized as much as possible, with local experts, field trips, and other experiential learning techniques.
 
 One tool should be a water information sharing platform which is accessible to both the general public and water stakeholders. [@theworldbankWatershedNewEra2019, p. 10] For water stakeholders, open data on water quantity, quality, pricing, and utilization can improve the overall water resources management sector. For individuals, access to information about their local, regional and national information on water quantity, quality, pricing, and utilization can improve water awareness, perception and knowledge. It also has the potential to align water quality with perceptions, which can improve political support if positive.
+
+## Conclusion
+
+Water quality and its grave implications for human, economic and political security have been explored at length. This thesis adds the human perception component to the discussion.
+
+The analysis highlights two categories of how water quality perception and knowledge. The first is through education, correlates positively with perception and knowledge traits. Specifically, more educated individuals perceive the impact of water quality to be greater and more harmful than less educated individuals. Also, education in general related positively with knowledge about water quality specifically. The second is though the condition of regional water quality. Perceived severity increases in areas with worse water quality. So to does knowledge about water quality.
+
+Thus, a multifaceted policy approach should be undertaken. This should continue to make infrastructural improvements in water quality, but also make improvements in the education, societal and communication portions of water quality and water resource management. Making the general populous more aware and more engaged in the water pollution discourse can cause improvements in which infrastructure solutions alone can not. With increased trends in urban and domestic water usage, having an informed populous is key to abating water pollution, scarcity and availability issues. 
+
+Finally, more research should be undertaken which better models knowledge acquisition pathways for water quality, multivariable analysis on how the variables mentioned in this thesis interact with one another, and quantitative predictions of the impact that non-infrastructure policy would have. With such a serious threat to China and the world, all types of solutions should be considered and implemented.
+
+China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and satisfied civilization. 
 
 ## References
 
