@@ -60,5 +60,6 @@ In addition to policy changes, education-focused policies should be implemented 
 
 One tool should be a water information sharing platform which is accessible to both the general public and water stakeholders. [@theworldbankWatershedNewEra2019, p. 10] For water stakeholders, open data on water quantity, quality, pricing, and utilization can improve the overall water resources management sector. For individuals, access to information about their local, regional and national information on water quantity, quality, pricing, and utilization can improve water awareness, perception and knowledge. It also has the potential to align water quality with perceptions, which can improve political support if positive.
 
+## References
 
 [^1]: This is a measurement to compare how much water is used to achieve a set amount of added value in the industrial sector. "China’s water consumption per RMB 10,000 (roughly US$1,450) industrial added value is two to three times greater than the average upper-middle-income country (UMIC)."
