@@ -112,7 +112,7 @@ Thus, a multifaceted policy approach should be undertaken. This should continue 
 
 Finally, more research should be undertaken which better models knowledge acquisition pathways for water quality, multivariable analysis on how the variables mentioned in this thesis interact with one another, and quantitative predictions of the impact that non-infrastructure policy would have. With such a serious threat to China and the world, all types of solutions should be considered and implemented.
 
-China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and satisfied civilization. 
+China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and dignified civilization. 
 
 ## References
 
