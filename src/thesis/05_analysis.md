@@ -1,17 +1,129 @@
----
-title: Water Quality, Perception and Knowledge in China
-subtitle: Alignment and Policy Implications
-author: William Bennett Rynearson
-date: \today
-#lang: zh-CN, en-US
-#CJKmainfont: Noto Sans CJK HK, Light
-keywords: water quality, water pollution, environmental knowledge, environmental perception
-abstract: Poor water quality and its grave implications for health, economic and political security are especially acute in China. This thesis adds the human experience component by examining how water quality, water quality knowledge and water quality perception are related. Perceived severity of water pollution increases as water quality worsens, as does knowledge about water quality, and education. Water quality knowledge also improves with increased education and with worse water quality. China should complement infrastructure-based water resource management solutions with diverse, local, and inclusive policy and education in order to meet its ambitious water resource management targets.
----
+# Analysis and Discussion
+
+## Results
+
+The following is a summary of the results of the analysis. The code and procedure can be referred to in the #appendix section.
+
+Overall, respondents are self-report a fairly high level of concern regarding environmental issues, and a high level of awareness for environmental issues facing China. [^1]
+
+
+| Response Value | l6a                                    | l6b                             |
+|----------------|----------------------------------------|---------------------------------|
+| 1              | I don't care at all                    | Very serious                    |
+| 2              | Less caring                            | More serious                    |
+| 3              | I can't say that I don't care about it | Neither serious nor not serious |
+| 4              | More concerned                         | Not too serious                 |
+| 5              | Very concerned                         | Not serious at all              |
+
+For `l6a` and `l6b` ($n=3362$) the mean response was 3.67 and 2.15 respectively, noting the structure of the data –  an increase in `l6a` notes an increase in concern while a decrease in `l6b` notes an increase in awareness. The distribution of responses is the following:
+
+
+![l6_fig1.svg](../outputs/l6_fig1.svg)
+
+The trend is consistent across most provinces, water quality, gender, education levels, age groups, and rural classification. #todo **Insert plots for these controls**
+
+
+![l6_fig2.svg](../outputs/l6_fig2.svg)
+
+Concern of water pollution ranked high on respondents' overall environmental concerns. Respondents ranked their most ($n=3218$) and second-most ($n=3045$) important environmental issues in China. Water pollution was the second most common response for their most important environmental concern, behind air pollution and ahead of domestic waste disposal. Water scarcity ranked lower. For respondents' second most concern, water pollution was the third most common response, behind domestic waste disposal and ahead of fertilizer and pesticide pollution.
+
+| Code | Name                               |
+|-----:|:-----------------------------------|
+|    1 | Air Pollution                      |
+|    2 | Fertilizer and pesticide pollution |
+|    3 | Water scarcity                     |
+|    4 | Water pollution                    |
+|    5 | Nuclear waste                      |
+|    6 | Disposal of domestic waste         |
+|    7 | Climate Change                     |
+|    8 | Genetically modified food          |
+|    9 | Depletion of natural resources     |
+|   10 | None of the above                  |
+
+![l7_fig1.svg](../outputs/l7_fig1.svg)
+
+ #todo **Label histogram, find a way to do this in Seaborn**
+ 
+ For the following hypotheses, it is important to remember the question types and response ranges. As the level of perceived harm increases for `l14d`, the value decreases. As responses approaches 2 for `l2409`, the knowledge about water quality issues is assumed to increase. While this is as set of binary responses, it is calculated as a mean later in this analysis.
+ 
+|         | `l14d` (perception)                                                                                | `l2409` (knowledge)                                                                                               |
+|--------:|:--------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
+| *Value* | How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment? | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1) |
+|       1 | Extremely harmful to the environment                                                               | Correct                                                                                                           |
+|       2 | Very harmful                                                                                       | Error (***note**: this response is correct*)                                                                      |
+|       3 | Some hazards                                                                                       | -                                                                                                                 |
+|       4 | Not very harmful                                                                                   | -                                                                                                                 |
+|       5 | There is no harm at all                                                                            | -                                                                                                                 |
+
+It should be noted that there are discrepancies in both the number of responses per province, per type of value (demographic variable or question response), and for the number of water quality measurements per province. Thus, conclusions from individual provinces should be taken with caution – for example, data from Tibet (`s41`= 25) is especially scarce.
+
+**Insert countplot of these differences**
+
+### Hypothesis 1: Worse local (provincial) water quality (`score` increases) relates to an increased perception of severity of water quality issues (`l14d` decreases)
+
+There is a statistically significant ($p=4.98 \text{e-}9$) correlation with a large number of responses ($n = 3253$). Thus, actual water quality is related to perception of water quality, and worse water quality relates to an increase in perception of severity. However, there is a poor regression fit (coefficient of determination $r=-0.1023$). Note that the range of water quality scores is large when respondents reply with the most-severe perception response type (`l14d`= 5).
+
+
+![h1_fig2.svg](../outputs/h1_fig2.svg)
+
+### Hypothesis 2 - An increase knowledge of water quality issues (`l2409`) relates to an increased perception of severity (`l14d`)
+
+There appears to be a relationship between water quality knowledge and perception from the smaller sample size ($n=861$). Respondents who replied incorrectly (when $\text{l2409}=1$) ($n=282$) have a mean perception response $\text{l14d}=2.383$, while respondents who replied correctly (when $\text{l2409}=2$) ($n=579$) have a mean perception response $\text{l14d}=2.197$.
+
+There is a statistically significant ($p= 8.81 \text{e-}4$) correlation, however there is a poor regression fit (coefficient of determination $r=-0.1023$).
+
+With increased water quality knowledge ($\text{l2409}=2$), environmental perception is increased (decreased `l14d`). However, this trend is no longer visible when factoring for rural/urban `a91`, education level `a7a`, and for other demographic question. For more conclusive results, further multi-variable statistical analysis is required.
+
+![h2_fig.svg](../outputs/h2_fig1.svg)
+
+### Hypothesis 3 - Increased education (`a7a`) relates to more knowledge about water quality (`l2409`)
+
+There seems to be a relation between these two variables. Since `l2409` is analyzed as a binary variable (only two responses), values from each education level are averaged to find the mean.
+
+![h3_fig1.svg](../outputs/h3_fig1.svg)
+
+There is a statistically significant ($p= 1 \text{e-}6$) correlation, however there is a poor regression fit ($r=-0.16$) with a smaller sample size $n=881$. Further comparison with rural versus non-rural responses reveal large differences in both the typical level of education and the number of responses per rural classifier.
+
+
+![h3_fig2.svg](../outputs/h3_fig2.svg)
+
+### Hypothesis 4 - Increased education (`a7a`) relates to an increased perception of severity (`l14d`):
+
+There is a clear trend between education and perception, with a larger sample size ($n=3252$). There is a statistically significant correlation ($p \approx 0$). There is a fairly low regression fit ($r=-0.2109$).
+
+
+![h4_fig1.svg](../outputs/h4_fig1.svg)
+
+When differentiated by rural classification, an interesting trend becomes evident: non-rural households have a higher perception than rural households at each education level, however this difference decreases as education increases. Analysis into the reason behind this was not conducted.
+
+![h4_fig2.svg](../outputs/h4_fig2.svg)
+
+### Hypothesis 5 - There is a significant difference in perception of severity of water quality issues (`l14d`) between urban and rural households (`a91`).
+
+With a larger sample size ($n=3252$), a statistically-significant difference was found ($p \approx 0$). There is a fairly low regression fit ($r=-0.2018$) The mean `l14d` value per rural classification was calculated. However, education levels vary significantly between rural and non-rural respondents.
+
+
+| Rural Classification | Number of Responses | Mean Perception (l14d) | Mean Education Level (a7a) |
+|:--------------------:|:-------------------:|:----------------------:|:--------------------------:|
+| Rural (a91 = 1)      | 1257                | 2.536                  | 3.48                       |
+| Non-rural (a91 = 2)  | 1995                | 2.172                  | 6.24                       |
+
+### Hypothesis 6 – There is a relation between water quality and water quality knowledge.
+
+There seems to be a small but statistically-significant difference ($p \approx 0$) between water quality knowledge levels and water quality. With a large number of responses ($n=3628$), a decrease in knowledge relates to a decrease in water quality. With knowledgeable respondents (`l2409`= 2), the mean water quality was 16.85. With somewhat knowledgeable respondents (`l2409` = 8), the mean water quality was 16.56. Finally, with respondents with no knowledge (`l2409` = 1), the mean water quality was 16.20. The statistically-significant difference was not matched with any level of confidence in the fit of the model, with $r = -0.10$. It should be noted that with this hypothesis, response types equal to 8 ("can't answer") were included while they were omitted previously. 
+
+![h6_fig1.svg](../outputs/h6_fig1.svg)
+
+
+## Analysis
+
+The analysis above produced interesting results. Overall, the first five hypotheses were proven correct, with the limitation that all regression analyses provide a poor fit to model these trends. The sixth hypothesis shows a statistically-significant difference, but a trend is harder to be confident about. This can be explained that there are variable(s) which are contributing to this trend which are not accounted for in the simple two-variable regression analysis. Another interpretation could be that there factors influencing these correlations which are not accounted for in the data sets analyzed for this thesis. Further analysis is required to explain the causes of this poor fit. The limitations discussed previously, including geographic precision, differences in periods of time and applicability of the analyzed questions, should also be noted. Given more data, specifically updated CGSS results when the environmental module is included, would give the opportunity to conduct a longitudinal analysis.
+
+
 
 # Discussion
 
-The discourse on water quality should have a more holistic focus which values local knowledge, subjective perspectives and increased awareness to complement the current primary focus on direct water quality. 
+The discourse on water quality should have a more holistic focus which values local knowledge, subjective perspectives and increased awareness to complement the current primary focus on direct water quality.
 
 ## Issues and Implications
 
@@ -33,7 +145,7 @@ Another key component to China's water policy is its efficiency. SDG 6.4 focuses
 
 > By 2030, substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals and supply of freshwater to address water scarcity and substantially reduce the number of people suffering from water scarcity. [@martinWaterSanitation] #check-source
 
-China is currently far from achieving this target. A recent study found that not only does China have a significant lack of resource efficiency, there are also significant discrepancies between provinces and across time frames. [@songWaterResourcesUtilization2018] This indicates the situation is local, and a homogeneous national-level solution may not be appropriate. Currently, China spends two to three times more than the average upper-middle-income country for the same economic output.[^1] [@theworldbankWatershedNewEra2019, p. 2] Furthermore, while agricultural and industrial water use has remained relatively constant in recent years, domestic use has and continues to increase.
+China is currently far from achieving this target. A recent study found that not only does China have a significant lack of resource efficiency, there are also significant discrepancies between provinces and across time frames. [@songWaterResourcesUtilization2018] This indicates the situation is local, and a homogeneous national-level solution may not be appropriate. Currently, China spends two to three times more than the average upper-middle-income country for the same economic output.[^2] [@theworldbankWatershedNewEra2019, p. 2] Furthermore, while agricultural and industrial water use has remained relatively constant in recent years, domestic use has and continues to increase.
 
 ![wq_prov_sector.png](../inputs/wq_prov_sector.png)
 
@@ -102,18 +214,6 @@ In regards to expanding general environmental and water resource education, spec
 
 One tool should be a water information sharing platform which is accessible to both the general public and water stakeholders. [@theworldbankWatershedNewEra2019, p. 10] For water stakeholders, open data on water quantity, quality, pricing, and utilization can improve the overall water resources management sector. For individuals, access to information about their local, regional and national information on water quantity, quality, pricing, and utilization can improve water awareness, perception and knowledge. It also has the potential to align water quality with perceptions, which can improve political support if positive.
 
-## Conclusion
+[^1]: `l6a` asks "Generally speaking, how much do you care about environmental issues?" and `l6b` asks "Based on your own judgment, on the whole, do you think the environmental problems facing China are serious?"
 
-Water quality and its grave implications for human, economic and political security have been explored at length. This thesis adds the human perception component to the discussion.
-
-The analysis highlights two categories of how water quality perception and knowledge. The first is through education, correlates positively with perception and knowledge traits. Specifically, more educated individuals perceive the impact of water quality to be greater and more harmful than less educated individuals. Also, education in general related positively with knowledge about water quality specifically. The second is though the condition of regional water quality. Perceived severity increases in areas with worse water quality. So to does knowledge about water quality.
-
-Thus, a multifaceted policy approach should be undertaken. This should continue to make infrastructural improvements in water quality, but also make improvements in the education, societal and communication portions of water quality and water resource management. Making the general populous more aware and more engaged in the water pollution discourse can cause improvements in which infrastructure solutions alone can not. With increased trends in urban and domestic water usage, having an informed populous is key to abating water pollution, scarcity and availability issues. 
-
-Finally, more research should be undertaken which better models knowledge acquisition pathways for water quality, multivariable analysis on how the variables mentioned in this thesis interact with one another, and quantitative predictions of the impact that non-infrastructure policy would have. With such a serious threat to China and the world, all types of solutions should be considered and implemented.
-
-China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and dignified civilization. 
-
-## References
-
-[^1]: This is a measurement to compare how much water is used to achieve a set amount of added value in the industrial sector. "China’s water consumption per RMB 10,000 (roughly US$1,450) industrial added value is two to three times greater than the average upper-middle-income country (UMIC)."
+[^2]: This is a measurement to compare how much water is used to achieve a set amount of added value in the industrial sector. "China’s water consumption per RMB 10,000 (roughly US$1,450) industrial added value is two to three times greater than the average upper-middle-income country (UMIC)."

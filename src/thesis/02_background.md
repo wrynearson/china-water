@@ -1,6 +1,20 @@
 # Background
 
-## Environmental Policy, Knowledge and Perception
+This section provides the background knowledge and literature review relevant to this thesis. First, literature of global and Chinese water resource trends and implications are presented. Then, the case is made for holistic water resource management in China. Later, research into education, knowledge and perception of the environment broadly and water quality is presented. Finally, the lack of research linking theses themes together, and the utility of this thesis, is justified.
+
+## Water Resource Management — Trends and Implications
+
+Water scarcity is a worldwide phenomenon with particular importance to China. @mekonnenFourBillionPeople2016 analyzed the current situation of water scarcity worldwide and found “two-thirds of the global population (4.0 billion people) live under conditions of severe water scarcity at least 1 month of the year,” with nearly half living in China and India alone.
+
+Despite the governments past and current efforts, further action is required. @liuWaterSustainabilityChina2012 look at water sustainability in China. They conclude that while China’s recent policy efforts to alleviate water scarcity have been laudable, they are insufficient. They are also inefficient, especially with regards to engineering and infrastructural approaches. @luWaterInfrastructureChina2014 looks at the importance of full project life-cycle cost analysis in addressing water challenges, particularly with wastewater treatment facilities, concluding that there are serious inefficiencies currently. @webberSouthNorthWater2017 look at the infrastructure side of water resource management in China with a review of the South-North Water Transfer Project, and find that this project is emblematic of the engineering-heavy approach often taken in China and will pose serious risks to regional governance and have serious environmental impacts.
+
+The literature supports the increased study and implementation of multidisciplinary water resource management policy. @baiSustainableUrbanWater2001 look at sustainable urban water resource management with a case study analysis of Tianjin, China. They suggest that a holistic, systems approach to water management is key for sustainability. @araralWaterGovernanceReview2013 look at water governance, water insecurity, and its related research. They find that a second-generation research agenda on water governance, including a focus on incentive structures and other multi-disciplinary approaches, is required. Not all management should be on the supply side, at least in regards to aleviating water scarcity. [@wangWaterResourcesManagement2012] looks at the relationship between water resource management and droughts in China and find that demand-side management can be more effective in meeting the challenges imposed by increasingly-severe droughts. Multiple approaches should be taken in unison. @hofstedtChinaWaterScarcity2010 looks at the implications of domestic and international stability stemming from China’s water scarcity and the government’s current plans to address it. They argue that many of the options to alleviate water scarcity (increase water pricing, remove the requirement to be self-sufficient in grain production, increased efficiency of water usage in agriculture) all have serious downsides, and can have serious negative effects on political
+stability domestically and internationally.
+
+Finally, @wardDatarichInformationpoorSyndrome1986 looks at water quality monitoring and improvements (at the time) in
+data collection. They argue that increased data collection itself is not enough to affect the management of water resources; data analysis and reporting are also very important, and that understanding why monitoring water quality is important in the design process of water quality monitoring itself.
+
+## Environmental Knowledge and Perception
 
 Water quality and quantity issues in China and abroad sit within the context of environmental policy, environmental education, and societies' perception of the two. [@caldwell1990international] Analysis linking environmental knowledge and attitudes (perception) have existed for decades. The assumption, and common model, is that:
 
@@ -10,7 +24,7 @@ At the time, in the 1970s, most scholars agreed with this model, concluding that
 
 Understanding the background of environmental policy, knowledge, education and perception is important in understanding how they interact in the concept of water quality in China and abroad.
 
-## Definitions
+### Definitions
 
 Several definitions are adapted for this thesis, and are discussed in more detail in following sections. This is important since many terms are used interchangably in the field of environmental issues and how humans interact and perceive them. [@johnsonMeaningsEnvironmentalTerms1997] The first two are defined by [@sudarmadiSurveyPerceptionKnowledge2001]. *Environmental awareness* is "the attention and concern (mindful and heedful) of individuals to environment problems." *Environmental perception* is "the recognition of \[an environmental issue]\ as a problem, based on memory and prior experience." These two interact, as perception is "a basic determinant of awareness in that it triggers attention and concern." [@endsleyTheorySituationAwareness1995] However, "perception only leads to awareness when it exceeds frequency and intensity thresholds. [@meriklePerceptionAwarenessPerspectives2001] In the context of environmental issues, perception refers to the state of the environment (or a specific environmental feature) as being problematic, while awareness refers to attention to the issue because of the impacts of a change in usability of the environment. [@tangEstimationAwarenessPerception2013, sec. 2.1.2]
 
@@ -20,6 +34,8 @@ Thus, this definition of environmental perception is applied to water quality pe
 
 Finally, *environmental quality* refers to measurement of the condition or state of the environment, based off of predetermined variables, indicators, and methodology. [@johnsonMeaningsEnvironmentalTerms1997] The authors stress that this term is irrespective of the source and cause of the condition, only that the state is compared against and relative to certain requirements and standards. For example, changes in water quality can be caused by both human-induced pollution and by naturally-occurring changes. Thus, applied to the context of water quality, the definition emerges: *water quality* "is a measure of the condition of water relative to" standards and requirements of humans. [@johnsonMeaningsEnvironmentalTerms1997, p. 587]
 
+<!-- 
+
 ### Environmental Policy
 
 Environmental conservation has a long and global history, at times being documented as early as the seventh century, with examples afterwards often being local or anecdotal. [@StCuthbertFather2013] In the broader context of environmental appreciation or dependency, the history likely goes back to the dawn of humanity. This is evident in written and modern-day history as some indigenous cultures do not separate the environment and the society. [@armieroHistoryEnvironmentalismLocal2014, p. 2-3]
@@ -28,7 +44,9 @@ Much of the documented history of modern environmentalism and environmental poli
 
 Another related field of study is Environmental history, which "studies the mutual relationships of humans and nature through time." [@hughesWhatEnvironmentalHistory2016, p. 1] This field of study, a subset of the field of history, aims to link and remind historical significance of the link between humans and nature. Environmental historians aim to "see human events within the context where they happen, and that is the entire natural environment." [@hughesWhatEnvironmentalHistory2016, p. 2] This has relevance to policy makers worldwide and in China.
 
-Despite much of the literature covering history in the United States, environmental protection can be seen as a global phenomenon in many parts of the world and throughout the 20th and 21st centuries, albeit with differing impact, scope and timeliness. The link to its global nature is highlighted in a study which finds that international organizations and communities have central importance in the diffusion of one particular type of environmental policy, the Environmental Impact Assessment, and its particular importance for less-developed countries. [@hironakaGlobalizationEnvironmentalProtection2002]
+Despite much of the literature covering history in the United States, environmental protection can be seen as a global phenomenon in many parts of the world and throughout the 20th and 21st centuries, albeit with differing impact, scope and timeliness. The link to its global nature is highlighted in a study which finds that international organizations and communities have central importance in the diffusion of one particular type of environmental policy, the Environmental Impact Assessment, and its particular importance for less-developed countries. [@hironakaGlobalizationEnvironmentalProtection2002] 
+
+-->
 
 ### Environmental Knowledge and Education
 
@@ -48,7 +66,7 @@ EE also has the potential for direct and indirect positive environmental impacts
 
 Several other studies have mixed results. One study examined the relationship between environmental knowledge and attitudes of fourth-graders in Germany but found no correlation between the two. [@lieflanderEducationalImpactRelationship2018] However, the authors noted that the lack of correlation was probably caused by measurement constraints. Another study examined high school students' environmental knowledge and attitudes and found "significant difference in both knowledge gain and attitudes of students after exposure" where "environmental knowledge scores increased by 22%" after the completion of a 10-day environmental course, and "environmental attitudes became more environmentally favorable." [@bradleyRelationshipEnvironmentalKnowledge1999]
 
-### Environmental Society (Perception)
+### Environmental Perception
 
 There is an intuitive link between the state of the environment and one's perception of the environment. Environmental perception has been defined as "awareness of, or feelings about, the environment, and as the act of apprehending the environment by the senses." [@zubeEnvironmentalPerception1999] A more detailed definition takes into account its multi-dimensional aspects, as a "transactional process between the person and the environment." [@ittelsonEnvironmentCognition1973] He offered three general conclusions: 
 
@@ -62,7 +80,7 @@ While studies into societies' perception of the environment often focuses on pos
 
 One other factor in environmental perception was the "magnitude, diversity and rapidity of environmental change." [@zubeEnvironmentalPerception1999, section. Major environmental changes] Studies in this domain indicate that "physical proximity to the change, magnitude and kind of change, length of time in current residence, and personal value orientations are all related to the perception of and response to the phenomenon." [@zubeEnvironmentalPerception1999, section. Major environmental changes] 
 
-### Linking
+### Linking Knowledge and Perception
 
 Studies have looked at some of the variables mentioned previously in relation to other demographic data. One study in 1998 "investigated differences in perception, knowledge, awareness and attitude with regard to environmental problems between educated and \[non-educated]\ groups." [@sudarmadiSurveyPerceptionKnowledge2001] They found that "subjects in the educated group had better perception, more detailed knowledge, were more aware, and had better attitudes in regard to regional and global environmental problems."
 
@@ -78,7 +96,7 @@ Finally, simple analysis of China's one-party political implementation might lea
 
 ## Water Quality and Perception
 
-### Factors in Water Quality 
+### Water Quality Components
 
 The WHO sets standards for drinking water quality [@worldhealthorganizationGuidelinesDrinkingwaterQuality2017] , which have been applied by the Chinese government. [@quChinaNewNational2012; @zhonghuarenmingongheguoguojiaShengHuoYinYongShuiWeiShengBiaoZhun2006] China applied 106 factors into its drinking water quality standards in 2011, mostly in line with the WHO's 155 factors from the same year. These are broken down into several categories, including microbial aspects, chemical aspects, radiological aspects, and acceptability aspects. For this thesis, the exact determinate of these components are not investigated, nor are the relative importance between certain indicators and perception, or knowledge. However, it should be noted that not all indicators of water quality have direct negative health implications – for the acceptability aspects (also referred to as aesthetic aspects), undesirable qualities (including taste, smell, and color) can erode public trust in otherwise healthy drinking water. [@worldhealthorganizationGuidelinesDrinkingwaterQuality2017, p. 219]
 
@@ -178,7 +196,7 @@ One study represented research in an under-studied theme and demographic. Stakeh
 
 Multiple factors drive perception of environmental issues. In a related issue, water scarcity, one study examined farmers' ($n = 446$) awareness and perception of water shortages in irrigation. [@tangEstimationAwarenessPerception2013] They found that "age, percentage of time spent on farming and social network are the main determinants of awareness," and that "water price and drought experience are the most important explanatory variables of perception" in the Guanzhong Plain, Shaanxi Province, China. Furthermore, they found that awareness and perception strongly interact, citing literature which found that households who used less water show a higher level of awareness of water conservation. [@gregoryRepeatedBehaviorEnvironmental2003] However, these study water quantity, not water quality, so they are not necessarily analogous.
 
-### Linking the Components
+## Linking Water Quality, Knowledge and Perception
 
 While many studies have examined the issues discussed earlier, few have looked at the alignment of water quality perceptions and actual water quality. One such study was conducted in Newfoundland, Canada, which "investigated public perceptions of water quality and the perceived health risks and associated with the actual quality of public water supplies in the same communities." [@ochooAssociationPerceptionsPublic2017] While they found "no association with public satisfaction level and actual water quality of the respective communities," they did show demographic disparities in water quality perception.[^2] Furthermore, the authors found that differences in opinion existed between respondents who were supplied by the same water system. However, this is expected due to the problematic nature of public opinion. [@shepardPublicOpinion1909] The authors also mentioned that water quality data is publicly available, but is most likely not communicated in a way which facilitated knowledge transfer.
 
