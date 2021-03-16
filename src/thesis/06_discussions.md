@@ -9,7 +9,7 @@ keywords: water quality, water pollution, environmental knowledge, environmental
 abstract: Poor water quality and its grave implications for health, economic and political security are especially acute in China. This thesis adds the human experience component by examining how water quality, water quality knowledge and water quality perception are related. Perceived severity of water pollution increases as water quality worsens, as does knowledge about water quality, and education. Water quality knowledge also improves with increased education and with worse water quality. China should complement infrastructure-based water resource management solutions with diverse, local, and inclusive policy and education in order to meet its ambitious water resource management targets.
 ---
 
-## Conclusion
+# Conclusion
 
 Water quality and its grave implications for human, economic and political security have been explored at length. This thesis adds the human perception component to the discussion.
 
@@ -19,4 +19,6 @@ Thus, a multifaceted policy approach should be undertaken. This should continue 
 
 Finally, more research should be undertaken which better models knowledge acquisition pathways for water quality, multivariable analysis on how the variables mentioned in this thesis interact with one another, and quantitative predictions of the impact that non-infrastructure policy would have. With such a serious threat to China and the world, all types of solutions should be considered and implemented.
 
-China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and dignified civilization. 
+China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and dignified civilization.
+
+# References

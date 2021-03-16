@@ -48,6 +48,14 @@ Despite much of the literature covering history in the United States, environmen
 
 -->
 
+### Environmental Aspects in China
+
+Despite its international perception (often correct) of poor environmental protection, China does have history of concern with environmental degradation. In terms of history, the consensus in China amongst researchers is that while the field of environmental history originated in the United States in the early 1970s, the field came to China in the 1990s, and is now studied by researchers of historical geography, social, economic and world history. [@hanHistoricalGeographyEnvironmental2016] While a new and evolving field, the trajectory of study in this area comes from pollution issues in China, which follows trends from the emergence of this study in other countries. [@hanHistoricalGeographyEnvironmental2016, p. 7] China makes "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source 
+
+There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university students were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
+
+Finally, simple analysis of China's one-party political implementation might lead one to assume that civil society has little to no influence on environmental policy. However, this does not appear to be the case. One study found that Chinese civil society organizations (CSOs) work in similar ways to those in more liberal and democratic countries. [@teetsPowerPolicyNetworks2018] This further places importance water quality knowledge and environmental education, since there are direct and indirect links to policy changes.
+
 ### Environmental Knowledge and Education
 
 Knowledge about most topics is learned through theory (education) and practice (experience). #cite This is no different with the environment. #cite The term 'Environmental Knowledge' accounts for multiple ways of learning and acquisition. In the 1970s, authors stressed the complicated pathways from information to knowledge:
@@ -83,14 +91,6 @@ One other factor in environmental perception was the "magnitude, diversity and r
 ### Linking Knowledge and Perception
 
 Studies have looked at some of the variables mentioned previously in relation to other demographic data. One study in 1998 "investigated differences in perception, knowledge, awareness and attitude with regard to environmental problems between educated and \[non-educated]\ groups." [@sudarmadiSurveyPerceptionKnowledge2001] They found that "subjects in the educated group had better perception, more detailed knowledge, were more aware, and had better attitudes in regard to regional and global environmental problems."
-
-### In China
-
-Despite its international perception (often correct) of poor environmental protection, China does have history of concern with environmental degradation. In terms of history, the consensus in China amongst researchers is that while the field of environmental history originated in the United States in the early 1970s, the field came to China in the 1990s, and is now studied by researchers of historical geography, social, economic and world history. [@hanHistoricalGeographyEnvironmental2016] While a new and evolving field, the trajectory of study in this area comes from pollution issues in China, which follows trends from the emergence of this study in other countries. [@hanHistoricalGeographyEnvironmental2016, p. 7] China makes "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source 
-
-There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university students were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
-
-Finally, simple analysis of China's one-party political implementation might lead one to assume that civil society has little to no influence on environmental policy. However, this does not appear to be the case. One study found that Chinese civil society organizations (CSOs) work in similar ways to those in more liberal and democratic countries. [@teetsPowerPolicyNetworks2018] This further places importance water quality knowledge and environmental education, since there are direct and indirect links to policy changes.
 
 ## Water Quality and Perception
 
