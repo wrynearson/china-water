@@ -3,10 +3,10 @@ title: Water Quality, Perception and Knowledge in China
 subtitle: Alignment and Policy Implications
 author: William Bennett Rynearson
 date: \today
-lang: zh-CN, en-US
+#lang: zh-CN, en-US
 #CJKmainfont: Noto Sans CJK HK, Light
 keywords: water quality, water pollution, environmental knowledge, environmental perception
-abstract: Poor water quality and its grave implications for health, economic and political security are especially acute in China. This thesis adds the human experience component by examining how water quality, water quality knowledge and water quality perception are related. Water quality data from 337 municipal cities and 25 counties are compared with $n=11782$ survey respondents. Perceived severity of water pollution increases as water quality worsens, as does knowledge about water quality, and education. Water quality knowledge also improves with increased education and with worse water quality. China should complement infrastructure-based water resource management solutions with diverse, local, and inclusive policy and education in order to meet its ambitious water resource management targets.
+abstract: Poor water quality and its grave implications for health, economic and political security are especially acute in China. This thesis adds the human experience component by examining how water quality, water quality knowledge and water quality perception are related. Perceived severity of water pollution increases as water quality worsens, as does knowledge about water quality, and education. Water quality knowledge also improves with increased education and with worse water quality. China should complement infrastructure-based water resource management solutions with diverse, local, and inclusive policy and education in order to meet its ambitious water resource management targets.
 ---
 
 # Discussion
