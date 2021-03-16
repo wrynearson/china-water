@@ -50,51 +50,14 @@ The two main data sets were loaded into the Jupyter notebook and reviewed for in
 
 ### Choosing Appropriate Questions
 
-#### Demographic Questions
 The thesis proposal and hypothesis were created before the author reviewed the data set, and before the author was aware of the environmental module of the CGSS. While many variables were deemed interesting, several variables were initially selected for broader analysis: [^1]
 
+Not all of the variables were utilized, such as income and subjective personal health, since they were outside of the scope of this thesis.
 
-| Code | Variable (English)             | Variable (Chinese) | Importance                                             | Analyzed? |
-|------|--------------------------------|--------------------|--------------------------------------------------------|-----------|
-| s41  | Province                       |                    | Location of the individual                             | X         |
-| a2   | Gender                         |                    | Possible control                                       | X         |
-| a3a  | Birth year                     |                    | Age of respondant                                      | X         |
-| a7a  | Highest level of education     |                    | Education could be linked to perception and knowledge? | X         |
-| a91  | Rural / agricultural household |                    | Possible control                                       | X         |
+Many survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations, but were not included. Future analysis could be done with many of these questions, but were not within the scope of this analysis.
 
-Not all of the variables were utilized, such as income and subjective personal health, since they were outside of the scope of this thesis. 
+Within the previously-identified relevant variables, the following have been identified as the most relevant for the scope of this study, consisting of demographic variables (which begin with codes 's' or 'a') and environmental questions (which begin with codes 'l').
 
-#### Environmental Questions
-The CGSS includes many demographic data on each respondent. Of which, the following were deemed important for one or more reasons: [^1]
-
-
-| Code     | Question (English)                                                                                                               | Question (Chinese) | Response Types | Importance | Drawback                                                                    | Analyzed? |
-|----------|----------------------------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------|-----------------------------------------------------------------------------|-----------|
-| l1a      | In your opinion, in terms of the current situation in our country, which of the following issues is the most important?          |                    |                |            |                                                                             | Yes       |
-| l1b      | *like l1a, but 2nd most important*                                                                                               |                    |                |            |                                                                             | Yes       |
-| l6a      | In your opinion, in terms of the current situation in our country, which of the following issues is the most important?          |                    |                |            |                                                                             | No        |
-| l6b      | How serious are env. problems facing China?                                                                                      |                    |                |            |                                                                             | No        |
-| l7a      | Which is most important env. issue in China?                                                                                     |                    |                |            | Response types are categorical, so differences in severity is not captured. |           |
-| l7b      | Which has greatest impact on you/family?                                                                                         |                    |                |            |                                                                             |           |
-| l8a      | Knowledge of causes of environmental problems from ?l7                                                                           |                    |                |            |                                                                             |           |
-| l8b      | Knowledge of solutions of environmental problems from ?l7                                                                        |                    |                |            |                                                                             |           |
-| l12a     | In order to protect the environment, to what extent are you willing to pay a higher price?                                       |                    |                |            |                                                                             |           |
-| l12b     | *like l12a, but with higher taxes*                                                                                               |                    |                |            |                                                                             |           |
-| l12c     | *like l12a/b, but with willingness to lower living standards*                                                                    |                    |                |            |                                                                             |           |
-| l137     | Environmental issues directly affect my daily life                                                                               |                    |                |            |                                                                             |           |
-| l14d     | How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?                               |                    |                |            |                                                                             | X         |
-| l15a / b | *see question, about statements of responsibility for environmental protection (individuals/companies, government, etc.)*        |                    |                |            |                                                                             |           |
-| l16c     | In terms of solving environmental problems in your area, how do you think the local government has done in the past five years?" |                    |                |            |                                                                             |           |
-| l20e     | Do you often save water or reuse water specifically for environmental protection?                                                |                    |                |            |                                                                             |           |
-| l2409    | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)                |                    |                |            |                                                                             | X         |
-
-As evident, these questions include questions related to the environment in general, perceptions of the local, national and global environment, water, and knowledge of water quality issues.
-
-Many more survey questions were included in the main and additional module sections. Many of these relate to social satisfaction, political involvement, and future aspirations. Future analysis could be done with many of these questions, but were not within the scope of this analysis.
-
-### Important Questions
-
-Within the previously-identified relevant variables, the following have been identified as the most relevant for the scope of this study.
 
 | Code  | English                                                                                                                                           | Chinese                                                          | Value Range (used)                           |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------|
@@ -103,10 +66,15 @@ Within the previously-identified relevant variables, the following have been ide
 | a3a   | Birth year                                                                                                                                        | 您的出生日期是什么                                                        | Birth year                                   |
 | a7a   | Highest level of obtained education                                                                                                               | 您目前的最高教育程度是                                                      | 1 = none, 13 = master's and above            |
 | a91   | Rural / agricultural household                                                                                                                    | 请问目前您或者您配偶是否为农业户口(或者户口所在地为农村),且在农村(包括家乡和其它地方)有承包的旱地、水田、山林、水面等土地? | 1 = yes, 2 = no                              |
+| l6a   | "Generally speaking, how much do you care about environmental issues?"                                                                            | 总体上说, 您对环境问题有多关注?                                                | 1 = I don't care at all, 5 = Very concerned  |
+| l6b   | "Based on your own judgement, on the whole, do you think the environmental problems facing China are serious?"                                    | 根据您自己的判断，整体上看，您觉得中国面临的环境问题是否严重?                                  | 1 = very serious, 5 = not serious at all     |
+| l7a   | "Which issue do you think is the most important environmental issue in China?"                                                                    | 您认为哪个问题是中国当前最重要的环境问题?                                            | *See table *#cite                            |
+| l7b   | "Which issue do you think has the greatest impact on you and your family?"                                                                        | 您认为哪个问题对您和您的家庭影响最大？                                              | *See table *#cite                            |
 | l14d  | "How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?" (*Used to measure perception*)               | 您认为中国的江、河、湖泊的污染对环境的危害程度是?                                        | 1 = very important, 5 = not important at all |
 | l2409 | "In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1)" (*Used to measure knowledge*) | 国内水体污染报告中,V(5)类水质要比I(1)类水质好                                      | 1 = correct, **2 = incorrect**               |
 
 ### Geographic Alignment
+
 The two data sets are of differing geographic precision. The CGSS2010 (and all CGSSII data sets) include data on the province of where the respondent resided. Based on the structure of the data, it is assumed that more precise geographic information is included, however the CGSS publishing team chooses only to release the provincial information.
 
 This is different than the WQIR2018 data, which is published at the sub-provincial level (admin 2). Thus, for comparative analysis, the mean water quality per province was calculated (more on this below).
@@ -120,7 +88,7 @@ This is different than the WQIR2018 data, which is published at the sub-provinci
 As previously discussed, the relationships between water quality, water quality perception, and water quality are investigated. The following table summarizes how the theory and data are linked:
 
 | Term                     | Definition                                                                    | Data                | Range      | Measurement and Direction                                                                                                                                                |
-|:------------------------:|:-----------------------------------------------------------------------------:|:-------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|--------------------------|-------------------------------------------------------------------------------|---------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Water quality            | The measure of the condition of water relative to standards and requirements. | `score` (from WQIR) | 6.9 - 23.6 | A *decrease* in water quality is measured by an *increase* in the value of `score`.                                                                                      |
 | Water quality perception | The recognition of water quality as a problem.                                | `l14d` (from CGSS)  | 1 - 5      | An *increase* in water quality perception is measured by a *decrease* in the value of `l14d`                                                                             |
 | Water quality knowledge  | The acquisition of a baseline amount of knowledge about water quality.        | `l2409` (from CGSS) | 1, 2, 8    | If `l2409` is 1, the respondent *is not* knowledgeable. If `l2409` is 2, the respondent *is* knowledgeable. If `l2409` is 8, the respondent *is somewhat* knowledgeable. |
@@ -158,14 +126,6 @@ The second misaligned dimension is temporal, as the CGSS responses and water qua
 
 Further limitations come from the perceived findings based upon the CGSS question set. The two main questions which were analyzed, `l14d` and `l2409`, are not perfectly analogous to the conclusions the author made. `l14d` refers more to rivers and lakes in China, which are not necessarily the drinking water sources which are used by the respondent. Further, the severity of pollution being harmful to the environment is not necessarily the same as the respondents' perception. `l2409` directly tests respondents' knowledge of water quality scales used by China, but this question, and `l14d`, do not necessarily test for knowledge, and perception, of the local water quality - the question refers to China in general.
 
-—
-# Notes
-- Those who are more aware about environmental issues may be more knowledgeable about water issues (`l7a`).
-- Mention that water pollution is the 2nd highest category counted for `l7a` and 3rd for `l7b`
-    - To ask perception in a different way, I could use respondents who say water is \#1\ from `l7a` `l7b` instead of `l14d`and if the trends matching education, perception and quality are the same.
-        - Those who think `l14d` is harmful probably think that water pollution is \#1\ for `l7a` and `l7b`
-
-—
 
 [^1]: Translated from Chinese into English.
 [^2]: "How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment?" which has been translated from the original Chinese question "您认为中国的江、河、湖泊的污染对环境的危害程度是?"

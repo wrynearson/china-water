@@ -25,10 +25,10 @@ The trend is consistent across most provinces, water quality, gender, education 
 
 ![l6_fig2.svg](../outputs/l6_fig2.svg)
 
-Concern of water pollution ranked high on respondents' overall environmental concerns. Respondents ranked their most ($n=3218$) and second-most ($n=3045$) important environmental issues in China. Water pollution was the second most common response for their most important environmental concern, behind air pollution and ahead of domestic waste disposal. Water scarcity ranked lower. For respondents' second most concern, water pollution was the third most common response, behind domestic waste disposal and ahead of fertilizer and pesticide pollution.
+Concern of water pollution ranked high on respondents' overall environmental concerns. Respondents ranked the issue which they think is the most important in China ($n=3218$) and the one which affects their family the most ($n=3045$).. Water pollution was the second most common response for their most important environmental concern, behind air pollution and ahead of domestic waste disposal. Water scarcity ranked lower. For respondents' concern for issues affecting their families, water pollution was the third most common response, behind domestic waste disposal and ahead of fertilizer and pesticide pollution.
 
 | Code | Name                               |
-|-----:|:-----------------------------------|
+|-----:|------------------------------------|
 |    1 | Air Pollution                      |
 |    2 | Fertilizer and pesticide pollution |
 |    3 | Water scarcity                     |
@@ -46,14 +46,14 @@ Concern of water pollution ranked high on respondents' overall environmental con
  
  For the following hypotheses, it is important to remember the question types and response ranges. As the level of perceived harm increases for `l14d`, the value decreases. As responses approaches 2 for `l2409`, the knowledge about water quality issues is assumed to increase. While this is as set of binary responses, it is calculated as a mean later in this analysis.
  
-|         | `l14d` (perception)                                                                                | `l2409` (knowledge)                                                                                               |
-|--------:|:--------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|
-| *Value* | How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment? | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1) |
-|       1 | Extremely harmful to the environment                                                               | Correct                                                                                                           |
-|       2 | Very harmful                                                                                       | Error (***note**: this response is correct*)                                                                      |
-|       3 | Some hazards                                                                                       | -                                                                                                                 |
-|       4 | Not very harmful                                                                                   | -                                                                                                                 |
-|       5 | There is no harm at all                                                                            | -                                                                                                                 |
+| Value | `l14d` (perception)                                                                                | `l2409` (knowledge)                                                                                               |
+|-------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+|       | How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment? | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1) |
+| 1     | Extremely harmful to the environment                                                               | Correct                                                                                                           |
+| 2     | Very harmful                                                                                       | Error (***note**: this response is correct*)                                                                      |
+| 3     | Some hazards                                                                                       | -                                                                                                                 |
+| 4     | Not very harmful                                                                                   | -                                                                                                                 |
+| 5     | There is no harm at all                                                                            | -                                                                                                                 |
 
 It should be noted that there are discrepancies in both the number of responses per province, per type of value (demographic variable or question response), and for the number of water quality measurements per province. Thus, conclusions from individual provinces should be taken with caution – for example, data from Tibet (`s41`= 25) is especially scarce.
 
@@ -119,13 +119,13 @@ There seems to be a small but statistically-significant difference ($p \approx 0
 
 The analysis above produced interesting results. Overall, the first five hypotheses were proven correct, with the limitation that all regression analyses provide a poor fit to model these trends. The sixth hypothesis shows a statistically-significant difference, but a trend is harder to be confident about. This can be explained that there are variable(s) which are contributing to this trend which are not accounted for in the simple two-variable regression analysis. Another interpretation could be that there factors influencing these correlations which are not accounted for in the data sets analyzed for this thesis. Further analysis is required to explain the causes of this poor fit. The limitations discussed previously, including geographic precision, differences in periods of time and applicability of the analyzed questions, should also be noted. Given more data, specifically updated CGSS results when the environmental module is included, would give the opportunity to conduct a longitudinal analysis.
 
+Further research could be done based off of the two datasets. Different questions could be used to complement this research. One example is how engagement was measured. Those who are more aware about environmental issues in general may be more knowledgeable about water issues (`l7a`). To quantify perception in a different way, one could use respondents who say water is \#1\ from `l7a` `l7b` instead of `l14d`and if the trends matching education, perception and quality are the same. Those who think `l14d` is harmful probably think that water pollution is \#1\ for `l7a` and `l7b`. As mentioned, there are hundreds of questions and demographic variables, so other analysis could be undertaken which includes direct political satisfaction, income, health and well-being, and so on.
 
-
-# Discussion
+## Discussion
 
 The discourse on water quality should have a more holistic focus which values local knowledge, subjective perspectives and increased awareness to complement the current primary focus on direct water quality.
 
-## Issues and Implications
+### Issues and Implications
 
 China has made a range of commitments, and notable action, on improving the country's water quality. The government invested 717.6b RMB (US\$110.3b) to address water quality, quantity and flooding issues in 2017 alone. [@theworldbankWatershedNewEra2019, p.. vii]. The priority improvement method is infrastructure development – Since the founding of the P.R.C., over 800 billion cubic meters of water storage has been constructed though over 400 thousand kilometers of river dikes and over 98000 reservoirs. [@theworldbankWatershedNewEra2019, p. 2] Additionally, nearly 6000 water supply projects provide rural services to more than 800 million people. 
 
@@ -160,7 +160,7 @@ Another notable policy implication is China's energy profile. Coal usage is more
 
 Many of these issues are exacerbated by policy coordination problems. While national standards have been discussed in this thesis, water resource management often is in the purview of local and provincial officials. [@theworldbankWatershedNewEra2019, p. 4] Water Resource Bureaus exist at all levels of administrative regions, from townships to provincial levels).
 
-## A Multi-Stakeholder, Multi-Scale Approach
+### A Multi-Stakeholder, Multi-Scale Approach
 
 This all leads to the conclusion that top-down, Beijing-lead infrastructure programs are not enough to meet many of the SDG 6 targets and indicators. #cite
 
@@ -202,7 +202,7 @@ The central government has an opportunity to increase local autonomy by playing 
 
 With many of these points, knowledge and education can be the facilitators of positive improvements in the causes and effects of water resources issues.
 
-## Education
+### Education
 
 In addition to policy changes, education-focused policies should be implemented to directly and indirectly improve China's water situation through knowledge and perception acquisition pathways.
 

@@ -86,9 +86,7 @@ Studies have looked at some of the variables mentioned previously in relation to
 
 ### In China
 
-Despite its international perception (often correct) of poor environmental protection, China does have history of concern with environmental degradation. In terms of history, the consensus in China amongst researchers is that while the field of environmental history originated in the United States in the early 1970s, the field came to China in the 1990s, and is now studied by researchers of historical geography, social, economic and world history. [@hanHistoricalGeographyEnvironmental2016] While a new and evolving field, the trajectory of study in this area comes from pollution issues in China, which follows trends from the emergence of this study in other countries. [@hanHistoricalGeographyEnvironmental2016, p. 7]
-
-In terms of policy, China makes "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source 
+Despite its international perception (often correct) of poor environmental protection, China does have history of concern with environmental degradation. In terms of history, the consensus in China amongst researchers is that while the field of environmental history originated in the United States in the early 1970s, the field came to China in the 1990s, and is now studied by researchers of historical geography, social, economic and world history. [@hanHistoricalGeographyEnvironmental2016] While a new and evolving field, the trajectory of study in this area comes from pollution issues in China, which follows trends from the emergence of this study in other countries. [@hanHistoricalGeographyEnvironmental2016, p. 7] China makes "great leaps" of progress and reform every decade or so since the political reform in the early 1970s. [@xieChinaHistoricalEvolution2020] #check-source 
 
 There is also evidence showing that environmental issues and their repercussions are deemed important by the local population. One study found that Chinese university students were more concerned about environmental risk, and deemed "environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents.environmental issues to be more harmful to health, to the environment, and to social economic development of the nation than did the American respondents." [@duanCrossCulturalStudyEnvironmental2012] Furthermore, they found that Chinese students were concerned about fresh water shortage, and safe drinking water shortage more than other environmental concerns, and only less so than human population growth.
 
@@ -96,7 +94,7 @@ Finally, simple analysis of China's one-party political implementation might lea
 
 ## Water Quality and Perception
 
-### Water Quality Components
+### Components of Water Quality
 
 The WHO sets standards for drinking water quality [@worldhealthorganizationGuidelinesDrinkingwaterQuality2017] , which have been applied by the Chinese government. [@quChinaNewNational2012; @zhonghuarenmingongheguoguojiaShengHuoYinYongShuiWeiShengBiaoZhun2006] China applied 106 factors into its drinking water quality standards in 2011, mostly in line with the WHO's 155 factors from the same year. These are broken down into several categories, including microbial aspects, chemical aspects, radiological aspects, and acceptability aspects. For this thesis, the exact determinate of these components are not investigated, nor are the relative importance between certain indicators and perception, or knowledge. However, it should be noted that not all indicators of water quality have direct negative health implications – for the acceptability aspects (also referred to as aesthetic aspects), undesirable qualities (including taste, smell, and color) can erode public trust in otherwise healthy drinking water. [@worldhealthorganizationGuidelinesDrinkingwaterQuality2017, p. 219]
 
@@ -122,9 +120,9 @@ While the state is improving, there is still progress to be made: #todo **turn i
 
 Access to water is another factor in the population's perception of water. China has increased its use of basic sanitation services by 28% from 2000-2017 [@jmpworld2019progress, p. 31, fig. 33] and achieved 100% safely managed drinking water access. [@jmpworld2019progress, p. 48, fig. 51] #check-source
 
+
 {table} Minimum water access in China in 2000 and 2017 
 :name: jmp-2019-china-water-access
-
 
 | Year | Population | % Urban | At least basic - National | At least basic - Rural | At least basic - Urban |
 |:----:|:----------:|:-------:|:-------------------------:|:----------------------:|:----------------------:|
