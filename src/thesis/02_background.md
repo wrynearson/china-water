@@ -64,9 +64,9 @@ Several other studies have mixed results. One study examined the relationship be
 
 There is an intuitive link between the state of the environment and one's perception of the environment. Environmental perception has been defined as "awareness of, or feelings about, the environment, and as the act of apprehending the environment by the senses." {cite}`zubeEnvironmentalPerception1999` A more detailed definition takes into account its multi-dimensional aspects, as a "transactional process between the person and the environment." {cite}`ittelsonEnvironmentCognition1973` He offered three general conclusions: 
 
-> 1. It is not directly controlled by the stimulus.
-    2. It is linked to and indistinguishable from other aspects of psychological functioning.
-    3. It is relevant and appropriate to specific environmental contexts.
+>    1. It is not directly controlled by the stimulus.
+>    2. It is linked to and indistinguishable from other aspects of psychological functioning.
+>    3. It is relevant and appropriate to specific environmental contexts.
 
 These conclusions are rather vague in this form. Ittelson continues in his theoretical framework and suggest that environments "surround the person, provide opportunities for exploration, and provide information that is received through all senses – feeling, hearing, seeing, smelling, and tasting." {cite}`zubeEnvironmentalPerception1999` Environments provide more information than the person can apprehend, thus leaving the potential for the environment to influence in unperceivable ways. Additionally, according to Ittleson, environments have ambiance – a "quality, mood or atmosphere" which can relate to the social context of environmental experience, and is viewed through the lens of past experience and current perceptions. Simply put, environments affect both individuals and societal groups in ways which are not always easy to understand, and can change or be affected in the present and the past. This has an affect on policy, as information regarding how the general population feels about the environment can inform policy makers.
 
@@ -86,7 +86,7 @@ The WHO sets standards for drinking water quality {cite}`worldhealthorganization
 
 ### Water Quality in China
 
-China often cites its developing country status as a reason that it under-performs on environmental indicators. However, China ranks lower than other countries with similar or even lower GDP. {cite}`wendlingz.a.2020EnvironmentalPerformance2020, p. X, fig. ES-1` Overall, China ranked 120th with a score of 37.3 in 2020, which was the same ranking as in 2018 but with a decreased score from 50.74.[^1] {cite}`wendlingz.a.2020EnvironmentalPerformance2020 p. XII, wendling2018EnvironmentalPerformance2018 p.15` 
+China often cites its developing country status as a reason that it under-performs on environmental indicators. However, China ranks lower than other countries with similar or even lower GDP. {cite}`wendlingz.a.2020EnvironmentalPerformance2020, p. X, fig. ES-1` Overall, China ranked 120th with a score of 37.3 in 2020, which was the same ranking as in 2018 but with a decreased score from 50.74.[^1] {cite}`wendlingz.a.2020EnvironmentalPerformance2020 p XII, wendling2018EnvironmentalPerformance2018` 
 
 In 2020, China ranked 54th (6th regionally) in sanitation and drinking water, with a score of 59.4/100. {cite}`wendlingz.a.2020EnvironmentalPerformance2020, p. 57` Specific rankings for sanitation and drinking water were not available for 2018. For the broader category of Environmental Health (HLT), China scored 31.72/100. {cite}`huangEnvironmentalPerformanceAsia2019`
 
@@ -102,7 +102,7 @@ China uses a tiered categorical composite indicator, referred to as China's Wate
 
 While the state is improving, there is still much progress to be made. This is made evident by the following figure, which depicts the percentage of each water quality classification in rivers in China over time. {cite}`theworldbankWatershedNewEra2019, fig. 1.3; p. 19`
 
-![wbg_wq_river.png](../outputs/river_wq.png)
+![wbg_wq_river.svg](../outputs/river_wq.svg)
 
 Access to water is another factor in the population's perception of water. China has increased its use of basic sanitation services by 28% from 2000-2017 {cite}`jmpworld2019progress, p. 31` The following tables show water access by urbanization and development quality over time.  {cite}`jmpworld2019progress, p. 48, fig. 51`
 
@@ -172,7 +172,7 @@ China's water quality faces continued scrutiny in the 2010s. In 2011, as a part 
 
 ### Water Quality Perception
 
-While actual water quality is clearly important, so too is perception. Many factors exist in the public's perception of water quality. While "organoleptic properties" exist, most notably flavor, others exist including "risk perception, attitudes towards water chemicals, contextual cues provided by the supply system, familiarity with specific water properties, trust in suppliers, past problems attributed to water quality and information provided by the mass media and interpersonal sources." {cite}`migueldefrancadoriaFactorsInfluencingPublic2010` Water quality perceptions are especially important when water is used for drinking or other domestic purposes, causing some to consider perceptions of water quality more important than actual water quality. {cite}`sheat1992public` Thus, it is important for policy makers to consider not only reality of water quality, but also the public's perception. Trends indicate that water quality policy should include not only the protection of human health, but also "acceptability." {cite}`BonnCharterSafe2004 §7.7`
+While actual water quality is clearly important, so too is perception. Many factors exist in the public's perception of water quality. While "organoleptic properties" exist, most notably flavor, others exist including "risk perception, attitudes towards water chemicals, contextual cues provided by the supply system, familiarity with specific water properties, trust in suppliers, past problems attributed to water quality and information provided by the mass media and interpersonal sources." {cite}`migueldefrancadoriaFactorsInfluencingPublic2010` Water quality perceptions are especially important when water is used for drinking or other domestic purposes, causing some to consider perceptions of water quality more important than actual water quality. {cite}`sheat1992public` Thus, it is important for policy makers to consider not only reality of water quality, but also the public's perception. Trends indicate that water quality policy should include not only the protection of human health, but also "acceptability." {cite}`BonnCharterSafe2004`
 
 Research into water quality perception has existed since the 1960s, but is very heterogeneous, including; different use cases of water (drinking, household, agricultural, etc.); different delivery methods (piped, bottled) and different geographic and demographic localities, with most research conducted on bottled water and in developed countries. {cite}`migueldefrancadoriaFactorsInfluencingPublic2010`
 
