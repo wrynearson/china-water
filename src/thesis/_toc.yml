@@ -1,11 +1,13 @@
 # In _toc.yml
-- file: 1_introduction
-- file: 2_background
-- file: 3_literature-review
-- file: 4_research-questions
-- file: 5_significance
-- file: 6_methodology
-- file: 7_analysis
-- file: 8_discussions
-- file: thesis_analysis_pure
-- file: thesis_analysis
+format: jb-article
+root: index
+sections:
+- file: 01_introduction
+- file: 02_background
+- file: 03_research-questions
+- file: 04_methodology
+- file: 05_analysis
+- file: 06_conclusion
+- file: 07_bibliography
+# - file: thesis_analysis_pure
+# - file: thesis_analysis

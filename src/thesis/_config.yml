@@ -1,6 +1,14 @@
 # in _config.yml
 title: "Water Quality, Perception and Knowledge in China"
-author: "Will Rynearson"
+subtitle: "Alignment and Policy Implications"
+author: "William Bennett Rynearson"
 # logo: images/logo.png
-execute:
-  execute_notebooks: "off"
+# execute:
+  # execute_notebooks: "off"
+
+bibtex_bibfiles:
+  - bib.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
