@@ -6,26 +6,38 @@ The following is a summary of the results of the analysis. The code and procedur
 
 Overall, respondents are self-report a fairly high level of concern regarding environmental issues, and a high level of awareness for environmental issues facing China. [^1]
 
-
-| Response Value | l6a                                    | l6b                             |
+```{table} Response values of environmental concern and awareness from the CGSS2010
+:name: env_concern_aware
+| Response Value | `l6a`                                    | `l6b`                             |
 |----------------|----------------------------------------|---------------------------------|
 | 1              | I don't care at all                    | Very serious                    |
 | 2              | Less caring                            | More serious                    |
 | 3              | I can't say that I don't care about it | Neither serious nor not serious |
 | 4              | More concerned                         | Not too serious                 |
 | 5              | Very concerned                         | Not serious at all              |
+```
 
 For `l6a` and `l6b` ($n=3362$) the mean response was 3.67 and 2.15 respectively, noting the structure of the data –  an increase in `l6a` notes an increase in concern while a decrease in `l6b` notes an increase in awareness. The distribution of responses is the following:
 
+```{figure} ../outputs/l6_fig1.svg
+:name: l6_fig1
 
-![l6_fig1](../outputs/l6_fig1.svg)
+Distribution of responses from two questions regarding individual and societal importance of environmental issues.
+```
 
 The trend is consistent across most provinces, water quality, gender, education levels, age groups, and rural classification.
 
+```{figure} ../outputs/l6_fig2.svg
+:name: l6_fig2
 
-![l6_fig2](../outputs/l6_fig2.svg)
+Trends between individual and societal importance of environmental issues.
+```
 
 Concern of water pollution ranked high on respondents' overall environmental concerns. Respondents ranked the issue which they think is the most important in China ($n=3218$) and the one which affects their family the most ($n=3045$). Water pollution was the second most common response for their most important environmental concern, behind air pollution and ahead of domestic waste disposal. Water scarcity ranked lower. For respondents' concern for issues affecting their families, water pollution was the third most common response, behind domestic waste disposal and ahead of fertilizer and pesticide pollution.
+
+<!--
+```{table} Response options for examining respondents' most serious environmental concern facing China and their family.
+:name: env_concern
 
 | Code | Name                               |
 |-----:|------------------------------------|
@@ -39,44 +51,66 @@ Concern of water pollution ranked high on respondents' overall environmental con
 |    8 | Genetically modified food          |
 |    9 | Depletion of natural resources     |
 |   10 | None of the above                  |
+````
+-->
 
-![l7_fig2](../outputs/l7_fig2.svg)
+```{figure} ../outputs/l7_fig2.svg
+:name: l7_fig2
 
-![l7_fig3](../outputs/l7_fig3.svg)
+Distribution of responses measuring the most important environmental issues for China.
+```
 
- For the following hypotheses, it is important to remember the question types and response ranges. As the level of perceived harm increases for `l14d`, the value decreases. As responses approaches 2 for `l2409`, the knowledge about water quality issues is assumed to increase. While this is as set of binary responses, it is calculated as a mean later in this analysis.
+```{figure} ../outputs/l7_fig3.svg
+:name: l7_fig3
 
+Distribution of responses measuring the most important environmental issues for peoples' families.
+```
+
+```{important} 
+For the following hypotheses, it is important to remember the question types and response ranges. As the level of perceived harm increases for `l14d`, the value decreases. As responses approaches 2 for `l2409`, the knowledge about water quality issues is assumed to increase. While this is as set of binary responses, it is calculated as a mean later in this analysis.
+```
+
+```{table} Overview of the CGSS2010 questions used to measure water quality perception and knowledge.
+:name: cgss2010_questions
 | Value | `l14d` (perception)                                                                                | `l2409` (knowledge)                                                                                               |
 |-------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 |       | How do you think the pollution of rivers, rivers and lakes in China is harmful to the environment? | In the domestic water pollution report, the water quality of Category V (5) is better than that of Category I (1) |
 | 1     | Extremely harmful to the environment                                                               | Correct                                                                                                           |
-| 2     | Very harmful                                                                                       | Error (***note**: this response is correct*)                                                                      |
+| 2     | Very harmful                                                                                       | Error (**note**: this response is correct)                                                                      |
 | 3     | Some hazards                                                                                       | -                                                                                                                 |
 | 4     | Not very harmful                                                                                   | -                                                                                                                 |
 | 5     | There is no harm at all                                                                            | -                                                                                                                 |
+```
 
-It should be noted that there are discrepancies in both the number of responses per province, per type of value (demographic variable or question response), and for the number of water quality measurements per province. Thus, conclusions from individual provinces should be taken with caution – for example, data from Tibet (`s41`= 25) is especially scarce. Thus, analysis regarding the impact of respondents residing in specific provinces, and any differences solely stemming from the province of residence, was not investigated.
+It should be noted that there are discrepancies in both the number of responses per province, per type of value (demographic variable or question response), and for the number of water quality measurements per province. Thus, conclusions from individual provinces should be taken with caution – for example, data from Tibet (`s41` $= 25$) is especially scarce. Thus, analysis regarding the impact of respondents residing in specific provinces, and any differences solely stemming from the province of residence, was not investigated.
 
 ### Hypothesis 1: 
 
 *Local (provincial) water quality relates to water quality perception.*
 
-There is a statistically significant ($p=4.98 \text{e-}9$) correlation with a large number of responses ($n = 3253$). Thus, actual water quality is related to perception of water quality, and worse water quality relates to an increase in perception of severity. However, there is a poor regression fit (coefficient of determination $r=-0.1023$). Note that the range of water quality scores is large when respondents reply with the most-severe perception response type (`l14d`= 5).
+There is a statistically significant ($p=4.98 \text{e-}9$) correlation with a large number of responses ($n = 3253$). Thus, actual water quality is related to perception of water quality, and worse water quality relates to an increase in perception of severity. However, there is a poor regression fit (coefficient of determination $r=-0.1023$). Note that the range of water quality scores is large when respondents reply with the most-severe perception response type (`l14d` $= 5$).
 
+```{figure} ../outputs/h1_fig1.svg
+:name: h1_fig1
 
-![h1_fig2](../outputs/h1_fig1.svg)
+Hypothesis 1, water quality perception decreases with improved water quality.
+```
 
 ### Hypothesis 2
 
 *An increase knowledge of water quality issues (`l2409`) relates to an increased perception of severity (`l14d`)*
 
-There appears to be a relationship between water quality knowledge and perception from the smaller sample size ($n=861$). Respondents who replied incorrectly (when $\text{l2409}=1$) ($n=282$) have a mean perception response $\text{l14d}=2.383$, while respondents who replied correctly (when $\text{l2409}=2$) ($n=579$) have a mean perception response $\text{l14d}=2.197$.
+There appears to be a relationship between water quality knowledge and perception from the smaller sample size ($n=861$). Respondents who replied incorrectly (when $\text{l2409}=1$) ($n=282$) have a mean perception response `l14d` $= 2.383$, while respondents who replied correctly (when `l2409` $= 2$) ($n=579$) have a mean perception response `l14d` $= 2.197$.
 
 There is a statistically significant ($p= 8.81 \text{e-}4$) correlation, however there is a poor regression fit (coefficient of determination $r=-0.1023$).
 
-With increased water quality knowledge ($\text{l2409}=2$), environmental perception is increased (decreased `l14d`). However, this trend is no longer visible when factoring for rural/urban `a91`, education level `a7a`, and for other demographic question. For more conclusive results, further multi-variable statistical analysis is required.
+With increased water quality knowledge (`l2409` $= 2$), environmental perception is increased (decreased `l14d`). However, this trend is no longer visible when factoring for rural/urban `a91`, education level `a7a`, and for other demographic question. For more conclusive results, further multi-variable statistical analysis is required.
 
-![h2_fig](../outputs/h2_fig1.svg)
+```{figure} ../outputs/h2_fig1.svg
+:name: h2_fig1
+
+Hypothesis 2, distribution of perception by knowledge, separated by rural classification.
+```
 
 ### Hypothesis 3
 
@@ -84,12 +118,20 @@ With increased water quality knowledge ($\text{l2409}=2$), environmental percept
 
 There seems to be a relation between these two variables. Since `l2409` is analyzed as a binary variable (only two responses), values from each education level are averaged to find the mean.
 
-![h3_fig1](../outputs/h3_fig1.svg)
+
+```{figure} ../outputs/h3_fig1.svg
+:name: h3_fig1
+
+Hypothesis 3, showing an increase in education with an increase in water quality knowledge.
+```
 
 There is a statistically significant ($p= 1 \text{e-}6$) correlation, however there is a poor regression fit ($r=-0.16$) with a smaller sample size $n=881$. Further comparison with rural versus non-rural responses reveal large differences in both the typical level of education and the number of responses per rural classifier.
 
+```{figure} ../outputs/h3_fig2.svg
+:name: h3_fig2
 
-![h3_fig2](../outputs/h3_fig2.svg)
+Hypothesis 3, showing a distribution of knowledge by education level, separated by rural classification.
+```
 
 ### Hypothesis 4
 
@@ -97,12 +139,19 @@ There is a statistically significant ($p= 1 \text{e-}6$) correlation, however th
 
 There is a clear trend between education and perception, with a larger sample size ($n=3252$). There is a statistically significant correlation ($p \approx 0$). There is a fairly low regression fit ($r=-0.2109$).
 
+```{figure} ../outputs/h4_fig1.svg
+:name: h4_fig1
 
-![h4_fig1](../outputs/h4_fig1.svg)
+Hypothesis 4, showing a clear relation between increased education and increased severity of perception.
+```
 
 When differentiated by rural classification, an interesting trend becomes evident: non-rural households have a higher perception than rural households at each education level, however this difference decreases as education increases. Analysis into the reason behind this was not conducted.
 
-![h4_fig2](../outputs/h4_fig2.svg)
+```{figure} ../outputs/h4_fig2.svg
+:name: h4_fig2
+
+Hypothesis 4, showing a converging trend between rural classification.
+```
 
 ### Hypothesis 5
 
@@ -110,25 +159,30 @@ When differentiated by rural classification, an interesting trend becomes eviden
 
 With a larger sample size ($n=3252$), a statistically-significant difference was found ($p \approx 0$). There is a fairly low regression fit ($r=-0.2018$) The mean `l14d` value per rural classification was calculated. However, education levels vary significantly between rural and non-rural respondents.
 
-
-| Rural Classification | Number of Responses | Mean Perception (l14d) | Mean Education Level (a7a) |
+```{table} Hypothesis 5, displaying results from the analysis.
+| Rural Classification | Number of Responses | Mean Perception (`l14d`) | Mean Education Level (`a7a`) |
 |:--------------------:|:-------------------:|:----------------------:|:--------------------------:|
-| Rural (a91 = 1)      | 1257                | 2.536                  | 3.48                       |
-| Non-rural (a91 = 2)  | 1995                | 2.172                  | 6.24                       |
+| Rural (`a91` $= 1$)      | 1257                | 2.536                  | 3.48                       |
+| Non-rural (`a91` $= 2$)  | 1995                | 2.172                  | 6.24                       |
+```
 
 ### Hypothesis 6
 
 *There is a relation between water quality and water quality knowledge.*
 
-There seems to be a small but statistically-significant difference ($p \approx 0$) between water quality knowledge levels and water quality. With a large number of responses ($n=3628$), a decrease in knowledge relates to a decrease in water quality. With knowledgeable respondents (`l2409`= 2), the mean water quality was 16.85. With somewhat knowledgeable respondents (`l2409` = 8), the mean water quality was 16.56. Finally, with respondents with no knowledge (`l2409` = 1), the mean water quality was 16.20. The statistically-significant difference was not matched with any level of confidence in the fit of the model, with $r = -0.10$. It should be noted that with this hypothesis, response types equal to 8 ("can't answer") were included while they were omitted previously. 
+There seems to be a small but statistically-significant difference ($p \approx 0$) between water quality knowledge levels and water quality. With a large number of responses ($n=3628$), a decrease in knowledge relates to a decrease in water quality. With knowledgeable respondents (`l2409` $= 2$), the mean water quality was 16.85. With somewhat knowledgeable respondents (`l2409` $= 8$), the mean water quality was 16.56. Finally, with respondents with no knowledge (`l2409` $= 1$), the mean water quality was 16.20. The statistically-significant difference was not matched with any level of confidence in the fit of the model, with $r = -0.10$. It should be noted that with this hypothesis, response types equal to 8 ("can't answer") were included while they were omitted previously. 
 
-![h6_fig1](../outputs/h6_fig1.svg)
+```{figure} ../outputs/h6_fig1.svg
+:name: h6_fig1
+
+Hypothesis 6, showing water quality scores per water quality knowledge.
+```
 
 ## Analysis
 
 The analysis above produced interesting results. Overall, the first five hypotheses were proven correct, with the limitation that all regression analyses provide a poor fit to model these trends. The sixth hypothesis shows a statistically-significant difference, but a trend is harder to be confident about. This can be explained that there are variable(s) which are contributing to this trend which are not accounted for in the simple two-variable regression analysis. Another interpretation could be that there factors influencing these correlations which are not accounted for in the data sets analyzed for this thesis. Further analysis is required to explain the causes of this poor fit. The limitations discussed previously, including geographic precision, differences in periods of time and applicability of the analyzed questions, should also be noted. Given more data, specifically updated CGSS results when the environmental module is included, would give the opportunity to conduct a longitudinal analysis.
 
-Further research could be done based off of the two datasets. Different questions could be used to complement this research. One example is how engagement was measured. Those who are more aware about environmental issues in general may be more knowledgeable about water issues (`l7a`). To quantify perception in a different way, one could use respondents who say water is \#1\ from `l7a` `l7b` instead of `l14d`and if the trends matching education, perception and quality are the same. Those who think `l14d` is harmful probably think that water pollution is \#1\ for `l7a` and `l7b`. As mentioned, there are hundreds of questions and demographic variables, so other analysis could be undertaken which includes direct political satisfaction, income, health and well-being, and so on.
+Further research could be done based off of the two datasets. Different questions could be used to complement this research. One example is how engagement was measured. Those who are more aware about environmental issues in general may be more knowledgeable about water issues (`l7a`). To quantify perception in a different way, one could use respondents who say water is from `l7a` and `l7b` instead of `l14d` and if the trends matching education, perception and quality are the same. Those who think `l14d` is harmful probably think that water pollution is for `l7a` and `l7b`. As mentioned, there are hundreds of questions and demographic variables, so other analysis could be undertaken which includes direct political satisfaction, income, health and well-being, and so on.
 
 ---
 

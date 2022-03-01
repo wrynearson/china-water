@@ -1,6 +1,7 @@
 #  Methodology
 
 ## Data Sources
+
 The main analysis of this thesis is centered around two data sets, which are described below.
 
 ### Chinese General Social Survey (CGSS)
@@ -24,6 +25,9 @@ The second data set was compiled by the author from a report from the Institute 
 
 It should also be noted that the water quality score used in the WQIR data set is derived from the official Chinese water quality index system. The following table translates between the two scoring systems. {cite}`jun2018BlueCity, p.5`
 
+```{table} Comparison of Water Quality Indices
+:name: wq-indeces
+
 | IPE Score     | IPE Level (EN)          | IPE Level (ZH) | EQ  Water |
 |:-------------:|:-----------------------:|:--------------:|:---------:|
 | 0.00 - 4.79   | Excellent               | 优             | II     |
@@ -31,6 +35,7 @@ It should also be noted that the water quality score used in the WQIR data set i
 | 10.28 - 16.85 | Moderate                | 一般           | IV     |
 | 16.85 - 24.74 | Relatively Poor         | 较差           | V       |
 | 24.70 - 50.00 | Poor                    | 差             | V      |
+```
 
 ## Data Processing and Evaluation
 Analysis for this thesis was conducted using the general-purpose computer programming language Python. To allow for accessibility, readability, and reproducibility, the primary data analysis medium was a Jupyter notebook {cite}`kluyverJupyterNotebooksPublishing`, a document format which allows for text and code to be read and execute in an easy-to-read format, which was hosted on GitHub, to allow for accessibility. {cite}`rynearsonWrynearsonChinawater2020` This was chosen after initial data analysis was conducted in a more traditional Python file, which was less collaborative and more cumbersome.
@@ -61,18 +66,26 @@ This is different than the WQIR2018 data, which is published at the sub-provinci
 
 As previously discussed, the relationships between water quality, water quality perception, and water quality are investigated. The following table summarizes how the theory and data are linked:
 
+```{table} Alignment of definitions and data, including directionality.
+:name: definitions-data
+
 | Term                     | Definition                                                                    | Data                | Range      | Measurement and Direction                                                                                                                                                |
 |--------------------------|-------------------------------------------------------------------------------|---------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Water quality            | The measure of the condition of water relative to standards and requirements. | `score` (from WQIR) | 6.9 - 23.6 | A *decrease* in water quality is measured by an *increase* in the value of `score`.                                                                                      |
 | Water quality perception | The recognition of water quality as a problem.                                | `l14d` (from CGSS)  | 1 - 5      | An *increase* in water quality perception is measured by a *decrease* in the value of `l14d`                                                                             |
 | Water quality knowledge  | The acquisition of a baseline amount of knowledge about water quality.        | `l2409` (from CGSS) | 1, 2, 8    | If `l2409` is 1, the respondent *is not* knowledgeable. If `l2409` is 2, the respondent *is* knowledgeable. If `l2409` is 8, the respondent *is somewhat* knowledgeable. |
+```
 
 ### Procedure
 Once the data sets were loaded and reviewed for importance and quality, initial data analysis was conducted. For provincial comparative analysis, the data was sorted by province `s41` and grouped into visual and numerical approaches of looking for differences between provinces. Several functions were created which allowed the author, and users, to see provincial comparative analyses on any question by inputting the question code. Either quantities of responses or their mean value would be output, as well as a heatmap for quick comparison. This initial analysis helped the author validate the main variables that were analyzed, which are discussed later.
 
 Then, the WQIR2018 data was loaded. An initial plot was created to see the distribution of water quality per sub-province, sorted by province. Histograms were added to visualize the distribution of water quality measurements and values.
 
-![wqir2018.svg](../wqir2018.svg)
+```{figure} ../wqir2018.svg
+:name: wqir2018
+
+Water quality in each analyzed prefecture, grouped by province
+```
 
 From the previous steps, a subset of questions were created. Two main questions and one demographic variable were identified for further analysis: question `l14d` was used as the the main question to quantify perception[^2]; `l2409` was used as the main question to quantify water quality knowledge[^4]; and `a7a` was used to quantify education.[^5] These questions are discussed more in depth in the following limitations section. Other demographic data was used to control for results of the analysis. Many other relevant and interesting questions could be investigated from the data, but they are outside of the scope of this thesis.
 

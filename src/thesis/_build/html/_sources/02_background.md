@@ -92,69 +92,74 @@ In 2020, China ranked 54th (6th regionally) in sanitation and drinking water, wi
 
 China uses a tiered categorical composite indicator, referred to as China's Water Quality Index (CWQI). {cite}`NationalStandardsPeople`
 
-| Class | Utilization                                                                                                                                                                        |
-|------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     I | Mainly applicable to the water from sources, and the national nature reserves.                                                                                                     |
-|    II | Mainly applicable to first class of protected areas for centralized sources of drinking water, the protected areas for rare fishes, and the spawning fields of fishes and shrimps. |
-|   III | Mainly applicable to second class of protected areas for centralized sources of drinking water, protected areas for the common fishes and swimming areas.                          |
-|    IV | Mainly applicable to the water areas for industrial use and entertainment which is not directly touched by human bodies.                                                           |
-|     V | Mainly applicable to the water bodies for agricultural use and landscape requirement.                                                                                              |
+```{list-table} China's Water Quality Index classes and descriptions.
+:header-rows: 1
+:name: CWQI
+
+* - Class
+  - Utilization
+* - I
+  - Mainly applicable to the water from sources, and the national nature
+* - II
+  - Mainly applicable to first class of protected areas for centralized sources of drinking water, the protected areas for rare fishes, and the spawning fields of fishes and shrimps.
+* - III
+  - Mainly applicable to second class of protected areas for centralized sources of drinking water, protected areas for the common fishes and swimming areas.
+* - IV
+  - Mainly applicable to the water areas for industrial use and entertainment which is not directly touched by human bodies.
+* - V
+  - Mainly applicable to the water bodies for agricultural use and landscape requirement.
+```
 
 While the state is improving, there is still much progress to be made. This is made evident by the following figure, which depicts the percentage of each water quality classification in rivers in China over time. {cite}`theworldbankWatershedNewEra2019, fig. 1.3; p. 19`
 
-![wbg_wq_river.svg](../outputs/river_wq.svg)
+```{figure} ../outputs/river_wq.svg
+:name: river_wq
 
-Access to water is another factor in the population's perception of water. China has increased its use of basic sanitation services by 28% from 2000-2017 {cite}`jmpworld2019progress, p. 31` The following tables show water access by urbanization and development quality over time.  {cite}`jmpworld2019progress, p. 48, fig. 51`
+Proportion of the water quality of rivers over time.
+```
 
+Access to water is another factor in the population's perception of water. China has increased its use of basic sanitation services by 28% from 2000-2017. {cite}`jmpworld2019progress, p. 31` The following tables show water access by urbanization and development quality over time. {cite}`jmpworld2019progress, p. 48, fig. 51`
 
-{table} Minimum water access in China in 2000 and 2017 
+```{table} Minimum water access in China in 2000 and 2017 
 :name: jmp-2019-china-water-access
 
 | Year | Population | % Urban | At least basic - National | At least basic - Rural | At least basic - Urban |
 |:----:|:----------:|:-------:|:-------------------------:|:----------------------:|:----------------------:|
 | 2000 | 1 283      | 36      | 80                        | 70                     | 98                     |
 | 2017 | 1 489      | 58      | 93                        | 86                     | 98                     |
+```
 
-{cite}`jmpworld2019progress, p. 89, annex. 3.1`
-
-{table} Minimum national improved water details in China in 2000 and 2017 
+```{table} Minimum national improved water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-national
-
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
 | 2000 | -              | 65                     | 77                    | -                       | 51    | 30        |
 | 2017 | -              | 92                     | 90                    | -                       | 76    | 18        |
+```
 
-{cite}`jmpworld2019progress, p. 89, annex. 3.1`
-
-{table} Minimum rural water details in China in 2000 and 2017 
+```{table} Minimum rural water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-rural
-
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |:----:|:--------------:|:----------------------:|:---------------------:|:-----------------------:|:-----:|:---------:|
 | 2000 | -              | 46                     | 65                    | -                       | 31    | 40        |
 | 2017 | -              | 86                     | 81                    | -                       | 54    | 34        |
+```
 
-{cite}`jmpworld2019progress, p. 89, annex. 3.1`
-
-{table} Minimum urban water details in China in 2000 and 2017 
+```{table} Minimum urban water details in China in 2000 and 2017 
 :name: jmp-2019-china-water-detail-urban
-
 
 | Year | Safely Managed | Accessible on premises | Available when needed | Free from contamination | Piped | Non-piped |
 |------|----------------|------------------------|-----------------------|-------------------------|-------|-----------|
 | 2000 | 93             | 98                     | 97                    | 93                      | 87    | 12        |
 | 2017 | 92             | 96                     | 96                    | 92                      | 92    | 6         |
-
-{cite}`jmpworld2019progress, p. 89, annex. 3.1`
+```
 
 China's improvement in water infrastructure has gone on for decades, with particular improvement since 1990 with an increases in municipal water supply utilities coverage from 50% in 1990 to 88% in 2005. {cite}`browderSteppingImprovingPerformance2007, xvii` In the same report on infrastructural improvements, the authors repeatedly cite concerns for water quality and quantity issues, citing the problem originating from "outdated water treatment technology and high levels of pollution in the raw water." {cite}`browderSteppingImprovingPerformance2007, p. 17` The report also states that "Water quality monitoring is generally poor and the data is consequently unreliable," however this is outdated. {cite}`browderSteppingImprovingPerformance2007, 17` The report continues that national policies, including drinking water quality, are only implemented in higher-tier cities and are often loosely enforced. {cite}`browderSteppingImprovingPerformance2007, p. 30` The problem was especially evident in second tier, third tier and non-urban towns, as evident below. {cite}`browderSteppingImprovingPerformance2007, p. 31`
 
-{table} Urban Water Market Segments 
+```{table} Urban Water Market Segments 
 :name: wb-2005-urban-water
-
 
 | Market Segment                         | Number of Cities | Total Population (million) | Per Capita GDP (RMB) | Average Wastewater Treatment Coverage (%) | Average Water Supply Coverage (%) |
 |----------------------------------------|------------------|----------------------------|----------------------|-------------------------------------------|-----------------------------------|
@@ -162,13 +167,11 @@ China's improvement in water infrastructure has gone on for decades, with partic
 | 0.5m < Pop < 2m, $1.5k < GDP/cap < $3k | 331              | 201                        | 19,100               | 38                                        | 91                                |
 | Pop <0.5m, GDP/cap < $1.5k             | 310              | 58                         | 7,300                | 21                                        | 86                                |
 | Country Towns                          | 1,636            | 96                         | N/A                  | 11                                        | 82                                |
-
-
+```
 
 The report continues, noting a slight increase in average category V or V+ in Chinese rivers from 1991 - 2002. {cite}`browderSteppingImprovingPerformance2007, p. 33` It also notes discrepancies between water supply, water quality and public information for residents to judge the quality themselves (i.e., perception), noting that most urban residents do not drink water directly and is first boiled, which is both a cultural tradition and response to “the uncertain quality of the water from the tap.” {cite}`browderSteppingImprovingPerformance2007, p. 61`
 
 China's water quality faces continued scrutiny in the 2010s. In 2011, as a part of the 12th Five Year Plan (2011-2015), China's central government earmarked almost RMB 700b (roughly US$108b) for water improvement, including water treatment and piping systems. {cite}`hongqiaoliuChinaLongMarch2015, section. Intro` Within this timeline, China's 'National Drinking Water Quality Standard’ (GB 5749-2006)' was aimed to be implemented.[^3] {cite}`zhonghuarenmingongheguoguojiaShengHuoYinYongShuiWeiShengBiaoZhun2006` While improvements have been made in access to water, the quality of the water is questionable. China has historically been reluctant to release such data - the mid-2013 water quality assessment report was "classified" as of 2015 {cite}`hongqiaoliuChinaLongMarch2015, p. 4`, and the state of china's soil pollution was classified as a "state secret" until 2014. {cite}`hornbyChinaAdmitsWidespread2014` Greenpeace East Asia determined that "Fourteen provinces failed to meet their water quality improvement targets during the 12th Five-Year Plan period (2011-2015)." {cite}`NearlyHalfChinese2017` The analysis noted that national progress was made during the first half of the 12th Five-Year Plan period, but 'flattened off' beginning in 2013.
-
 
 ### Water Quality Perception
 
