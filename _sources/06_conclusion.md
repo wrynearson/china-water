@@ -1,0 +1,11 @@
+# Conclusions
+
+Water quality and its grave implications for human, economic and political security have been explored at length. This thesis adds the human perception component to the discussion.
+
+The analysis highlights two categories of how water quality perception and knowledge can be improved. The first is through education, which correlates positively with perception and knowledge traits. Specifically, more educated individuals perceive the impact of water quality to be greater and more harmful than less educated individuals. Also, education in general related positively with knowledge about water quality specifically. The second is through the condition of regional water quality. Perceived severity increases in areas with worse water quality. So too does knowledge about water quality.
+
+Thus, a multifaceted policy approach should be undertaken. This should continue to make infrastructural improvements in water quality, but also make improvements in the education, societal and communication portions of water quality and water resource management. Making the general populous more aware and more engaged in the water pollution discourse can cause improvements in which infrastructure solutions alone cannot. With increased trends in urban and domestic water usage, having an informed populous is key to abating water pollution, scarcity and availability issues.
+
+Finally, more research should be undertaken which better models knowledge acquisition pathways for water quality, multivariable analysis on how the variables mentioned in this thesis interact with one another, and quantitative predictions of the impact that non-infrastructure policy would have. With such a serious threat to China and the world, all types of solutions should be considered and implemented.
+
+China has an opportunity to transition from an under-performing water resource actor to one which leads and innovates in multisectoral policy solutions. This will not only cause improvements to various health and economic metrics, but also create a more knowledgeable, engaged, sustainable and dignified civilization. 
