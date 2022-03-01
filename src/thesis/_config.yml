@@ -11,3 +11,6 @@ bibtex_bibfiles:
 sphinx:
   config:
     bibtex_reference_style: author_year
+
+html:
+  google_analytics_id: UA-59799094-4

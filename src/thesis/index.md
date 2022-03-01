@@ -14,3 +14,12 @@ Poor water quality and its grave implications for health, economic and political
 - Water pollution
 - Environmental knowledge
 - Environmental perception
+
+```{admonition} To-do
+:class: dropdown
+- Import code (not just charts), including original thesis Annex
+- Export statistical information (P value, etc.) as code / table (not just text)
+- Define content (e.g. hypothesis text) to cross reference later
+- Add comments in the margin
+- Add links to external resources
+```
